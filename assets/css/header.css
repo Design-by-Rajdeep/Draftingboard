@@ -1,4 +1,8 @@
 /* Header Background & Sticky Positioning */
+.nav-links a.active {
+    color: rgb(214, 82, 82);
+    font-weight: 600;
+}
 .site-header {
   position: fixed;
   top: 0;
@@ -57,7 +61,7 @@
 
 /* Base CTA Button Styling (Red & White) */
 .nav-cta-btn {
-  background-color: #ff3b30;
+  background-color: #ee5149;
   color: #ffffff;
   text-decoration: none;
   font-size: 15px;

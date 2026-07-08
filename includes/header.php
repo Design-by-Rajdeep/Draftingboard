@@ -1,3 +1,7 @@
+
+<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
+?>
 <header class="site-header">
   <div class="navbar">
     <!-- Left Side Logo -->
@@ -12,14 +16,48 @@
     </label>
 
     <!-- Center Menu Links -->
-    <ul class="nav-links">
+    <!-- <ul class="nav-links">
       <li><a href="index.php">Portfolio</a></li>
       <li><a href="service.php">Services</a></li>
       <li><a href="about.php">About</a></li>
       <li><a href="contact.php">Contact</a></li>
-      <!-- Mobile Specific CTA inside the menu -->
       <li class="mobile-cta-li"><a href="contact.php" class="nav-cta-btn">Connect Me</a></li>
-    </ul>
+    </ul> -->
+
+
+    <ul class="nav-links">
+    <li>
+        <a href="index.php" class="<?= $currentPage == 'index.php' ? 'active' : '' ?>">
+            Portfolio
+        </a>
+    </li>
+
+    <li>
+        <a href="service.php" class="<?= $currentPage == 'service.php' ? 'active' : '' ?>">
+            Services
+        </a>
+    </li>
+
+    <li>
+        <a href="about.php" class="<?= $currentPage == 'about.php' ? 'active' : '' ?>">
+            About
+        </a>
+    </li>
+
+    <li>
+        <a href="contact.php" class="<?= $currentPage == 'contact.php' ? 'active' : '' ?>">
+            Contact
+        </a>
+    </li>
+
+    <li class="mobile-cta-li">
+        <a href="contact.php" class="nav-cta-btn">Connect Me</a>
+    </li>
+</ul>
+
+
+
+
 
     <!-- Right Side Desktop CTA Button -->
     <a href="contact.php" class="nav-cta-btn desktop-cta">Connect Me</a>
