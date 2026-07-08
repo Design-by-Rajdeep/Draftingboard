@@ -78,16 +78,46 @@
         <button class="carousel-cta">Explore Project ↗</button>
       </div>
 
-      <!-- Project Item 3 -->
-      <div class="carousel-card" 
-           data-hero="assets/images/hero-3.jpg"
-           data-title="SILIGURI URBAN OFFICE STACK ELEMENTS —"
-           data-desc="A commercial intervention designed to deliver high-performance workspace design models into tightly packed urban settings. Features smart lightwells, energy-efficient louvers, and functional fluid layouts for interior offices."
-           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57007.41113264426!2d88.39487404179374!3d26.74159154738596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e4412351ea2e33%3A0xf6cb8447edfbdf90!2sSiliguri%2C%20West%20Bengal!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
-        <img src="assets/images/hero-3.jpg" alt="Siliguri Project">
-        <h3>Siliguri Urban Stack</h3>
+      <div class="carousel-card active" 
+           data-hero="assets/images/Commercial_Cover.png"
+           data-title="EXPERIENCE DISTRICTS ARE WHERE THE ORDINARY BECOMES REMARKABLE —"
+           data-desc="The Marvila Masterplan covers approximately 28 hectares between Marvila and Beato on Lisbon's riverfront. Developed by MVRDV and OODA, in collaboration with LOLA Landscape Architects and Thornton Tomasetti, the plan defines a new urban and landscape framework."
+           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12453.563820235339!2d-9.108603685957194!3d38.73177651817454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19339003666d9b%3A0x500eae2a6b3bc40!2sMarvila%2C%20Lisbon%2C%20Portugal!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
+        <img src="assets/images/Commercial_Cover.png" alt="Marvila Masterplan">
+        <h3>Marvila Masterplan</h3>
         <button class="carousel-cta">Explore Project ↗</button>
       </div>
+
+      <!-- Project Item 2 -->
+      <div class="carousel-card" 
+           data-hero="assets/images/Bhowali_Cover.png"
+           data-title="BHOWALI ECO RESORT: CONNECTING NATURE AND DESIGN —"
+           data-desc="Nestled amidst the hills, the Bhowali Eco Resort balances structural precision with vernacular landscape methods. This project introduces sustainable holiday cabins designed with natural timber accents, open terraces, and premium spatial orientation facing the deep valley layout views."
+           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.2458428100586!2d79.51356077626081!3d29.377759575165992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a16fc4159501%3A0x6b77cd5d5ec36318!2sBhowali%2C%20Uttarakhand!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
+        <img src="assets/images/Bhowali_Cover.png" alt="Bhowali Project">
+        <h3>Bhowali Eco Resort</h3>
+        <button class="carousel-cta">Explore Project ↗</button>
+      </div> <div class="carousel-card active" 
+           data-hero="assets/images/Commercial_Cover.png"
+           data-title="EXPERIENCE DISTRICTS ARE WHERE THE ORDINARY BECOMES REMARKABLE —"
+           data-desc="The Marvila Masterplan covers approximately 28 hectares between Marvila and Beato on Lisbon's riverfront. Developed by MVRDV and OODA, in collaboration with LOLA Landscape Architects and Thornton Tomasetti, the plan defines a new urban and landscape framework."
+           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12453.563820235339!2d-9.108603685957194!3d38.73177651817454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19339003666d9b%3A0x500eae2a6b3bc40!2sMarvila%2C%20Lisbon%2C%20Portugal!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
+        <img src="assets/images/Commercial_Cover.png" alt="Marvila Masterplan">
+        <h3>Marvila Masterplan</h3>
+        <button class="carousel-cta">Explore Project ↗</button>
+      </div>
+
+      <!-- Project Item 2 -->
+      <div class="carousel-card" 
+           data-hero="assets/images/Bhowali_Cover.png"
+           data-title="BHOWALI ECO RESORT: CONNECTING NATURE AND DESIGN —"
+           data-desc="Nestled amidst the hills, the Bhowali Eco Resort balances structural precision with vernacular landscape methods. This project introduces sustainable holiday cabins designed with natural timber accents, open terraces, and premium spatial orientation facing the deep valley layout views."
+           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.2458428100586!2d79.51356077626081!3d29.377759575165992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a16fc4159501%3A0x6b77cd5d5ec36318!2sBhowali%2C%20Uttarakhand!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
+        <img src="assets/images/Bhowali_Cover.png" alt="Bhowali Project">
+        <h3>Bhowali Eco Resort</h3>
+        <button class="carousel-cta">Explore Project ↗</button>
+      </div>
+
 
     </div>
   </div>

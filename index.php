@@ -167,28 +167,28 @@
   <div class="services-grid">
 
     <div class="service-card">
-      <img src="assets/images/service-1.jpg" alt="Architectural Design">
+      <img src="assets/images/services/Architectural Design.png" alt="Architectural Design">
       <h3>Architectural Design</h3>
       <p>A 'featured project' is a standout piece of work or a key initiative hand-picked to be displayed prominently.</p>
       <a href="#">Know More ↗</a>
     </div>
 
     <div class="service-card">
-      <img src="assets/images/service-2.jpg" alt="Landscape Design">
+      <img src="assets/images/services/Landscape Design.png" alt="Landscape Design">
       <h3>Landscape Design</h3>
       <p>A 'featured project' is a standout piece of work or a key initiative hand-picked to be displayed prominently.</p>
       <a href="#">Know More ↗</a>
     </div>
 
     <div class="service-card">
-      <img src="assets/images/service-3.jpg" alt="Urban Design">
+      <img src="assets/images/services/Urban Design.png" alt="Urban Design">
       <h3>Urban Design</h3>
       <p>A 'featured project' is a standout piece of work or a key initiative hand-picked to be displayed prominently.</p>
       <a href="#">Know More ↗</a>
     </div>
 
     <div class="service-card">
-      <img src="assets/images/service-4.jpg" alt="Sustainable Future">
+      <img src="assets/images/services/Sustainable Future.png" alt="Sustainable Future">
       <h3>Towards a Sustainable Future !</h3>
       <p>A 'featured project' is a standout piece of work or a key initiative hand-picked to be displayed prominently.</p>
       <a href="#">Know More ↗</a>
@@ -269,15 +269,15 @@
  <!-- last contact section with video here -->
  <!-- last contact section with video here -->
  <!-- last contact section with video here -->
- <!-- last contact section with video here -->\
+ <!-- last contact section with video here -->
 
 <section class="build_a_project"> 
 <section class="video-cta">
-  <div class="video-box">
+  <!-- <div class="video-box">
     <video autoplay muted loop playsinline>
       <source src="assets/videos/video1.mp4" type="video/mp4">
     </video>
-  </div>
+  </div> -->
 
   <div class="cta-content">
     <h2>Let's Build Something Worth<br>Remembering.</h2>

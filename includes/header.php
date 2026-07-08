@@ -13,7 +13,7 @@
 
     <!-- Center Menu Links -->
     <ul class="nav-links">
-      <li><a href="projects.php">Portfolio</a></li>
+      <li><a href="index.php">Portfolio</a></li>
       <li><a href="service.php">Services</a></li>
       <li><a href="about.php">About</a></li>
       <li><a href="contact.php">Contact</a></li>
