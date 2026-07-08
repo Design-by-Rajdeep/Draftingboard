@@ -1,0 +1,192 @@
+/* Header Background & Sticky Positioning */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+  background: rgb(24, 23, 23);
+}
+
+/* Core Layout Container */
+.navbar {
+  height: 72px;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  position: relative;
+}
+
+/* Typography styles */
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: sans-serif;
+  z-index: 100002; 
+}
+
+/* Middle Menu Links (Centered perfectly relative to .navbar container) */
+.nav-links {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 36px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: sans-serif;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #e1736c;
+}
+
+/* Base CTA Button Styling (Red & White) */
+.nav-cta-btn {
+  background-color: #ff3b30;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding: 10px 22px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.nav-cta-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Desktop Visibility Control */
+.mobile-cta-li {
+  display: none;
+}
+
+/* Hidden checkbox framework for mobile menu toggle functionality */
+#menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  width: 30px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+  z-index: 100001;
+}
+
+.menu-icon span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #ffffff;
+  border-radius: 20px;
+  transition: all 0.35s ease;
+}
+
+.menu-icon span:nth-child(1) { top: 0; }
+.menu-icon span:nth-child(2) { top: 10px; }
+.menu-icon span:nth-child(3) { top: 20px; }
+
+
+/* ==========================================================================
+   Mobile Responsive Styles (Screens smaller than 992px)
+   ========================================================================== */
+@media (max-width: 992px) {
+  .site-header {
+    background: #ffffff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .logo {
+    color: #0f9b9c;
+  }
+
+  .menu-icon {
+    display: block;
+    /* Keeps the hamburger sitting beautifully on the right side on mobile */
+    order: 3; 
+  }
+
+  .menu-icon span {
+    background: #222222;
+  }
+
+  /* Swapping Desktop & Mobile CTA Visibility */
+  .desktop-cta {
+    display: none !important;
+  }
+
+  .mobile-cta-li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  /* Hamburger transform animation effects */
+  #menu-toggle:checked + .menu-icon span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 10px;
+  }
+
+  #menu-toggle:checked + .menu-icon span:nth-child(2) {
+    opacity: 0;
+  }
+
+  #menu-toggle:checked + .menu-icon span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 10px;
+  }
+
+  /* Dropping menu links down into a hidden vertical navigation drawer */
+  .nav-links {
+    position: fixed;
+    top: 72px;
+    left: 0;
+    transform: none;
+    width: 100%;
+    background: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99998;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: max-height 0.45s ease, opacity 0.35s ease, padding 0.35s ease, visibility 0.35s ease;
+  }
+
+  .nav-links a {
+    color: #222222;
+  }
+
+  /* Slide down behavior when hamburger is clicked */
+  #menu-toggle:checked ~ .nav-links {
+    max-height: 380px; 
+    padding: 28px 0;
+    opacity: 1;
+    visibility: visible;
+  }
+}
