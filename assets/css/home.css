@@ -647,7 +647,7 @@ BUTTON
 
     gap:10px;
 
-    padding:13px 32px;
+    padding:12px 42px;
 
     border:1px solid #e57a59;
 
@@ -818,9 +818,9 @@ MOBILE
 
 .cta-buttons a {
   min-width: 120px;
-  padding: 11px 42px;
+  padding: 10px 50px;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   text-decoration: none;
   transition: 0.3s ease;
@@ -832,13 +832,13 @@ MOBILE
 }
 
 .btn-outline {
-  border: 1px solid #a6634f;
+  border: 1px solid #ee5149;
   color: #fff;
 }
 
 .btn-primary:hover,
 .btn-outline:hover {
-  background: #ec7654;
+  background: #ee5149;
   border-color: #ec7654;
 }
 

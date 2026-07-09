@@ -60,7 +60,7 @@
       <a href="projects.php" class="hero-btn">VIEW PORTFOLIO ↗</a>
     </div>
 
-    
+
   </div>  <div class="hero-slide" style="background-image: url('assets/images/Bhowali_Cover.png');">
     <div class="hero-overlay"></div>
 
@@ -300,8 +300,8 @@
     </p>
 
     <div class="cta-buttons">
-      <a href="#" class="btn-primary">Know More ↗</a>
-      <a href="#" class="btn-outline">Know More ↗</a>
+      <a href="#" class="btn-outline">+91 8826532115</a>
+      <a href="#" class="btn-primary">Get In Touch ↗</a>
     </div>
   </div>
 </section>
