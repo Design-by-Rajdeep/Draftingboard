@@ -73,12 +73,46 @@
   background: #ef7b5a;
   margin-bottom: 35px;
 }
-.carousel-track {
-  display: flex;
-  gap: 25px;
-  overflow-x: auto; /* Natural mobile swipe scroll */
-  padding-bottom: 15px;
+.carousel-track{
+    display:flex;
+    gap:25px;
+    overflow-x:auto;
+    scroll-behavior:smooth;
+    padding-bottom:20px;
+
+    /* Hide scrollbar */
+    scrollbar-width:none;          /* Firefox */
+    -ms-overflow-style:none;       /* IE */
 }
+
+.carousel-track::-webkit-scrollbar{
+    display:none;                  /* Chrome, Edge, Safari */
+}
+
+.carousel-dots{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin-top:30px;
+}
+
+.carousel-dot{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#cfcfcf;
+    cursor:pointer;
+    transition:.35s;
+}
+
+.carousel-dot.active{
+    width:30px;
+    border-radius:20px;
+    background:#ef7b5a;
+}
+
+
 .carousel-card {
   min-width: 300px;
   flex: 1;
@@ -94,7 +128,7 @@
   box-shadow: 0 10px 20px rgba(0,0,0,0.05);
 }
 .carousel-card.active {
-  border-color: #ef7b5a; /* Highlights currently selected project */
+  border-color: #ebebeb; /* Highlights currently selected project */
   background: #fffdfb;
 }
 .carousel-card img {
@@ -109,8 +143,9 @@
   color: #222;
 }
 .carousel-cta {
-  background: #ef7b5a;
-  color: white;
+  /* background: none; */
+  border: 1px solid #2c2c2c;
+  color: rgb(26, 25, 25);
   border: none;
   padding: 8px 16px;
   border-radius: 4px;
@@ -120,7 +155,8 @@
   transition: background 0.2s;
 }
 .carousel-card.active .carousel-cta {
-  background: #2c2c2c; /* Visual cue change when active */
+  border:1px solid #ee5149;
+  color: #2c2c2c;
 }
 
 /* Responsive Breakpoints */

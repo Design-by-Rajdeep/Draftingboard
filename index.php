@@ -26,7 +26,7 @@
 
     <div class="hero-content">
       <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p>
-      <h1>I DESIGN SPACES<br>THAT STAY WITH YOU.</h1>
+      <h1>I DESIGN SPACES THAT STAY WITH YOU.</h1>
       <p class="hero-desc">
         I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
         developers, and small businesses to create considered buildings and interiors.
@@ -40,7 +40,7 @@
 
     <div class="hero-content">
       <p class="hero-subtitle">-PORTFOLIO</p>
-      <h1>EXPLORE PROJECTS<br>BUILT WITH PURPOSE.</h1>
+      <h1>EXPLORE PROJECTS BUILT WITH PURPOSE.</h1>
       <p class="hero-desc">
         View selected architectural, interior, and spatial design projects crafted with clarity.
       </p>
@@ -48,16 +48,29 @@
     </div>
   </div>
 
-  <div class="hero-slide" style="background-image: url('assets/images/hero-3.jpg');">
+    <div class="hero-slide" style="background-image: url('assets/images/Bhowali_Cover.png');">
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-      <p class="hero-subtitle">-SERVICES</p>
-      <h1>DESIGN SUPPORT<br>FROM IDEA TO DETAIL.</h1>
+      <p class="hero-subtitle">-PORTFOLIO</p>
+      <h1>EXPLORE PROJECTS BUILT WITH PURPOSE.</h1>
       <p class="hero-desc">
-        Architecture, interiors, planning, visualization, and execution-focused design support.
+        View selected architectural, interior, and spatial design projects crafted with clarity.
       </p>
-      <a href="service.php" class="hero-btn">SEE SERVICES ↗</a>
+      <a href="projects.php" class="hero-btn">VIEW PORTFOLIO ↗</a>
+    </div>
+
+    
+  </div>  <div class="hero-slide" style="background-image: url('assets/images/Bhowali_Cover.png');">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="hero-subtitle">-PORTFOLIO</p>
+      <h1>EXPLORE PROJECTS BUILT WITH PURPOSE.</h1>
+      <p class="hero-desc">
+        View selected architectural, interior, and spatial design projects crafted with clarity.
+      </p>
+      <a href="projects.php" class="hero-btn">VIEW PORTFOLIO ↗</a>
     </div>
   </div>
 
@@ -221,7 +234,7 @@
     <div class="container">
 
         <div class="section-heading">
-            <h2>MISSION & VISION</h2>
+            <h2>VISION</h2>
             <span></span>
         </div>
 

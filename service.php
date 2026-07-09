@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/service.css">
 </head>
 <body>
-
+<script src="assets/js/service.js"></script>
 <?php include 'includes/header.php'; ?>
 
 <!-- MAIN SERVICES VIEW AREA -->
@@ -55,7 +55,7 @@
 
     <!-- Carousel Track -->
     <div id="related_project" class="carousel-track">
-      
+   
       <!-- Project Item 1 (Active by default) -->
       <div class="carousel-card active" 
            data-hero="assets/images/Commercial_Cover.png"
@@ -68,7 +68,7 @@
       </div>
 
       <!-- Project Item 2 -->
-      <div class="carousel-card" 
+      <div class="carousel-card active" 
            data-hero="assets/images/Bhowali_Cover.png"
            data-title="BHOWALI ECO RESORT: CONNECTING NATURE AND DESIGN —"
            data-desc="Nestled amidst the hills, the Bhowali Eco Resort balances structural precision with vernacular landscape methods. This project introduces sustainable holiday cabins designed with natural timber accents, open terraces, and premium spatial orientation facing the deep valley layout views."
@@ -89,7 +89,7 @@
       </div>
 
       <!-- Project Item 2 -->
-      <div class="carousel-card" 
+      <div class="carousel-card active" 
            data-hero="assets/images/Bhowali_Cover.png"
            data-title="BHOWALI ECO RESORT: CONNECTING NATURE AND DESIGN —"
            data-desc="Nestled amidst the hills, the Bhowali Eco Resort balances structural precision with vernacular landscape methods. This project introduces sustainable holiday cabins designed with natural timber accents, open terraces, and premium spatial orientation facing the deep valley layout views."
@@ -108,7 +108,38 @@
       </div>
 
       <!-- Project Item 2 -->
-      <div class="carousel-card" 
+        <div class="carousel-card active" 
+           data-hero="assets/images/Bhowali_Cover.png"
+           data-title="BHOWALI ECO RESORT: CONNECTING NATURE AND DESIGN —"
+           data-desc="Nestled amidst the hills, the Bhowali Eco Resort balances structural precision with vernacular landscape methods. This project introduces sustainable holiday cabins designed with natural timber accents, open terraces, and premium spatial orientation facing the deep valley layout views."
+           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.2458428100586!2d79.51356077626081!3d29.377759575165992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a16fc4159501%3A0x6b77cd5d5ec36318!2sBhowali%2C%20Uttarakhand!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
+        <img src="assets/images/Bhowali_Cover.png" alt="Bhowali Project">
+        <h3>Bhowali Eco Resort</h3>
+        <button class="carousel-cta">Explore Project ↗</button>
+      </div>
+
+
+      <!-- Project Item 2 -->
+      <div class="carousel-card active" 
+           data-hero="assets/images/Bhowali_Cover.png"
+           data-title="BHOWALI ECO RESORT: CONNECTING NATURE AND DESIGN —"
+           data-desc="Nestled amidst the hills, the Bhowali Eco Resort balances structural precision with vernacular landscape methods. This project introduces sustainable holiday cabins designed with natural timber accents, open terraces, and premium spatial orientation facing the deep valley layout views."
+           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.2458428100586!2d79.51356077626081!3d29.377759575165992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a16fc4159501%3A0x6b77cd5d5ec36318!2sBhowali%2C%20Uttarakhand!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
+        <img src="assets/images/Bhowali_Cover.png" alt="Bhowali Project">
+        <h3>Bhowali Eco Resort</h3>
+        <button class="carousel-cta">Explore Project ↗</button>
+      </div> <div class="carousel-card active" 
+           data-hero="assets/images/Commercial_Cover.png"
+           data-title="EXPERIENCE DISTRICTS ARE WHERE THE ORDINARY BECOMES REMARKABLE —"
+           data-desc="The Marvila Masterplan covers approximately 28 hectares between Marvila and Beato on Lisbon's riverfront. Developed by MVRDV and OODA, in collaboration with LOLA Landscape Architects and Thornton Tomasetti, the plan defines a new urban and landscape framework."
+           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12453.563820235339!2d-9.108603685957194!3d38.73177651817454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19339003666d9b%3A0x500eae2a6b3bc40!2sMarvila%2C%20Lisbon%2C%20Portugal!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
+        <img src="assets/images/Commercial_Cover.png" alt="Marvila Masterplan">
+        <h3>Marvila Masterplan</h3>
+        <button class="carousel-cta">Explore Project ↗</button>
+      </div>
+
+      <!-- Project Item 2 -->
+        <div class="carousel-card active" 
            data-hero="assets/images/Bhowali_Cover.png"
            data-title="BHOWALI ECO RESORT: CONNECTING NATURE AND DESIGN —"
            data-desc="Nestled amidst the hills, the Bhowali Eco Resort balances structural precision with vernacular landscape methods. This project introduces sustainable holiday cabins designed with natural timber accents, open terraces, and premium spatial orientation facing the deep valley layout views."
@@ -121,6 +152,12 @@
 
     </div>
   </div>
+     <div class="carousel-dots">
+    <span class="carousel-dot active"></span>
+    <span class="carousel-dot"></span>
+    <span class="carousel-dot"></span>
+</div>
+<div class="carousel-dots"></div>
 </section>
 </section>
 

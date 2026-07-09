@@ -6,9 +6,14 @@ document.addEventListener("DOMContentLoaded", function () {
     heroSlides[currentHeroSlide].classList.add("active");
 
     setInterval(function () {
-      heroSlides[currentHeroSlide].classList.remove("active");
-      currentHeroSlide = (currentHeroSlide + 1) % heroSlides.length;
-      heroSlides[currentHeroSlide].classList.add("active");
+   heroSlides[currentHeroSlide].classList.remove("active");
+
+currentHeroSlide = (currentHeroSlide + 1) % heroSlides.length;
+
+// Force reflow so animation restarts
+void heroSlides[currentHeroSlide].offsetWidth;
+
+heroSlides[currentHeroSlide].classList.add("active");
     }, 9000);
   }
 });
