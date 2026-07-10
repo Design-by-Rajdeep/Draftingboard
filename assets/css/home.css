@@ -231,7 +231,7 @@
 }
 
 .project-card{
-    background:#fff;
+    background:#ededed;
     border-radius:8px;
     overflow:hidden;
     transition:.35s;
@@ -250,6 +250,7 @@
 }
 
 .project-card p{
+    text-align: center;
     padding:20px;
     font-size:14px;
     line-height:1.7;
@@ -258,7 +259,7 @@
 
 .project-card a{
     display:inline-block;
-    margin:0 20px 25px;
+    margin:0 99px 25px;
     padding:10px 28px;
     border:1px solid #eb7b59;
     color:#eb7b59;
@@ -565,7 +566,7 @@ GRID
 .mission-wrapper{
 
     display:grid;
-    grid-template-columns:58% 42%;
+    grid-template-columns:58% 60%;
     align-items:center;
     gap:50px;
 

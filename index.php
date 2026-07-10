@@ -254,14 +254,15 @@
             <div class="mission-content">
 
                 <h3>
-                    EXPERIENCE DISTRICTS ARE WHERE THE ORDINARY BECOMES REMARKABLE —
+                    Building Accessible, Human-Centered Environments for Future Generations —
                 </h3>
 
                 <p>
-                    Experience districts are where the ordinary becomes remarkable—
-                    a place that offers a moment of unexpected calm, where
-                    thoughtful architecture, community and nature blend together
-                    to create memorable everyday experiences.
+                   To shape buildings and places that simply work—for people and for the life around them. 
+                   We envision cities that are accessible to everyone, filled with sunlight and fresh air, 
+                   where people and nature thrive together, and where the night sky becomes visible again. 
+                   Through thoughtful design, we aim to create environments that support healthier, calmer, 
+                   and more connected lives.
                 </p>
 
                 <a href="#" class="mission-btn">

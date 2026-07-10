@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             showProject(current);
 
-        }, 4000);
+        }, 9000);
 
     }
 
