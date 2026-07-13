@@ -14,7 +14,7 @@ currentHeroSlide = (currentHeroSlide + 1) % heroSlides.length;
 void heroSlides[currentHeroSlide].offsetWidth;
 
 heroSlides[currentHeroSlide].classList.add("active");
-    }, 9000);
+    }, 4000);
   }
 });
 

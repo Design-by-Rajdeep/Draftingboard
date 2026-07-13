@@ -21,12 +21,12 @@
 
 <section class="hero-slider">
 
-  <div class="hero-slide active" style="background-image: url('assets/images/Commercial_Cover.png');">
+  <div class="hero-slide active" style="background-image: url('assets/images/banner_image/commercial_banner.jpg');">
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
       <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p>
-      <h1>I DESIGN SPACES THAT STAY WITH YOU.</h1>
+      <h1>COMMERCIAL PROJECT</h1>
       <p class="hero-desc">
         I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
         developers, and small businesses to create considered buildings and interiors.
@@ -35,7 +35,7 @@
     </div>
   </div>
 
-  <div class="hero-slide" style="background-image: url('assets/images/Bhowali_Cover.png');">
+  <div class="hero-slide active" style="background-image: url('assets/images/banner_image/farm_house_banner.jpg');">
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
@@ -48,7 +48,7 @@
     </div>
   </div>
 
-    <div class="hero-slide" style="background-image: url('assets/images/Bhowali_Cover.png');">
+  <div class="hero-slide active" style="background-image: url('assets/images/banner_image/group_housing_banner.jpg');">
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
@@ -61,7 +61,7 @@
     </div>
 
 
-  </div>  <div class="hero-slide" style="background-image: url('assets/images/Bhowali_Cover.png');">
+  <div class="hero-slide active" style="background-image: url('assets/images/banner_image/School Banner.jpg');">
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
@@ -73,6 +73,31 @@
       <a href="projects.php" class="hero-btn">VIEW PORTFOLIO ↗</a>
     </div>
   </div>
+
+   <div class="hero-slide active" style="background-image: url('assets/images/banner_image/UD banner.jpg');">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="hero-subtitle">-PORTFOLIO</p>
+      <h1>EXPLORE PROJECTS BUILT WITH PURPOSE.</h1>
+      <p class="hero-desc">
+        View selected architectural, interior, and spatial design projects crafted with clarity.
+      </p>
+      <a href="projects.php" class="hero-btn">VIEW PORTFOLIO ↗</a>
+    </div>
+
+     <div class="hero-slide active" style="background-image: url('assets/images/Villa Banner.jpg');">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="hero-subtitle">-PORTFOLIO</p>
+      <h1>EXPLORE PROJECTS BUILT WITH PURPOSE.</h1>
+      <p class="hero-desc">
+        View selected architectural, interior, and spatial design projects crafted with clarity.
+      </p>
+      <a href="projects.php" class="hero-btn">VIEW PORTFOLIO ↗</a>
+    </div>
+
 
 </section>
 
