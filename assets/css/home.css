@@ -201,20 +201,26 @@
 /* FEATURED PROJECTS SECTIN IS HERE */
 /* FEATURED PROJECTS SECTIN IS HERE */
 
-.featured-projects{
+
+
+/* =====================================================
+   FEATURED PROJECTS
+===================================================== */
+
+#f-projects_section{
     width:min(1200px,95%);
-    margin:80px auto;
+    margin:90px auto;
 }
 
 .section-title{
-    margin-bottom:40px;
+    margin-bottom:45px;
 }
 
 .section-title h2{
-    font-size:28px;
+    font-size:30px;
     font-weight:400;
     color:#2f2f2f;
-    margin-bottom:8px;
+    margin-bottom:10px;
 }
 
 .section-title span{
@@ -224,93 +230,244 @@
     background:#b8a89c;
 }
 
-.projects-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:35px;
+/* =====================================================
+   SLIDER
+===================================================== */
+
+.project-slider{
+    width:100%;
+    overflow:hidden;
 }
 
-.project-card{
-    background:#ededed;
-    border-radius:8px;
+.slider-wrapper{
     overflow:hidden;
+}
+
+.slider-track{
+    display:flex;
+    gap:35px;
+    transition:transform .6s ease;
+    will-change:transform;
+}
+
+/* =====================================================
+   CARD
+===================================================== */
+
+.project-card{
+
+    flex:0 0 calc((100% - 70px)/3);
+
+    background:#f2f2f2;
+
+    border-radius:6px;
+
+    overflow:hidden;
+
     transition:.35s;
+
 }
 
 .project-card:hover{
+
     transform:translateY(-8px);
-    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
 }
 
 .project-card img{
+
     width:100%;
-    aspect-ratio:16/10;
+    height:240px;
+
     object-fit:cover;
+
     display:block;
+
 }
 
-.project-card p{
-    text-align: center;
-    padding:20px;
-    font-size:14px;
-    line-height:1.7;
+.project-content{
+
+    padding:22px;
+
+}
+
+.project-content p{
+
     color:#555;
+
+    font-size:15px;
+
+    line-height:1.8;
+
+    margin-bottom:22px;
+
 }
 
-.project-card a{
-    display:inline-block;
-    margin:0 99px 25px;
-    padding:10px 28px;
+.project-content a{
+
+    width:170px;
+
+    height:42px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:auto;
+
     border:1px solid #eb7b59;
-    color:#eb7b59;
+
+    border-radius:25px;
+
     text-decoration:none;
-    border-radius:20px;
+
+    color:#eb7b59;
+
     transition:.3s;
+
 }
 
-.project-card a:hover{
-    background:#ee5149;
+.project-content a:hover{
+
+    background:#eb7b59;
+
     color:#fff;
+
 }
 
-/* Tablet */
-@media (max-width:992px){
+/* =====================================================
+   CONTROLS
+===================================================== */
 
-    .projects-grid{
-        grid-template-columns:repeat(2,1fr);
+.slider-controls{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:40px;
+
+    margin-top:45px;
+
+}
+
+.slider-btn{
+
+    background:none;
+
+    border:none;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    color:#555;
+
+    transition:.3s;
+
+}
+
+.slider-btn:hover{
+
+    color:#eb7b59;
+
+}
+
+/* =====================================================
+   DOTS
+===================================================== */
+
+.slider-dots{
+
+    display:flex;
+
+    gap:12px;
+
+}
+
+.slider-dots span{
+
+    width:11px;
+
+    height:11px;
+
+    border-radius:50%;
+
+    background:#d6d6d6;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.slider-dots span.active{
+
+    background:#eb7b59;
+
+    transform:scale(1.25);
+
+}
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media(max-width:992px){
+
+    .project-card{
+
+        flex:0 0 calc((100% - 35px)/2);
+
     }
 
 }
 
-/* Mobile */
-@media (max-width:768px){
+/* =====================================================
+   MOBILE
+===================================================== */
 
-    .featured-projects{
-        width:90%;
-        margin:60px auto;
+@media(max-width:768px){
+
+    #f-projects_section{
+
+        width:92%;
+
     }
 
     .section-title{
+
         text-align:center;
+
     }
 
     .section-title span{
-        margin:auto;
-    }
 
-    .projects-grid{
-        grid-template-columns:1fr;
-        gap:25px;
+        margin:auto;
+
     }
 
     .project-card{
-        max-width:420px;
-        margin:auto;
+
+        flex:0 0 100%;
+
+    }
+
+    .slider-controls{
+
+        gap:18px;
+
+        flex-wrap:wrap;
+
     }
 
 }
-
-
 
 
 

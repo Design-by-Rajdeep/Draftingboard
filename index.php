@@ -35,16 +35,17 @@
     </div>
   </div>
 
-  <div class="hero-slide active" style="background-image: url('assets/images/banner_image/farm_house_banner.jpg');">
+<div class="hero-slide active" style="background-image: url('assets/images/banner_image/farm_house_banner.jpg');">
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-      <p class="hero-subtitle">-PORTFOLIO</p>
-      <h1>EXPLORE PROJECTS BUILT WITH PURPOSE.</h1>
+      <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p>
+      <h1>FARM HOUSE</h1>
       <p class="hero-desc">
-        View selected architectural, interior, and spatial design projects crafted with clarity.
+        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
+        developers, and small businesses to create considered buildings and interiors.
       </p>
-      <a href="projects.php" class="hero-btn">VIEW PORTFOLIO ↗</a>
+      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a>
     </div>
   </div>
 
@@ -52,51 +53,52 @@
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-      <p class="hero-subtitle">-PORTFOLIO</p>
-      <h1>EXPLORE PROJECTS BUILT WITH PURPOSE.</h1>
+      <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p>
+      <h1>GROUP HOUSING</h1>
       <p class="hero-desc">
-        View selected architectural, interior, and spatial design projects crafted with clarity.
+        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
+        developers, and small businesses to create considered buildings and interiors.
       </p>
-      <a href="projects.php" class="hero-btn">VIEW PORTFOLIO ↗</a>
+      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a>
     </div>
-
-
-  <div class="hero-slide active" style="background-image: url('assets/images/banner_image/School Banner.jpg');">
+  </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/School Banner.jpg');">
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-      <p class="hero-subtitle">-PORTFOLIO</p>
-      <h1>EXPLORE PROJECTS BUILT WITH PURPOSE.</h1>
+      <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p>
+      <h1>SCHOOL PROJECT</h1>
       <p class="hero-desc">
-        View selected architectural, interior, and spatial design projects crafted with clarity.
+        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
+        developers, and small businesses to create considered buildings and interiors.
       </p>
-      <a href="projects.php" class="hero-btn">VIEW PORTFOLIO ↗</a>
+      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a>
+    </div>
+  </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/UD banner.jpg');">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p>
+      <h1>UNIVERSITY PROJECT</h1>
+      <p class="hero-desc">
+        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
+        developers, and small businesses to create considered buildings and interiors.
+      </p>
+      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a>
+    </div>
+  </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/Villa Banner.jpg');">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p>
+      <h1>VILLA PROJECT</h1>
+      <p class="hero-desc">
+        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
+        developers, and small businesses to create considered buildings and interiors.
+      </p>
+      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a>
     </div>
   </div>
 
-   <div class="hero-slide active" style="background-image: url('assets/images/banner_image/UD banner.jpg');">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <p class="hero-subtitle">-PORTFOLIO</p>
-      <h1>EXPLORE PROJECTS BUILT WITH PURPOSE.</h1>
-      <p class="hero-desc">
-        View selected architectural, interior, and spatial design projects crafted with clarity.
-      </p>
-      <a href="projects.php" class="hero-btn">VIEW PORTFOLIO ↗</a>
-    </div>
-
-     <div class="hero-slide active" style="background-image: url('assets/images/Villa Banner.jpg');">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <p class="hero-subtitle">-PORTFOLIO</p>
-      <h1>EXPLORE PROJECTS BUILT WITH PURPOSE.</h1>
-      <p class="hero-desc">
-        View selected architectural, interior, and spatial design projects crafted with clarity.
-      </p>
-      <a href="projects.php" class="hero-btn">VIEW PORTFOLIO ↗</a>
-    </div>
 
 
 </section>
@@ -107,71 +109,111 @@
 <!-- featured projest starts here -->
 <!-- featured projest starts here -->
 
-<section>
-  <!-- second section for feteaued prohect
-  
-         <div>featured projest 1</div>
-         <div>featured projest 1</div>
-         <div>featured projest 1</div>
-         <div>featured projest 1</div>
-         <div>featured projest 1</div>
-         <div>featured projest 1</div> -->
+<!-- ================= FEATURED PROJECTS ================= -->
 
-<section class="featured-projects">
+<section id="f-projects_section" class="featured-projects">
 
     <div class="section-title">
         <h2>FEATURED PROJECTS</h2>
         <span></span>
     </div>
 
-    <div class="projects-grid">
+    <div class="project-slider">
 
-        <!-- Project 1 -->
-        <div class="project-card">
-            <img src="assets/images/featured project/Bhowali Cover.png" alt="">
-            <p>Your project description goes here.</p>
-            <a href="#">Know More ↗</a>
-        </div>
+        <div class="slider-wrapper">
 
-        <!-- Project 2 -->
-        <div class="project-card">
-            <img src="assets/images/featured project/Commercial Cover.png" alt="">
-            <p>Your project description goes here.</p>
-            <a href="#">Know More ↗</a>
-        </div>
+            <div class="slider-track">
 
-        <!-- Project 3 -->
-        <div class="project-card">
-            <img src="assets/images/featured project/Farmhouse Cover.png" alt="">
-            <p>Your project description goes here.</p>
-            <a href="#">Know More ↗</a>
-        </div>
+                <!-- ===== Project 1 ===== -->
+                <div class="project-card">
+                    <img src="assets/images/featured project/Bhowali Cover.png" alt="">
+                    <div class="project-content">
+                        <p>Your project description goes here.</p>
+                        <a href="#">Know More ↗</a>
+                    </div>
+                </div>
 
-        <!-- Project 4 -->
-        <div class="project-card">
-            <img src="assets/images/featured project/Group Housing Cover.png" alt="">
-            <p>Your project description goes here.</p>
-            <a href="#">Know More ↗</a>
-        </div>
+                <!-- ===== Project 2 ===== -->
+                <div class="project-card">
+                    <img src="assets/images/featured project/Commercial Cover.png" alt="">
+                    <div class="project-content">
+                        <p>Your project description goes here.</p>
+                        <a href="#">Know More ↗</a>
+                    </div>
+                </div>
 
-        <!-- Project 5 -->
-        <div class="project-card">
-            <img src="assets/images/featured project/School Cover.png" alt="">
-            <p>Your project description goes here.</p>
-            <a href="#">Know More ↗</a>
-        </div>
+                <!-- ===== Project 3 ===== -->
+                <div class="project-card">
+                    <img src="assets/images/featured project/Farmhouse Cover.png" alt="">
+                    <div class="project-content">
+                        <p>Your project description goes here.</p>
+                        <a href="#">Know More ↗</a>
+                    </div>
+                </div>
 
-        <!-- Project 6 -->
-        <div class="project-card">
-            <img src="assets/images/featured project/UD Cover.png" alt="">
-            <p>Your project description goes here.</p>
-            <a href="#">Know More ↗</a>
+                <!-- ===== Project 4 ===== -->
+                <div class="project-card">
+                    <img src="assets/images/featured project/Group Housing Cover.png" alt="">
+                    <div class="project-content">
+                        <p>Your project description goes here.</p>
+                        <a href="#">Know More ↗</a>
+                    </div>
+                </div>
+
+                <!-- ===== Project 5 ===== -->
+                <div class="project-card">
+                    <img src="assets/images/featured project/School Cover.png" alt="">
+                    <div class="project-content">
+                        <p>Your project description goes here.</p>
+                        <a href="#">Know More ↗</a>
+                    </div>
+                </div>
+
+                <!-- ===== Project 6 ===== -->
+                <div class="project-card">
+                    <img src="assets/images/featured project/UD Cover.png" alt="">
+                    <div class="project-content">
+                        <p>Your project description goes here.</p>
+                        <a href="#">Know More ↗</a>
+                    </div>
+                </div>
+
+                <!-- ===== Project 7 ===== -->
+                <div class="project-card">
+                    <img src="assets/images/featured project/New Project.png" alt="">
+                    <div class="project-content">
+                        <p>Your project description goes here.</p>
+                        <a href="#">Know More ↗</a>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
     </div>
 
+    <!-- Bottom Controls -->
+
+    <div class="slider-controls">
+
+        <button class="slider-btn prev">
+            ← Previous
+        </button>
+
+        <div class="slider-dots">
+            <!-- JavaScript will create the dots automatically -->
+        </div>
+
+        <button class="slider-btn next">
+            Next →
+        </button>
+
+    </div>
+
 </section>
-</section>
+
+<!-- ================= END FEATURED PROJECTS ================= -->
 
 
 
