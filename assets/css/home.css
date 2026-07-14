@@ -265,13 +265,14 @@
 
 .fp-card {
     flex: 0 0 calc((100% - 40px) / 3);
-    background: #fbf9f6;
+    background: #ffffff;
     border: 1px solid #ece7df;
     border-radius: 16px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     transition: all .35s ease;
+    align-items: center;
 }
 
 .fp-card:hover,
@@ -313,7 +314,8 @@
     margin: 0;
     font-size: 15px;
     line-height: 1.7;
-    color: #555;
+    color: #000000;
+    text-align: center;
 }
 
 /* ===============================
@@ -332,6 +334,9 @@
     color: #d9603b;
     font-weight: 600;
     transition: .3s ease;
+    width:190px;
+    height:40px;
+    align-items:center;
 }
 
 .fp-btn:hover {
@@ -579,10 +584,6 @@
    SERVICES
 ================================= */
 
-*{
-    box-sizing:border-box;
-}
-
 .services-section{
     width:100%;
     padding:70px 20px;
@@ -645,6 +646,7 @@
     display:flex;
     flex-direction:column;
     transition:.35s;
+    align-items:center;
 }
 
 .services-card:hover,
@@ -659,6 +661,7 @@
 ================================= */
 
 .services-card-image{
+    padding: 5px 5px;
     width:100%;
     aspect-ratio:4/3;
     overflow:hidden;
@@ -667,6 +670,7 @@
 .services-card-image img{
     width:100%;
     height:100%;
+    border-radius: 16px;
     object-fit:cover;
     display:block;
     transition:.5s;
@@ -697,7 +701,8 @@
     padding:0 24px;
     font-size:15px;
     line-height:1.7;
-    color:#555;
+    color:#000000;
+    text-align:center;
 }
 
 /* ===============================
@@ -1100,6 +1105,7 @@ MOBILE
 .build_a_project{
   display: flex;
   align-items: center;
+  margin-top: 100px;
   width: 100%;
   height:600px;
   background: #1a1414;
