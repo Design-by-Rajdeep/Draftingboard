@@ -93,59 +93,72 @@ document.addEventListener("DOMContentLoaded", function () {
 /* ===========================================
    Featured Projects Slider
 =========================================== */
+
+/* ===========================================
+   Featured Projects Slider
+=========================================== */
 document.addEventListener("DOMContentLoaded", () => {
 
-    const track = document.querySelector(".slider-track");
-    const cards = Array.from(document.querySelectorAll(".project-card"));
-    const prevBtn = document.querySelector(".prev");
-    const nextBtn = document.querySelector(".next");
-    const dotsContainer = document.querySelector(".slider-dots");
+    const track = document.getElementById("fpTrack");
+    const cards = [...track.children];
 
-    let currentIndex = 0;
-    let autoPlay;
+    const prevBtn = document.getElementById("fpPrevBtn");
+    const nextBtn = document.getElementById("fpNextBtn");
+    const dotsContainer = document.getElementById("fpDotsContainer");
 
-    function cardsPerView() {
-        if (window.innerWidth <= 768) return 1;
-        if (window.innerWidth <= 992) return 2;
+    let current = 0;
+    let autoSlide;
+
+    function visibleCards() {
+        if (window.innerWidth <= 767) return 1;
+        if (window.innerWidth <= 991) return 2;
         return 3;
     }
 
-    function totalSlides() {
-        return cards.length - cardsPerView() + 1;
+    function maxSlide() {
+        return cards.length - visibleCards();
+    }
+
+    function getStep() {
+        const cardWidth = cards[0].offsetWidth;
+        const gap = parseFloat(getComputedStyle(track).gap) || 0;
+        return cardWidth + gap;
     }
 
     function updateSlider() {
 
-        const gap = 35;
-        const cardWidth = cards[0].offsetWidth + gap;
-
         track.style.transform =
-            `translateX(-${currentIndex * cardWidth}px)`;
+            `translateX(-${current * getStep()}px)`;
 
-        updateDots();
+        document.querySelectorAll(".fp-dot").forEach((dot, index) => {
+            dot.classList.toggle("fp-active", index === current);
+        });
+
+        prevBtn.disabled = false;
+        nextBtn.disabled = false;
 
     }
-
-    /* ---------- Create Dots ---------- */
 
     function createDots() {
 
         dotsContainer.innerHTML = "";
 
-        for (let i = 0; i < totalSlides(); i++) {
+        for (let i = 0; i <= maxSlide(); i++) {
 
-            const dot = document.createElement("span");
+            const dot = document.createElement("button");
 
-            if (i === currentIndex)
-                dot.classList.add("active");
+            dot.className = "fp-dot";
 
-            dot.addEventListener("click", () => {
+            if (i === current)
+                dot.classList.add("fp-active");
 
-                currentIndex = i;
+            dot.onclick = () => {
+
+                current = i;
                 updateSlider();
                 restartAuto();
 
-            });
+            };
 
             dotsContainer.appendChild(dot);
 
@@ -153,90 +166,211 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
-    function updateDots() {
+    nextBtn.onclick = () => {
 
-        const dots = dotsContainer.querySelectorAll("span");
+        current++;
 
-        dots.forEach(dot => dot.classList.remove("active"));
-
-        if (dots[currentIndex])
-            dots[currentIndex].classList.add("active");
-
-    }
-
-    /* ---------- Next ---------- */
-
-    function nextSlide() {
-
-        currentIndex++;
-
-        if (currentIndex >= totalSlides())
-            currentIndex = 0;
+        if (current > maxSlide())
+            current = 0;
 
         updateSlider();
+        restartAuto();
 
-    }
+    };
 
-    /* ---------- Previous ---------- */
+    prevBtn.onclick = () => {
 
-    function prevSlide() {
+        current--;
 
-        currentIndex--;
-
-        if (currentIndex < 0)
-            currentIndex = totalSlides() - 1;
+        if (current < 0)
+            current = maxSlide();
 
         updateSlider();
-
-    }
-
-    nextBtn.addEventListener("click", () => {
-
-        nextSlide();
         restartAuto();
 
-    });
-
-    prevBtn.addEventListener("click", () => {
-
-        prevSlide();
-        restartAuto();
-
-    });
-
-    /* ---------- Auto ---------- */
+    };
 
     function startAuto() {
 
-        autoPlay = setInterval(nextSlide, 4000);
+        autoSlide = setInterval(() => {
 
-    }
+            current++;
 
-    function stopAuto() {
+            if (current > maxSlide())
+                current = 0;
 
-        clearInterval(autoPlay);
+            updateSlider();
+
+        }, 4000);
 
     }
 
     function restartAuto() {
 
-        stopAuto();
+        clearInterval(autoSlide);
         startAuto();
 
     }
 
-    document
-        .querySelector(".project-slider")
-        .addEventListener("mouseenter", stopAuto);
+    track.parentElement.addEventListener("mouseenter", () => {
+        clearInterval(autoSlide);
+    });
 
-    document
-        .querySelector(".project-slider")
-        .addEventListener("mouseleave", startAuto);
+    track.parentElement.addEventListener("mouseleave", () => {
+        startAuto();
+    });
 
     window.addEventListener("resize", () => {
 
-        if (currentIndex >= totalSlides())
-            currentIndex = totalSlides() - 1;
+        if (current > maxSlide())
+            current = maxSlide();
+
+        createDots();
+        updateSlider();
+
+    });
+
+    createDots();
+    updateSlider();
+    startAuto();
+
+});
+
+
+
+
+
+/* ===========================================
+   Services Slider
+=========================================== */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const track = document.getElementById("servicesTrack");
+    const cards = [...track.children];
+
+    const prevBtn = document.getElementById("servicesPrevBtn");
+    const nextBtn = document.getElementById("servicesNextBtn");
+    const dotsContainer = document.getElementById("servicesDotsContainer");
+
+    let current = 0;
+    let autoSlide;
+
+    function visibleCards() {
+        if (window.innerWidth <= 767) return 1;
+        if (window.innerWidth <= 991) return 2;
+        return 3;
+    }
+
+    function maxSlide() {
+        return Math.max(cards.length - visibleCards(), 0);
+    }
+
+    function getStep() {
+        const cardWidth = cards[0].offsetWidth;
+        const gap = parseFloat(getComputedStyle(track).gap) || 0;
+        return cardWidth + gap;
+    }
+
+    function updateSlider() {
+
+        track.style.transform =
+            `translateX(-${current * getStep()}px)`;
+
+        document.querySelectorAll(".services-dot").forEach((dot, index) => {
+            dot.classList.toggle("services-active", index === current);
+        });
+
+        cards.forEach((card, index) => {
+            card.classList.remove("services-active");
+
+            if (visibleCards() === 3 && index === current + 1) {
+                card.classList.add("services-active");
+            }
+        });
+
+    }
+
+    function createDots() {
+
+        dotsContainer.innerHTML = "";
+
+        for (let i = 0; i <= maxSlide(); i++) {
+
+            const dot = document.createElement("button");
+            dot.className = "services-dot";
+
+            if (i === current) {
+                dot.classList.add("services-active");
+            }
+
+            dot.addEventListener("click", () => {
+                current = i;
+                updateSlider();
+                restartAuto();
+            });
+
+            dotsContainer.appendChild(dot);
+        }
+    }
+
+    function nextSlide() {
+
+        current++;
+
+        if (current > maxSlide()) {
+            current = 0;
+        }
+
+        updateSlider();
+    }
+
+    function prevSlide() {
+
+        current--;
+
+        if (current < 0) {
+            current = maxSlide();
+        }
+
+        updateSlider();
+    }
+
+    nextBtn.addEventListener("click", () => {
+        nextSlide();
+        restartAuto();
+    });
+
+    prevBtn.addEventListener("click", () => {
+        prevSlide();
+        restartAuto();
+    });
+
+    function startAuto() {
+
+        autoSlide = setInterval(() => {
+            nextSlide();
+        }, 4000);
+
+    }
+
+    function stopAuto() {
+        clearInterval(autoSlide);
+    }
+
+    function restartAuto() {
+        stopAuto();
+        startAuto();
+    }
+
+    track.parentElement.addEventListener("mouseenter", stopAuto);
+    track.parentElement.addEventListener("mouseleave", startAuto);
+
+    window.addEventListener("resize", () => {
+
+        if (current > maxSlide()) {
+            current = maxSlide();
+        }
 
         createDots();
         updateSlider();
