@@ -14,9 +14,9 @@
         <ul>
           <li><a href="#">Projects</a></li>
           <li><a href="#">Service</a></li>
-          <li><a href="#">Expertise</a></li>
+          <!-- <li><a href="#">Expertise</a></li>
           <li><a href="#">Studio</a></li>
-          <li><a href="#">Case Studies</a></li>
+          <li><a href="#">Case Studies</a></li> -->
         </ul>
       </div>
 
@@ -26,7 +26,7 @@
         <ul>
           <li><a href="mailto:hello@db-studio.com">hello@db-studio.com</a></li>
           <li><a href="tel:+919999999999">+91 9999999999</a></li>
-          <li><a href="#">Expertise</a></li>
+          <!-- <li><a href="#">Expertise</a></li> -->
           <li><a href="#">LinkedIn</a></li>
           <li><a href="#">Instagram</a></li>
         </ul>

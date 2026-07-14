@@ -1,3 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px; /* Adjust to your navbar height */
+}
+
 /* Hero Image Slider */
 
 .hero-slider {
@@ -1105,7 +1113,6 @@ MOBILE
 .build_a_project{
   display: flex;
   align-items: center;
-  margin-top: 100px;
   width: 100%;
   height:600px;
   background: #1a1414;
