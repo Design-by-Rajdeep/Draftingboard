@@ -243,10 +243,10 @@
                     </div>
 
                     <h3 class="services-card-title">Architectural Design</h3>
-
+<!-- 
                     <p class="services-card-text">
                         A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
-                    </p>
+                    </p> -->
 
                     <a href="#" class="services-btn">
                         Know More <span class="services-arrow">↗</span>
@@ -261,9 +261,9 @@
 
                     <h3 class="services-card-title">Landscape Design</h3>
 
-                    <p class="services-card-text">
+                    <!-- <p class="services-card-text">
                         A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
-                    </p>
+                    </p> -->
 
                     <a href="#" class="services-btn">
                         Know More <span class="services-arrow">↗</span>
@@ -278,9 +278,9 @@
 
                     <h3 class="services-card-title">Urban Design</h3>
 
-                    <p class="services-card-text">
+                    <!-- <p class="services-card-text">
                         A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
-                    </p>
+                    </p> -->
 
                     <a href="#" class="services-btn">
                         Know More <span class="services-arrow">↗</span>
@@ -295,9 +295,9 @@
 
                     <h3 class="services-card-title">Towards a Sustainable Future!</h3>
 
-                    <p class="services-card-text">
+                    <!-- <p class="services-card-text">
                         A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
-                    </p>
+                    </p> -->
 
                     <a href="#" class="services-btn">
                         Know More <span class="services-arrow">↗</span>
