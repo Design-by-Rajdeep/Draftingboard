@@ -359,16 +359,15 @@
             <!-- Right Content -->
             <div class="mission-content">
 
-                <h3>
+                <!-- <h3>
                     Building Accessible, Human-Centered Environments for Future Generations —
-                </h3>
+                </h3> -->
 
                 <p>
-                   To shape buildings and places that simply work—for people and for the life around them. 
-                   We envision cities that are accessible to everyone, filled with sunlight and fresh air, 
-                   where people and nature thrive together, and where the night sky becomes visible again. 
-                   Through thoughtful design, we aim to create environments that support healthier, calmer, 
-                   and more connected lives.
+                  To shape buildings and places that simply work—for people and for the life around them. 
+                  We envision cities that are accessible to everyone, filled with sunlight and fresh air, 
+                  where people and nature thrive together, and where the night sky becomes visible again. 
+                  Through thoughtful design, we aim to create environments that support healthier, calmer, and more connected lives.
                 </p>
 
                 <a href="#" class="mission-btn">
