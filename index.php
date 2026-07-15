@@ -123,7 +123,7 @@
           <div class="fp-card-image">
             <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&q=80" alt="Modern facade building">
           </div>
-          <p class="fp-card-text">A "featured project" is a standout piece of work or a key initiative hand-picked to be displayed prominently.</p>
+          <p class="fp-card-text">Farmhouse <br><span>A Countryside Retreat</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
@@ -131,7 +131,7 @@
           <div class="fp-card-image">
             <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Modern house with pergola">
           </div>
-          <p class="fp-card-text">A "featured project" is a standout piece of work or a key initiative hand-picked to be displayed prominently.</p>
+          <p class="fp-card-text">Group Housing<br><span>Reviving Community Living</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
@@ -139,7 +139,7 @@
           <div class="fp-card-image">
             <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Outdoor patio with pergola">
           </div>
-          <p class="fp-card-text">A "featured project" is a standout piece of work or a key initiative hand-picked to be displayed prominently.</p>
+          <p class="fp-card-text">Commercial Building<br><span>Reimagining the Urban Workplace</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
@@ -147,7 +147,7 @@
           <div class="fp-card-image">
             <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=600&q=80" alt="Contemporary building exterior">
           </div>
-          <p class="fp-card-text">A "featured project" is a standout piece of work or a key initiative hand-picked to be displayed prominently.</p>
+          <p class="fp-card-text">Primary School<br><span>Learning Beyond the Classroom</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
@@ -155,7 +155,7 @@
           <div class="fp-card-image">
             <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80" alt="Minimalist villa">
           </div>
-          <p class="fp-card-text">A "featured project" is a standout piece of work or a key initiative hand-picked to be displayed prominently.</p>
+          <p class="fp-card-text">Villa<br><span>Modern Living, Rooted in Community</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
@@ -163,7 +163,7 @@
           <div class="fp-card-image">
             <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=600&q=80" alt="Interior courtyard design">
           </div>
-          <p class="fp-card-text">A "featured project" is a standout piece of work or a key initiative hand-picked to be displayed prominently.</p>
+         <p class="fp-card-text">Bhowali Resort<br><span>Designing Around the View</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
@@ -171,7 +171,7 @@
           <div class="fp-card-image">
             <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=600&q=80" alt="Architectural landscape design">
           </div>
-          <p class="fp-card-text">A "featured project" is a standout piece of work or a key initiative hand-picked to be displayed prominently.</p>
+          <p class="fp-card-text">Urban Design<br><span>Reimagining the Urban Marketplace</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
