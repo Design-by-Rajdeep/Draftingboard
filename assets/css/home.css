@@ -1148,9 +1148,10 @@ MOBILE
   /* BUILD PROJECT AND THE VIDEO SECTION IS HER */
 .build_a_project{
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 100%;
-  height:600px;
+  height:1000px;
   background: #1a1414;
 }
 
@@ -1162,6 +1163,7 @@ MOBILE
 }
 
 .video-box {
+    align-items: center;
   width: 100%;
   aspect-ratio: 16 / 8;
   overflow: hidden;
@@ -1193,7 +1195,6 @@ MOBILE
   margin: 0 0 18px;
   text-align: center;
 }
-
 .cta-content p {
   font-size: clamp(20px, 2vw, 15px);
   color: #c4a985;
@@ -1254,6 +1255,7 @@ MOBILE
   .cta-buttons a {
     width: 170px;
   }
+
 }
 
 

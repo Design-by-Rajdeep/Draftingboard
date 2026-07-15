@@ -243,7 +243,7 @@
                     </div>
 
                     <h3 class="services-card-title">Architectural Design</h3>
-<!-- 
+                    <!-- 
                     <p class="services-card-text">
                         A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
                     </p> -->
@@ -398,7 +398,8 @@
       <source src="assets/videos/video1.mp4" type="video/mp4">
     </video>
   </div>
-
+</section>
+<section>
   <div class="cta-content">
     <h2>Let's Build Something Worth<br>Remembering.</h2>
 
@@ -408,20 +409,11 @@
 
     <div class="cta-buttons">
       <a href="#" class="btn-outline">+91 8826532115</a>
-      <a href="#" class="btn-primary">Get In Touch ↗</a>
+      <a href="contact.php" class="btn-primary">Get In Touch ↗</a>
     </div>
   </div>
 </section>
-  <!-- <div>image</div>
-  <div> dark BG
-    <div>
-     <Title> Let's build something worth remembering.</title>
-        <sub_title>
-          Consultation or project enquiry — we'd love to hear from you.
-        </sub_title>
-    </div>
-    <div> CTA 1 , CTA 2</div>
-  </div> -->
+
 </section>
 
 
@@ -433,7 +425,7 @@
 </section>
 
 
-
+<!-- 
 <button id="backToTop" aria-label="Back To Top">
     <svg xmlns="http://www.w3.org/2000/svg"
          width="22"
@@ -445,7 +437,7 @@
         <path d="M12 19V5"/>
         <path d="M5 12l7-7 7 7"/>
     </svg>
-</button>
+</button> -->
 
 <script src="assets/js/script.js"></script>
 </body>
