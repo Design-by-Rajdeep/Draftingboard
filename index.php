@@ -10,11 +10,9 @@
     <link rel="stylesheet" href="assets/css/footer.css">
 
 </head>
+
 <body>
 <?php include 'includes/header.php'; ?>
-
-<!-- Page Content -->
-
 
 <!-- Image Hero slider starts here -->
 
@@ -424,7 +422,7 @@
 </section>
 
 
-<!-- 
+
 <button id="backToTop" aria-label="Back To Top">
     <svg xmlns="http://www.w3.org/2000/svg"
          width="22"
@@ -436,7 +434,7 @@
         <path d="M12 19V5"/>
         <path d="M5 12l7-7 7 7"/>
     </svg>
-</button> -->
+</button>
 
 <script src="assets/js/script.js"></script>
 </body>
