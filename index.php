@@ -192,7 +192,7 @@
 
 <!-- ================= VIDEO SECTION ================= -->
 
-<section class="video-section">
+<!-- <section class="video-section">
 
     <div class="video-container">
 
@@ -210,9 +210,27 @@
 
     </div>
 
+</section> -->
+
+<!-- ================= BEYOND THINKING ================= -->
+
+<section id="beyond-thinking">
+     <img src="assets/images/Beyond Thinking.png" alt="Architectural Design"
+      alt="Modern Architecture">
+
+    <!-- <div class="overlay"></div> -->
+
+    <!-- <div class="content">
+    <span>OUR VISION</span>
+        <h2>BEYOND THINKING</h2>
+     <p>
+            We believe architecture is more than structures—it's about creating
+            experiences that inspire, connect, and stand the test of time.
+        </p> 
+
+        <a href="#projects" class="btn">Explore Projects</a> 
+    </div> -->
 </section>
-
-
 
   <!-- ================= SERVICES ================= -->
   <!-- ================= SERVICES ================= -->
@@ -344,15 +362,31 @@
 
         <div class="mission-wrapper">
 
+        <!-- Vision Image Banner -->
+         <div class="vision-image-banner">
+         <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1800&q=80"
+         alt="Architecture Vision">
+        <div class="vision-image-overlay"></div>
+        <div class="vision-image-content">
+        <h3>Designing Spaces That Inspire</h3>
+        <p>
+            Every project begins with a vision—where architecture meets
+            innovation, sustainability, and timeless design.
+        </p>
+       </div>
+
+      </div>
+        
+
             <!-- Left Video -->
-            <div class="mission-video">
+            <!-- <div class="mission-video">
 
                 <video autoplay muted loop playsinline preload="metadata">
                     <source src="assets/videos/video1.mp4" type="video/mp4">
                     Your browser does not support the video tag.
-                </video>
+                </video>-->
 
-            </div>
+            
 
             <!-- Right Content -->
             <div class="mission-content">

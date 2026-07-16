@@ -520,7 +520,7 @@ section {
   /* ===============================
    VIDEO SECTION
 ================================= */
-
+/* 
 .video-section{
     width:100%;
     padding:80px 20px;
@@ -606,7 +606,155 @@ section {
         font-size:15px;
     }
 
+} */
+
+
+
+
+
+
+
+
+
+
+/*================= BEYOND THINKING =================*/
+
+#beyond-thinking{
+    position:relative;
+    width:62%;
+    height:650px;
+    overflow:hidden;
+    border-radius:20px;
+    margin:80px auto;
 }
+
+#beyond-thinking img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.8s ease;
+}
+
+#beyond-thinking:hover img{
+    transform:scale(1.08);
+}
+
+#beyond-thinking .overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        90deg,
+        rgba(0,0,0,.78) 10%,
+        rgba(0,0,0,.45) 45%,
+        rgba(0,0,0,.25) 100%
+    );
+}
+
+#beyond-thinking .content{
+    align-items: center;
+    position:absolute;
+    top:50%;
+    left:8%;
+    transform:translateY(-50%);
+    max-width:600px;
+    color:#fff;
+    z-index:2;
+}
+
+#beyond-thinking span{
+    display:inline-block;
+    color:#d8b36a;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    font-size:.95rem;
+    margin-bottom:18px;
+}
+
+#beyond-thinking h2{
+    font-size:4rem;
+    font-weight:800;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+#beyond-thinking p{
+    font-size:1.1rem;
+    line-height:1.8;
+    color:#e5e5e5;
+    margin-bottom:35px;
+}
+
+#beyond-thinking .btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#d8b36a;
+    color:#111;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:700;
+    transition:.3s;
+}
+
+#beyond-thinking .btn:hover{
+    background:#fff;
+    transform:translateY(-3px);
+}
+
+/* Tablet */
+@media(max-width:992px){
+
+    #beyond-thinking{
+        height:500px;
+         width:100%;
+    }
+
+    #beyond-thinking h2{
+        font-size:3rem;
+    }
+
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+    #beyond-thinking{
+        height:420px;
+        border-radius:18px;
+    }
+
+    #beyond-thinking .content{
+        left:30px;
+        right:30px;
+        max-width:100%;
+    }
+
+    #beyond-thinking h2{
+        font-size:2.2rem;
+    }
+
+    #beyond-thinking p{
+        font-size:.95rem;
+    }
+
+    #beyond-thinking .btn{
+        padding:12px 28px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   /* ===============================
@@ -966,10 +1114,90 @@ GRID
 
 }
 
+
+
+/*================ Vision Image Banner ================*/
+
+.vision-image-banner{
+    position:relative;
+    width:100%;
+    height:500px;
+    margin-top:70px;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.vision-image-banner img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    transition:.7s;
+}
+
+.vision-image-banner:hover img{
+    transform:scale(1.05);
+}
+
+.vision-image-overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,.75),
+        rgba(0,0,0,.15)
+    );
+}
+
+.vision-image-content{
+    position:absolute;
+    bottom:50px;
+    left:50px;
+    color:#fff;
+    z-index:2;
+    max-width:500px;
+}
+
+.vision-image-content h3{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.vision-image-content p{
+    font-size:17px;
+    line-height:1.8;
+    color:#eee;
+}
+
+@media(max-width:768px){
+
+    .vision-image-banner{
+        height:350px;
+    }
+
+    .vision-image-content{
+        left:25px;
+        right:25px;
+        bottom:25px;
+    }
+
+    .vision-image-content h3{
+        font-size:28px;
+    }
+
+    .vision-image-content p{
+        font-size:15px;
+    }
+
+}
+
+
+
+
 /*=========================
 VIDEO
 =========================*/
-
+/* 
 .mission-video{
 
     width:100%;
@@ -1000,7 +1228,7 @@ VIDEO
 
     transform:scale(1.05);
 
-}
+} */
 
 /*=========================
 CONTENT
