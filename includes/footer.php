@@ -34,8 +34,8 @@
         <h3>REACH ME</h3>
         <span></span>
         <ul>
-            <li><a href="mailto:hello@db-studio.com">hello@db-studio.com</a></li>
-            <li><a href="tel:+919999999999">+91 9999999999</a></li>
+            <li><a href="mailto:info@draftingboardstudio.com">info@draftingboardstudio.com</a></li>
+            <li><a href="tel:+919999999999">+91 88265 32115</a></li>
         </ul>
     </div>
 

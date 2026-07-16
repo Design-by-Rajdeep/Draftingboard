@@ -23,11 +23,9 @@
 
     <div class="hero-content">
       <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <h1>COMMERCIAL PROJECT</h1>
+      <h1>DBS</h1>
       <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p>
+        Drafting Board Studio      </p>
       <a href="contact.php" class="hero-btn">START A PROJECT ↗</a>
     </div>
   </div>
@@ -136,7 +134,7 @@
 
         <div class="fp-card">
           <div class="fp-card-image">
-               <img src="assets/images/featured project/commercial.png" alt="Commercial building exterior">
+               <img src="assets/images/featured project/Commercial Cover.png" alt="Commercial building exterior">
           </div>
           <p class="fp-card-text">Commercial Building<br><span>Reimagining the Urban Workplace</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
@@ -152,7 +150,7 @@
 
         <div class="fp-card">
           <div class="fp-card-image">
-               <img src="assets/images/featured project/modern_villa.png" alt="Modern villa exterior design">
+               <img src="assets/images/featured project/Villa Cover.png" alt="Modern villa exterior design">
           </div>
           <p class="fp-card-text">Villa<br><span>Modern Living, Rooted in Community</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
@@ -160,7 +158,7 @@
 
         <div class="fp-card">
           <div class="fp-card-image">
-               <img src="assets/images/featured project/bhowali_resort.png" alt="Bhowali Resort exterior design">
+               <img src="assets/images/featured project/bhowali_cover.png" alt="Bhowali Resort exterior design">
           </div>
          <p class="fp-card-text">Bhowali Resort<br><span>Designing Around the View</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
@@ -364,9 +362,9 @@
         <div class="mission-wrapper">
 
         <!-- Vision Image Banner -->
-         <div class="vision-image-banner">
+         <!-- <div class="vision-image-banner">
          <img src="assets/images/built_projects_dbs.jpg"
-         alt="Architecture Vision">
+         alt="Architecture Vision"> -->
         <!-- <div class="vision-image-overlay"></div>
         <div class="vision-image-content">
         <h3>Designing Spaces That Inspire</h3>
