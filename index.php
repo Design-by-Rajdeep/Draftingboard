@@ -22,7 +22,7 @@
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-      <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p>
+      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
       <h1>COMMERCIAL PROJECT</h1>
       <p class="hero-desc">
         I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
@@ -36,7 +36,7 @@
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-      <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p>
+      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
       <h1>FARM HOUSE</h1>
       <p class="hero-desc">
         I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
@@ -50,7 +50,7 @@
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-      <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p>
+      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
       <h1>GROUP HOUSING</h1>
       <p class="hero-desc">
         I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
@@ -62,7 +62,7 @@
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-      <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p>
+      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
       <h1>SCHOOL PROJECT</h1>
       <p class="hero-desc">
         I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
@@ -74,7 +74,7 @@
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-      <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p>
+      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
       <h1>UNIVERSITY PROJECT</h1>
       <p class="hero-desc">
         I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
@@ -86,7 +86,7 @@
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-      <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p>
+      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
       <h1>VILLA PROJECT</h1>
       <p class="hero-desc">
         I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
@@ -119,7 +119,8 @@
 
         <div class="fp-card">
           <div class="fp-card-image">
-            <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&q=80" alt="Modern facade building">
+             <img src="assets/images/featured project/farmhouse.png" alt="Architectural Design"
+            alt="Modern facade building">
           </div>
           <p class="fp-card-text">Farmhouse <br><span>A Countryside Retreat</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
@@ -127,7 +128,7 @@
 
         <div class="fp-card">
           <div class="fp-card-image">
-            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Modern house with pergola">
+             <img src="assets/images/featured project/group_housing.png" alt="Modern house with pergola">
           </div>
           <p class="fp-card-text">Group Housing<br><span>Reviving Community Living</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
@@ -135,7 +136,7 @@
 
         <div class="fp-card">
           <div class="fp-card-image">
-            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Outdoor patio with pergola">
+               <img src="assets/images/featured project/commercial.png" alt="Commercial building exterior">
           </div>
           <p class="fp-card-text">Commercial Building<br><span>Reimagining the Urban Workplace</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
@@ -143,7 +144,7 @@
 
         <div class="fp-card">
           <div class="fp-card-image">
-            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=600&q=80" alt="Contemporary building exterior">
+               <img src="assets/images/featured project/primary_school.png" alt="Primary school building">
           </div>
           <p class="fp-card-text">Primary School<br><span>Learning Beyond the Classroom</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
@@ -151,7 +152,7 @@
 
         <div class="fp-card">
           <div class="fp-card-image">
-            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80" alt="Minimalist villa">
+               <img src="assets/images/featured project/modern_villa.png" alt="Modern villa exterior design">
           </div>
           <p class="fp-card-text">Villa<br><span>Modern Living, Rooted in Community</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
@@ -159,7 +160,7 @@
 
         <div class="fp-card">
           <div class="fp-card-image">
-            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=600&q=80" alt="Interior courtyard design">
+               <img src="assets/images/featured project/bhowali_resort.png" alt="Bhowali Resort exterior design">
           </div>
          <p class="fp-card-text">Bhowali Resort<br><span>Designing Around the View</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
@@ -167,7 +168,7 @@
 
         <div class="fp-card">
           <div class="fp-card-image">
-            <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=600&q=80" alt="Architectural landscape design">
+               <img src="assets/images/featured project/urban_design.png" alt="Urban Design">
           </div>
           <p class="fp-card-text">Urban Design<br><span>Reimagining the Urban Marketplace</span></p>
           <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
@@ -431,7 +432,7 @@
 </section> -->
 
 <section id="lets-build">
-    <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=2000&q=80"
+    <img src="assets/images/built_projects_dbs.jpg"
          alt="Architecture">
 </section>
 
