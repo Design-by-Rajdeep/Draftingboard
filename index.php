@@ -407,10 +407,12 @@
                   Through thoughtful design, we aim to create environments that support healthier, calmer, and more connected lives.
                 </p>
 
-                <a href="#" class="mission-btn">
-                    Know More
-                    <span>↗</span>
-                </a>
+                <div class="mission-btn-wrapper">
+    <a href="#" class="mission-btn">
+        Know More
+        <span>↗</span>
+    </a>
+</div>
 
             </div>
 

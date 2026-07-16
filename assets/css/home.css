@@ -1075,7 +1075,7 @@ MISSION SECTION
 .mission-section{
     padding:100px 0;
     background:#ebe9e8;
-    height: 750px;
+    height: 500px;
 }
 
 .container{
@@ -1098,10 +1098,10 @@ MISSION SECTION
 
 .section-heading span{
     display:block;
-    width:60px;
+    width:89px;
     height:1px;
     background:#ee5149;
-    margin-top:8px;
+    margin:8px auto 0; /* Centers the line */
 }
 
 
@@ -1263,7 +1263,11 @@ CONTENT
 /*=========================
 BUTTON
 =========================*/
-
+.mission-btn-wrapper{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+}
 .mission-btn{
     display:inline-flex;
     align-items:center;
@@ -1293,6 +1297,8 @@ BUTTON
     transform:translateX(5px);
 
 }
+
+
 
 /*=========================
 TABLET
