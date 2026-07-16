@@ -29,7 +29,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     <ul class="nav-links">
     <li>
         <a href="index.php" class="<?= $currentPage == 'index.php' ? 'active' : '' ?>">
-            Portfolio
+            Home
         </a>
     </li>
 

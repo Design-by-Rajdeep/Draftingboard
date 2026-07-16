@@ -23,10 +23,11 @@
 
     <div class="hero-content">
       <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <h1>DBS</h1>
-      <p class="hero-desc">
+      <!-- <h1>DBS</h1> -->
+      <h1>DRAFTING BOARD STUDIO</h1>
+      <!-- <p class="hero-desc">
         Drafting Board Studio      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a>
+      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
     </div>
   </div>
 
@@ -35,12 +36,13 @@
 
     <div class="hero-content">
       <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <h1>FARM HOUSE</h1>
-      <p class="hero-desc">
+      <!-- <h1>FARM HOUSE</h1> -->
+      <h1>DRAFTING BOARD STUDIO</h1>
+      <!-- <p class="hero-desc">
         I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
         developers, and small businesses to create considered buildings and interiors.
       </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a>
+      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
     </div>
   </div>
 
@@ -49,48 +51,52 @@
 
     <div class="hero-content">
       <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <h1>GROUP HOUSING</h1>
-      <p class="hero-desc">
+      <!-- <h1>GROUP HOUSING</h1> -->
+      <h1>DRAFTING BOARD STUDIO</h1>
+      <!-- <p class="hero-desc">
         I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
         developers, and small businesses to create considered buildings and interiors.
       </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a>
+      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
     </div>
   </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/School Banner.jpg');">
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
       <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <h1>SCHOOL PROJECT</h1>
-      <p class="hero-desc">
+      <!-- <h1>SCHOOL PROJECT</h1> -->
+      <h1>DRAFTING BOARD STUDIO</h1>
+      <!-- <p class="hero-desc">
         I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
         developers, and small businesses to create considered buildings and interiors.
       </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a>
+      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
     </div>
   </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/UD banner.jpg');">
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
       <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <h1>UNIVERSITY PROJECT</h1>
-      <p class="hero-desc">
+      <!-- <h1>UNIVERSITY PROJECT</h1> -->
+      <h1>DRAFTING BOARD STUDIO</h1>
+      <!-- <p class="hero-desc">
         I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
         developers, and small businesses to create considered buildings and interiors.
       </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a>
+      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
     </div>
   </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/Villa Banner.jpg');">
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <h1>VILLA PROJECT</h1>
-      <p class="hero-desc">
+      <!-- <p class="hero-subtitle">-DRAFTING BOARD STUDIO-</p> -->
+      <!-- <h1>VILLA PROJECT</h1> -->
+      <h1>DRAFTING BOARD STUDIO</h1>
+      <!-- <p class="hero-desc">
         I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
         developers, and small businesses to create considered buildings and interiors.
-      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a>
+      </p> -->
+      <!-- <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
     </div>
   </div>
 
