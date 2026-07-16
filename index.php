@@ -350,7 +350,7 @@
 <!-- Mission and vision starts here -->
 <!-- Mission and vision starts here -->
 
-<section>
+
       <section class="mission-section">
 
     <div class="container">
@@ -364,16 +364,16 @@
 
         <!-- Vision Image Banner -->
          <div class="vision-image-banner">
-         <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1800&q=80"
+         <img src="assets/images/built_projects_dbs.jpg"
          alt="Architecture Vision">
-        <div class="vision-image-overlay"></div>
+        <!-- <div class="vision-image-overlay"></div>
         <div class="vision-image-content">
         <h3>Designing Spaces That Inspire</h3>
         <p>
             Every project begins with a vision—where architecture meets
             innovation, sustainability, and timeless design.
         </p>
-       </div>
+       </div> -->
 
       </div>
         
@@ -414,7 +414,6 @@
     </div>
 
 </section>
-</section>
 
 
  <!-- last contact section with video here -->
@@ -423,13 +422,19 @@
  <!-- last contact section with video here -->
 
 <section class="build_a_project"> 
-<section class="video-cta">
+<!-- <section class="video-cta">
   <div class="video-box">
     <video autoplay muted loop playsinline>
       <source src="assets/videos/video1.mp4" type="video/mp4">
     </video>
   </div>
+</section> -->
+
+<section id="lets-build">
+    <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=2000&q=80"
+         alt="Architecture">
 </section>
+
 <section>
   <div class="cta-content">
     <h2>Let's Build Something Worth<br>Remembering.</h2>
