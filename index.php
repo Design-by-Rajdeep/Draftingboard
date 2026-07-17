@@ -123,11 +123,11 @@
 
         <div class="fp-card">
           <div class="fp-card-image">
-             <img src="assets/images/featured project/farmhouse.png" alt="Architectural Design"
+             <img src="assets/images/featured project/farmhouse/Farmhouse Cover.png" alt="Architectural Design"
             alt="Modern facade building">
           </div>
           <p class="fp-card-text">Farmhouse <br><span>A Countryside Retreat</span></p>
-          <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+          <a href="project_detail.php" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
         <div class="fp-card">

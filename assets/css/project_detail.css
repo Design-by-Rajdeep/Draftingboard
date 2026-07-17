@@ -1,0 +1,517 @@
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px; /* Adjust to your navbar height */
+}
+/*==========================================
+ PROJECT DETAILS
+==========================================*/
+
+#project_detail{
+    width:100%;
+    background:#fff;
+    padding:80px 0;
+}
+
+/*==========================================
+ HERO SLIDER
+==========================================*/
+
+.pd-slider{
+    width:100%;
+    position:relative;
+    overflow:hidden;
+}
+
+.pd-slides{
+    position:relative;
+    width:100%;
+    height:700px;
+}
+
+.pd-slide{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    opacity:0;
+    transition:opacity .8s ease;
+}
+
+.pd-slide.active{
+    opacity:1;
+    z-index:1;
+}
+
+/*==========================================
+ HERO NAVIGATION
+==========================================*/
+
+.pd-slider-nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:35px;
+    margin:22px 0 70px;
+}
+
+.pd-slider-nav button{
+
+    border:none;
+    background:none;
+
+    font-size:13px;
+    color:#555;
+
+    cursor:pointer;
+    transition:.3s;
+}
+
+.pd-slider-nav button:hover{
+
+    color:#ee5149;
+
+}
+
+#pdDots{
+
+    display:flex;
+    gap:8px;
+
+}
+
+.pd-dot{
+
+    width:9px;
+    height:9px;
+
+    border-radius:50%;
+
+    background:#d6d6d6;
+
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.pd-dot.active{
+
+    background:#ee5149;
+    transform:scale(1.15);
+
+}
+
+/*==========================================
+ PROJECT CONTENT
+==========================================*/
+
+.pd-content{
+
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+
+}
+
+#pdTitle{
+
+    font-size:42px;
+    font-weight:300;
+    line-height:1.3;
+
+    color:#2f2f2f;
+
+    text-transform:uppercase;
+
+    margin-bottom:40px;
+
+}
+
+#pdDescription{
+
+    font-size:16px;
+    line-height:2;
+
+    color:#666;
+
+}
+
+/*==========================================
+ MAP
+==========================================*/
+
+.pd-map{
+
+    max-width:1200px;
+    margin:80px auto 0;
+    text-align:center;
+
+}
+
+.pd-map h4{
+
+    font-size:15px;
+    font-weight:500;
+
+    margin-bottom:25px;
+
+    color:#444;
+
+}
+
+#pdMap{
+
+    width:100%;
+    height:520px;
+
+    border:none;
+
+}
+
+/*==========================================
+ RELATED PROJECTS
+==========================================*/
+
+.related-projects{
+
+    width:1200px;
+    max-width:95%;
+
+    margin:100px auto 0;
+
+}
+
+.related-slider{
+
+    overflow:hidden;
+    width:100%;
+
+}
+
+.related-track{
+
+    display:flex;
+    gap:30px;
+
+    transition:.5s ease;
+
+}
+
+.related-card{
+
+    min-width:calc((100% - 60px)/3);
+
+    background:#fff;
+
+    border:1px solid #ececec;
+
+    text-decoration:none;
+
+    color:inherit;
+
+    transition:.35s ease;
+
+    cursor:pointer;
+
+}
+
+.related-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#ee5149;
+
+}
+
+.related-card.active-project{
+
+    border:2px solid #ee5149;
+
+}
+
+.related-card img{
+
+    width:100%;
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.related-content{
+
+    padding:20px;
+
+    text-align:left;
+
+}
+
+.related-content h3{
+
+    font-size:20px;
+
+    margin-bottom:12px;
+
+    color:#2f2f2f;
+
+}
+
+.related-content p{
+
+    font-size:14px;
+
+    line-height:1.8;
+
+    color:#666;
+
+    margin-bottom:20px;
+
+}
+
+.related-content span{
+
+    display:inline-block;
+
+    color:#ee5149;
+
+    font-size:14px;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.related-card:hover span{
+
+    transform:translateX(5px);
+
+}
+
+/*==========================================
+ RELATED NAVIGATION
+==========================================*/
+
+.related-nav{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:35px;
+
+    margin-top:35px;
+
+}
+
+.related-nav button{
+
+    border:none;
+
+    background:none;
+
+    color:#555;
+
+    font-size:13px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.related-nav button:hover{
+
+    color:#ee5149;
+
+}
+
+#relatedDots{
+
+    display:flex;
+
+    gap:8px;
+
+}
+
+.related-dot{
+
+    width:9px;
+    height:9px;
+
+    border-radius:50%;
+
+    background:#d5d5d5;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.related-dot.active{
+
+    background:#ee5149;
+
+    transform:scale(1.15);
+
+}
+
+/*==========================================
+ RESPONSIVE
+==========================================*/
+
+@media(max-width:992px){
+
+.pd-slides{
+
+    height:520px;
+
+}
+
+#pdTitle{
+
+    font-size:32px;
+
+}
+
+.related-card{
+
+    min-width:calc((100% - 30px)/2);
+
+}
+
+}
+
+@media(max-width:768px){
+
+#project_detail{
+
+    padding:60px 0;
+
+}
+
+.pd-slides{
+
+    height:320px;
+
+}
+
+#pdTitle{
+
+    font-size:26px;
+
+}
+
+#pdDescription{
+
+    font-size:15px;
+
+    line-height:1.8;
+
+}
+
+.pd-slider-nav,
+.related-nav{
+
+    gap:20px;
+
+}
+
+.related-card{
+
+    min-width:100%;
+
+}
+
+.related-card img{
+
+    height:220px;
+
+}
+
+#pdMap{
+
+    height:320px;
+
+}
+
+}
+
+/* ===========================================
+   Back To Top Button
+=========================================== */
+
+#backToTop{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    outline: none;
+    border-radius: 50%;
+
+    background: #ee5149;
+    color: #ffffff;
+
+    cursor: pointer;
+    z-index: 9999;
+
+    box-shadow: 0 10px 25px rgba(238, 81, 73, 0.35);
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+
+    transition: all 0.35s ease;
+}
+
+#backToTop.show{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+#backToTop:hover{
+    background: #d93d35;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(238, 81, 73, 0.45);
+}
+
+#backToTop:active{
+    transform: scale(0.95);
+}
+
+#backToTop svg{
+    width: 22px;
+    height: 22px;
+    stroke: #fff;
+    transition: transform .3s ease;
+}
+
+#backToTop:hover svg{
+    transform: translateY(-2px);
+}
+
+/* Mobile */
+@media (max-width:768px){
+    #backToTop{
+        width:50px;
+        height:50px;
+        right:20px;
+        bottom:20px;
+    }
+}
+

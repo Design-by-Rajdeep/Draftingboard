@@ -6,7 +6,7 @@
     <title>My Website</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/project_detail.css">
     <link rel="stylesheet" href="assets/css/footer.css">
 
 </head>
@@ -14,459 +14,294 @@
 <body>
 <?php include 'includes/header.php'; ?>
 
-<!-- Image Hero slider starts here -->
+<!-- ================= PROJECT DETAIL ================= -->
 
-<section class="hero-slider">
+<section id="project_detail">
 
-  <div class="hero-slide active" style="background-image: url('assets/images/banner_image/commercial_banner.jpg');">
-    <div class="hero-overlay"></div>
+    <!-- Hero Slider -->
+    <div class="pd-slider">
 
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>DBS</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        Drafting Board Studio      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
-    </div>
-  </div>
+        <div class="pd-slides">
 
-<div class="hero-slide active" style="background-image: url('assets/images/banner_image/farm_house_banner.jpg');">
-    <div class="hero-overlay"></div>
+            <img src="https://picsum.photos/seed/villa1/1200/700" class="pd-slide active" alt="">
+            <img src="https://picsum.photos/seed/villa2/1200/700" class="pd-slide" alt="">
+            <img src="https://picsum.photos/seed/villa3/1200/700" class="pd-slide" alt="">
+            <img src="https://picsum.photos/seed/villa4/1200/700" class="pd-slide" alt="">
+            <img src="https://picsum.photos/seed/villa5/1200/700" class="pd-slide" alt="">
+            <img src="https://picsum.photos/seed/villa6/1200/700" class="pd-slide" alt="">
 
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>FARM HOUSE</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
-    </div>
-  </div>
-
-  <div class="hero-slide active" style="background-image: url('assets/images/banner_image/group_housing_banner.jpg');">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>GROUP HOUSING</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
-    </div>
-  </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/School Banner.jpg');">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>SCHOOL PROJECT</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
-    </div>
-  </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/UD banner.jpg');">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>UNIVERSITY PROJECT</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
-    </div>
-  </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/Villa Banner.jpg');">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-DRAFTING BOARD STUDIO-</p> -->
-      <!-- <h1>VILLA PROJECT</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p> -->
-      <!-- <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
-    </div>
-  </div>
-
-
-
-</section>
-
- 
-
-
-<!-- ================= FEATURED PROJECTS ================= -->
-<!-- ================= FEATURED PROJECTS ================= -->
-
-  <section class="fp-section" id="f-projects_section">
-  <div class="fp-heading">
-    <h2>FEATURED PROJECTS</h2>
-    <span class="fp-underline"></span>
-  </div>
-
-  <div class="fp-wrapper">
-
-    <div class="fp-track-container">
-      <div class="fp-track" id="fpTrack">
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-             <img src="assets/images/featured project/farmhouse.png" alt="Architectural Design"
-            alt="Modern facade building">
-          </div>
-          <p class="fp-card-text">Farmhouse <br><span>A Countryside Retreat</span></p>
-          <a href="project_detail.php?project=farmhouse" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-             <img src="assets/images/featured project/group_housing.png" alt="Modern house with pergola">
-          </div>
-          <p class="fp-card-text">Group Housing<br><span>Reviving Community Living</span></p>
-          <a href="project_detail.php?project=group_housing" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/Commercial Cover.png" alt="Commercial building exterior">
-          </div>
-          <p class="fp-card-text">Commercial Building<br><span>Reimagining the Urban Workplace</span></p>
-          <a href="project_detail.php?project=commercial" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/primary_school.png" alt="Primary school building">
-          </div>
-          <p class="fp-card-text">Primary School<br><span>Learning Beyond the Classroom</span></p>
-          <a href="project_detail.php?project=primary_school" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/Villa Cover.png" alt="Modern villa exterior design">
-          </div>
-          <p class="fp-card-text">Villa<br><span>Modern Living, Rooted in Community</span></p>
-          <a href="project_detail.php?project=villa" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/bhowali_cover.png" alt="Bhowali Resort exterior design">
-          </div>
-         <p class="fp-card-text">Bhowali Resort<br><span>Designing Around the View</span></p>
-          <a href="project_detail.php?project=bhowali" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/urban_design.png" alt="Urban Design">
-          </div>
-          <p class="fp-card-text">Urban Design<br><span>Reimagining the Urban Marketplace</span></p>
-          <a href="project_detail.php" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="fp-controls">
-      <button class="fp-nav-btn fp-prev-btn" id="fpPrevBtn">&lsaquo; Previous</button>
-      <div class="fp-dots" id="fpDotsContainer"></div>
-      <button class="fp-nav-btn fp-next-btn" id="fpNextBtn">Next &rsaquo;</button>
-    </div>
-
-  </div>
-</section>
-
-<!-- ================= END FEATURED PROJECTS ================= -->
-
-
-
-
-<!-- ================= VIDEO SECTION ================= -->
-
-<!-- <section class="video-section">
-
-    <div class="video-container">
-
-        <video autoplay muted loop playsinline>
-               <source src="assets/videos/video1.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-
-        <div class="video-overlay"></div>
-
-        <div class="video-content">
-            <h2>BEYOND THINKING</h2>
-            <p>Designing innovative spaces that inspire the future.</p>
         </div>
 
     </div>
 
-</section> -->
+    <!-- Navigation BELOW the slider -->
+    <div class="pd-slider-nav">
 
-<!-- ================= BEYOND THINKING ================= -->
+        <button id="pdPrevBtn">Previous</button>
 
-<section id="beyond-thinking">
-     <img src="assets/images/Beyond Thinking.png" alt="Architectural Design"
-      alt="Modern Architecture">
+        <div id="pdDots"></div>
 
-    <!-- <div class="overlay"></div> -->
-
-    <!-- <div class="content">
-    <span>OUR VISION</span>
-        <h2>BEYOND THINKING</h2>
-     <p>
-            We believe architecture is more than structures—it's about creating
-            experiences that inspire, connect, and stand the test of time.
-        </p> 
-
-        <a href="#projects" class="btn">Explore Projects</a> 
-    </div> -->
-</section>
-
-  <!-- ================= SERVICES ================= -->
-  <!-- ================= SERVICES ================= -->
-  <!-- ================= SERVICES ================= -->
-  <!-- ================= SERVICES ================= -->
-  <!-- ================= SERVICES ================= -->
-
-
-<section class="services-section" id="services_section">
-
-    <div class="services-heading">
-        <h2>SERVICES</h2>
-        <span class="services-underline"></span>
-    </div>
-
-    <div class="services-wrapper">
-
-        <div class="services-track-container">
-
-            <div class="services-track" id="servicesTrack">
-
-                <!-- Service 1 -->
-                <div class="services-card">
-                    <div class="services-card-image">
-                        <img src="assets/images/services/Architectural Design.png" alt="Architectural Design">
-                    </div>
-
-                    <h3 class="services-card-title">Architectural Design</h3>
-                    <!-- 
-                    <p class="services-card-text">
-                        A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
-                    </p> -->
-
-                    <a href="#" class="services-btn">
-                        Know More <span class="services-arrow">↗</span>
-                    </a>
-                </div>
-
-                <!-- Service 2 -->
-                <div class="services-card">
-                    <div class="services-card-image">
-                        <img src="assets/images/services/Landscape Design.png" alt="Landscape Design">
-                    </div>
-
-                    <h3 class="services-card-title">Landscape Design</h3>
-
-                    <!-- <p class="services-card-text">
-                        A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
-                    </p> -->
-
-                    <a href="#" class="services-btn">
-                        Know More <span class="services-arrow">↗</span>
-                    </a>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="services-card">
-                    <div class="services-card-image">
-                        <img src="assets/images/services/Urban Design.png" alt="Urban Design">
-                    </div>
-
-                    <h3 class="services-card-title">Urban Design</h3>
-
-                    <!-- <p class="services-card-text">
-                        A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
-                    </p> -->
-
-                    <a href="#" class="services-btn">
-                        Know More <span class="services-arrow">↗</span>
-                    </a>
-                </div>
-
-                <!-- Service 4 -->
-                <div class="services-card">
-                    <div class="services-card-image">
-                        <img src="assets/images/services/Sustainable Future.png" alt="Towards a Sustainable Future">
-                    </div>
-
-                    <h3 class="services-card-title">Towards a Sustainable Future!</h3>
-
-                    <!-- <p class="services-card-text">
-                        A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
-                    </p> -->
-
-                    <a href="#" class="services-btn">
-                        Know More <span class="services-arrow">↗</span>
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="services-controls">
-            <button class="services-nav-btn services-prev-btn" id="servicesPrevBtn">
-                &lsaquo; Previous
-            </button>
-
-            <div class="services-dots" id="servicesDotsContainer"></div>
-
-            <button class="services-nav-btn services-next-btn" id="servicesNextBtn">
-                Next &rsaquo;
-            </button>
-        </div>
+        <button id="pdNextBtn">Next</button>
 
     </div>
 
-</section>
+
+    <!-- Project Information -->
+
+    <div class="pd-content">
+
+        <h2 id="pdTitle">
+            EXPERIENCE DISTRICTS ARE WHERE THE ORDINARY BECOMES REMARKABLE
+        </h2>
+
+        <p id="pdDescription">
+
+            The Marvila Masterplan covers approximately 28 hectares between Marvila and Beato
+            on Lisbon's riverfront. Developed by MVRDV and OODA, in collaboration with
+            local landscape architects and Thornton Tomasetti, the plan defines a new urban
+            and landscape framework for one of the largest regeneration projects currently
+            under development in the city.
+
+        </p>
+
+    </div>
 
 
 
+    <!-- Google Map -->
+
+    <div class="pd-map">
+
+        <h4>Project Location</h4>
+
+        <iframe
+            id="pdMap"
+            src="https://www.google.com/maps/embed?pb="
+            loading="lazy"
+            allowfullscreen>
+        </iframe>
+
+    </div>
 
 
 
-<!-- Mission and vision starts here -->
-<!-- Mission and vision starts here -->
-<!-- Mission and vision starts here -->
-<!-- Mission and vision starts here -->
+    <!-- ===========================================
+         RELATED PROJECTS
+    =========================================== -->
 
-
-      <section class="mission-section">
-
-    <div class="container">
+    <div class="related-projects">
 
         <div class="section-heading">
-            <h2>VISION</h2>
+
+            <h2>RELATED PROJECTS</h2>
+
             <span></span>
+
         </div>
 
-        <div class="mission-wrapper">
 
-        <!-- Vision Image Banner -->
-         <!-- <div class="vision-image-banner">
-         <img src="assets/images/built_projects_dbs.jpg"
-         alt="Architecture Vision"> -->
-        <!-- <div class="vision-image-overlay"></div>
-        <div class="vision-image-content">
-        <h3>Designing Spaces That Inspire</h3>
-        <p>
-            Every project begins with a vision—where architecture meets
-            innovation, sustainability, and timeless design.
-        </p>
-       </div> -->
+        <div class="related-slider">
 
-      </div>
-        
 
-            <!-- Left Video -->
-            <!-- <div class="mission-video">
+            <div id="relatedTrack" class="related-track">
 
-                <video autoplay muted loop playsinline preload="metadata">
-                    <source src="assets/videos/video1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>-->
 
-            
 
-            <!-- Right Content -->
-            <div class="mission-content">
+                <!-- CARD 1 -->
 
-                <!-- <h3>
-                    Building Accessible, Human-Centered Environments for Future Generations —
-                </h3> -->
+                <a href="#" class="related-card active-project"
+                   data-project="villa">
 
-                <p>
-                  To shape buildings and places that simply work—for people and for the life around them. 
-                  We envision cities that are accessible to everyone, filled with sunlight and fresh air, 
-                  where people and nature thrive together, and where the night sky becomes visible again. 
-                  Through thoughtful design, we aim to create environments that support healthier, calmer, and more connected lives.
-                </p>
+                    <img src="https://picsum.photos/seed/villa1/500/400" alt="">
 
-                <div class="mission-btn-wrapper">
-    <a href="#" class="mission-btn">
-        Know More
-        <span>↗</span>
-    </a>
-</div>
+                    <div class="related-content">
+
+                        <h3>Luxury Villa</h3>
+
+                        <p>
+                            Modern luxury villa with breathtaking mountain views.
+                        </p>
+
+                        <span>Know More →</span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- CARD 2 -->
+
+                <a href="#" class="related-card"
+                   data-project="commercial">
+
+                    <img src="https://picsum.photos/seed/commercial1/500/400" alt="">
+
+                    <div class="related-content">
+
+                        <h3>Commercial</h3>
+
+                        <p>
+                            Contemporary commercial development.
+                        </p>
+
+                        <span>Know More →</span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- CARD 3 -->
+
+                <a href="#" class="related-card"
+                   data-project="school">
+
+                    <img src="https://picsum.photos/seed/school1/500/400" alt="">
+
+                    <div class="related-content">
+
+                        <h3>School</h3>
+
+                        <p>
+                            Educational campus with sustainable design.
+                        </p>
+
+                        <span>Know More →</span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- CARD 4 -->
+
+                <a href="#" class="related-card"
+                   data-project="university">
+
+                    <img src="https://picsum.photos/seed/university1/500/400" alt="">
+
+                    <div class="related-content">
+
+                        <h3>University</h3>
+
+                        <p>
+                            Large university master planning project.
+                        </p>
+
+                        <span>Know More →</span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- CARD 5 -->
+
+                <a href="#" class="related-card"
+                   data-project="farmhouse">
+
+                    <img src="https://picsum.photos/seed/farmhouse1/500/400" alt="">
+
+                    <div class="related-content">
+
+                        <h3>Farm House</h3>
+
+                        <p>
+                            Premium farmhouse amidst nature.
+                        </p>
+
+                        <span>Know More →</span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- CARD 6 -->
+
+                <a href="#" class="related-card"
+                   data-project="grouphousing">
+
+                    <img src="https://picsum.photos/seed/grouphousing1/500/400" alt="">
+
+                    <div class="related-content">
+
+                        <h3>Group Housing</h3>
+
+                        <p>
+                            High-density residential development.
+                        </p>
+
+                        <span>Know More →</span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- CARD 7 -->
+
+                <a href="#" class="related-card"
+                   data-project="interior">
+
+                    <img src="https://picsum.photos/seed/interior1/500/400" alt="">
+
+                    <div class="related-content">
+
+                        <h3>Interior</h3>
+
+                        <p>
+                            Elegant interior architecture project.
+                        </p>
+
+                        <span>Know More →</span>
+
+                    </div>
+
+                </a>
+
+
 
             </div>
 
         </div>
 
+
+
+        <!-- Related Slider Navigation -->
+
+        <div class="related-nav">
+
+            <button id="relatedPrevBtn">
+
+                Previous
+
+            </button>
+
+            <div id="relatedDots"></div>
+
+            <button id="relatedNextBtn">
+
+                Next
+
+            </button>
+
+        </div>
+
     </div>
 
 </section>
 
 
- <!-- last contact section with video here -->
- <!-- last contact section with video here -->
- <!-- last contact section with video here -->
- <!-- last contact section with video here -->
-
-<section class="build_a_project"> 
-<!-- <section class="video-cta">
-  <div class="video-box">
-    <video autoplay muted loop playsinline>
-      <source src="assets/videos/video1.mp4" type="video/mp4">
-    </video>
-  </div>
-</section> -->
-
-<section id="lets-build">
-    <img src="assets/images/built_projects_dbs.jpg"
-         alt="Architecture">
-</section>
-
-<section>
-  <div class="cta-content">
-    <h2>Let's Build Something Worth<br>Remembering.</h2>
-
-    <p>
-      Consultation Or Project Enquiry — We'd Love To Hear From You.
-    </p>
-
-    <div class="cta-buttons">
-      <a href="#" class="btn-outline">+91 8826532115</a>
-      <a href="contact.php" class="btn-primary">Get In Touch ↗</a>
-    </div>
-  </div>
-</section>
-
-</section>
-
-
-
-
-<section>
-  <Footer>
-<?php include 'includes/footer.php'; ?></Footer>
-</section>
-
+<footer>
+<?php include 'includes/footer.php'; ?>
+</footer>
 
 
 <button id="backToTop" aria-label="Back To Top">
@@ -482,6 +317,6 @@
     </svg>
 </button>
 
-<script src="assets/js/script.js"></script>
+<script src="assets/js/project.js"></script>
 </body>
 </html>
