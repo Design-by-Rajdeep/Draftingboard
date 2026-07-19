@@ -222,7 +222,8 @@ const projects = {
         "assets/images/featured project/Urban_Design/08 Urban Design.png",
         "assets/images/featured project/Urban_Design/09 Urban Design.png",
         "assets/images/featured project/Urban_Design/10 Urban Design.png",
-        "assets/images/featured project/Urban_Design/11 Urban Design.png"
+        "assets/images/featured project/Urban_Design/11 Urban Design.png",
+        "assets/images/featured project/Urban_Design/12 Urban Design.png"
 
         ]
 
