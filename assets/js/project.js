@@ -1,15 +1,6 @@
 /* ============================================================
    PROJECT.JS
-   Combined file — merges:
-     1. project-data.js    (project data object)
-     2. project-slider.js  (hero image slider)
-     3. project-detail.js  (related projects slider + detail loader)
-
-   NOTE: Load order matters and is preserved below.
-   project-slider.js defines window.changeHeroSlider(), which
-   project-detail.js calls when a related card is clicked — so
-   the slider block must stay ahead of the detail block.
-
+  
    ORDER BELOW MATCHES REQUESTED LIST:
      1. Farmhouse
      2. Group Housing
@@ -233,6 +224,25 @@ const projects = {
 
 
 /* ===========================================
+   GET SELECTED PROJECT FROM URL
+=========================================== */
+
+function getSelectedProject() {
+    const params = new URLSearchParams(window.location.search);
+    const key = params.get("project");
+
+    if (key && projects[key]) {
+        return key;
+    }
+
+    return "farmhouse"; // fallback if no/invalid param
+}
+
+const initialProject = getSelectedProject();
+
+
+
+/* ===========================================
    2. PROJECT HERO SLIDER
 =========================================== */
 
@@ -244,7 +254,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const prevBtn = document.getElementById("pdPrevBtn");
     const nextBtn = document.getElementById("pdNextBtn");
 
-    let currentProject = "farmhouse";
+    let currentProject = initialProject;
     let currentSlide = 0;
     let autoSlide;
 
@@ -465,7 +475,7 @@ document.addEventListener("DOMContentLoaded", () => {
        INITIAL LOAD
     ======================================= */
 
-    loadHeroSlider("farmhouse");
+     loadHeroSlider(initialProject);
 
 });
 
@@ -509,7 +519,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         card.className = "related-card";
 
-        if (index === 0) {
+       if (key === initialProject) {
             card.classList.add("active-project");
         }
 
@@ -880,7 +890,7 @@ document.addEventListener("DOMContentLoaded", () => {
         INITIAL PROJECT
     ====================================*/
 
-    loadProject("farmhouse");
+     loadProject(initialProject);
 
     /* ==========================================================
        PROJECT DETAIL

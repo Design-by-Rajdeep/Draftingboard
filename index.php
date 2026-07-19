@@ -127,7 +127,7 @@
             alt="Modern facade building">
           </div>
           <p class="fp-card-text">Farmhouse <br><span>A Countryside Retreat</span></p>
-          <a href="project_detail.php" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+          <a href="project_detail.php?project=farmhouse" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
         <div class="fp-card">
@@ -135,7 +135,7 @@
              <img src="assets/images/featured project/group_housing.png" alt="Modern house with pergola">
           </div>
           <p class="fp-card-text">Group Housing<br><span>Reviving Community Living</span></p>
-          <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+          <a href="project_detail.php?project=grouphousing" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
         <div class="fp-card">
@@ -143,7 +143,7 @@
                <img src="assets/images/featured project/Commercial Cover.png" alt="Commercial building exterior">
           </div>
           <p class="fp-card-text">Commercial Building<br><span>Reimagining the Urban Workplace</span></p>
-          <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+          <a href="project_detail.php?project=commercial" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
         <div class="fp-card">
@@ -151,7 +151,7 @@
                <img src="assets/images/featured project/primary_school.png" alt="Primary school building">
           </div>
           <p class="fp-card-text">Primary School<br><span>Learning Beyond the Classroom</span></p>
-          <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+          <a href="project_detail.php?project=school" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
         <div class="fp-card">
@@ -159,7 +159,7 @@
                <img src="assets/images/featured project/Villa Cover.png" alt="Modern villa exterior design">
           </div>
           <p class="fp-card-text">Villa<br><span>Modern Living, Rooted in Community</span></p>
-          <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+          <a href="project_detail.php?project=villa" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
         <div class="fp-card">
@@ -167,7 +167,7 @@
                <img src="assets/images/featured project/bhowali_cover.png" alt="Bhowali Resort exterior design">
           </div>
          <p class="fp-card-text">Bhowali Resort<br><span>Designing Around the View</span></p>
-          <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+         <a href="project_detail.php?project=bhowaliresort" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
         <div class="fp-card">
@@ -175,7 +175,7 @@
                <img src="assets/images/featured project/urban_design.png" alt="Urban Design">
           </div>
           <p class="fp-card-text">Urban Design<br><span>Reimagining the Urban Marketplace</span></p>
-          <a href="#" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+          <a href="project_detail.php?project=urbandesign" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
       </div>
