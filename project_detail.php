@@ -123,7 +123,7 @@
                             Modern luxury villa with breathtaking mountain views.
                         </p>
 
-                        <span>Know More →</span>
+                        <span>Know More ↗</span>
 
                     </div>
 
@@ -146,7 +146,7 @@
                             Contemporary commercial development.
                         </p>
 
-                        <span>Know More →</span>
+                        <span>Know More ↗</span>
 
                     </div>
 
@@ -169,7 +169,7 @@
                             Educational campus with sustainable design.
                         </p>
 
-                        <span>Know More →</span>
+                        <span>Know More ↗</span>
 
                     </div>
 
@@ -192,7 +192,7 @@
                             Large university master planning project.
                         </p>
 
-                        <span>Know More →</span>
+                        <span>Know More ↗</span>
 
                     </div>
 
@@ -215,7 +215,7 @@
                             Premium farmhouse amidst nature.
                         </p>
 
-                        <span>Know More →</span>
+                        <span>Know More ↗</span>
 
                     </div>
 
@@ -238,7 +238,7 @@
                             High-density residential development.
                         </p>
 
-                        <span>Know More →</span>
+                        <span>Know More ↗</span>
 
                     </div>
 
@@ -262,7 +262,7 @@
                             Elegant interior architecture project.
                         </p>
 
-                        <span>Know More →</span>
+                        <span>Know More ↗</span>
 
                     </div>
 
