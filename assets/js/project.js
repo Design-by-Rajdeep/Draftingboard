@@ -47,6 +47,10 @@ const projects = {
         "assets/images/featured project/farmhouse/farmhouse_exit.png",
         "assets/images/featured project/farmhouse/Farmhouse Cover.png",
         "assets/images/featured project/farmhouse/farmhouse_exit _6.png",
+        "assets/images/featured project/farmhouse/farmhouse_exit.png",
+        "assets/images/featured project/farmhouse/Farmhouse Cover.png",
+        "assets/images/featured project/farmhouse/farmhouse_exit _6.png",
+        "assets/images/featured project/farmhouse/farmhouse_exit.png",
         "assets/images/featured project/farmhouse/farmhouse_exit _7.png"
 
         ]
@@ -99,16 +103,15 @@ const projects = {
         images: [
 
         "assets/images/featured project/Commercial/Commercial Cover.png",
-        "assets/images/featured project/Commercial/01 Commercial.png",
-        "assets/images/featured project/Commercial/02 Commercial.png",
-        "assets/images/featured project/Commercial/03 Commercial.png",
-        "assets/images/featured project/Commercial/04 Commercial.png",
-        "assets/images/featured project/Commercial/05 Commercial.png",
-        "assets/images/featured project/Commercial/06 Commercial.png",
-        "assets/images/featured project/Commercial/07 Commercial.png",
-        "assets/images/featured project/Commercial/08 Commercial.png",
-        "assets/images/featured project/Commercial/09 Commercial.png",
-        "assets/images/featured project/Commercial/10 Commercial.png"
+        "assets/images/featured project/Commercial/01 Commercial_building.png",
+        "assets/images/featured project/Commercial/02 Commercial_building.png",
+        "assets/images/featured project/Commercial/03 Commercial_building.png",
+        "assets/images/featured project/Commercial/04 Commercial_building.png",
+        "assets/images/featured project/Commercial/05 Commercial_building.png",
+        "assets/images/featured project/Commercial/06 Commercial_building.png",
+        "assets/images/featured project/Commercial/07 Commercial_building.png",
+        "assets/images/featured project/Commercial/08 Commercial_building.png",
+        "assets/images/featured project/Commercial/09 Commercial_building.png"
 
         ]
 
@@ -128,12 +131,17 @@ const projects = {
 
         images: [
 
-            "https://picsum.photos/seed/school1/1200/700",
-            "https://picsum.photos/seed/school2/1200/700",
-            "https://picsum.photos/seed/school3/1200/700",
-            "https://picsum.photos/seed/school4/1200/700",
-            "https://picsum.photos/seed/school5/1200/700",
-            "https://picsum.photos/seed/school6/1200/700"
+        "assets/images/featured project/School/School Cover.png",
+        "assets/images/featured project/School/1. Student Entry.png",
+        "assets/images/featured project/School/2. Courtyard View.png",
+        "assets/images/featured project/School/3.Cortyard View 2.png",
+        "assets/images/featured project/School/4.Courtyard 4.png",
+        "assets/images/featured project/School/7. Agriculture.png",
+        "assets/images/featured project/School/10. Angle 2.png",
+        "assets/images/featured project/School/11.Front Elevation.png",
+        "assets/images/featured project/School/14. Backside Birdeye.png",
+        "assets/images/featured project/School/21 Classroom Indoor.png",
+        "assets/images/featured project/School/22 Library Indoor.png"
 
         ]
 
@@ -153,12 +161,12 @@ const projects = {
 
         images: [
 
-            "https://picsum.photos/seed/villa1/1200/700",
-            "https://picsum.photos/seed/villa2/1200/700",
-            "https://picsum.photos/seed/villa3/1200/700",
-            "https://picsum.photos/seed/villa4/1200/700",
-            "https://picsum.photos/seed/villa5/1200/700",
-            "https://picsum.photos/seed/villa6/1200/700"
+        "assets/images/featured project/Modern Villa/Villa Cover.png",
+        "assets/images/featured project/Modern Villa/02 Villa.png",
+        "assets/images/featured project/Modern Villa/01 Villa.png",
+        "assets/images/featured project/Modern Villa/04 Villa.png",
+        "assets/images/featured project/Modern Villa/05 Villa.png",
+        "assets/images/featured project/Modern Villa/06 Villa.png"
 
         ]
 
@@ -196,19 +204,25 @@ const projects = {
         title: "URBAN DESIGN",
 
         description:
-            "A large-scale urban design masterplan integrating public spaces, green zones, connectivity, and shared amenities into one cohesive city-scale vision.",
+            "test",
 
         map:
             "https://www.google.com/maps/embed?pb=",
 
         images: [
 
-            "https://picsum.photos/seed/university1/1200/700",
-            "https://picsum.photos/seed/university2/1200/700",
-            "https://picsum.photos/seed/university3/1200/700",
-            "https://picsum.photos/seed/university4/1200/700",
-            "https://picsum.photos/seed/university5/1200/700",
-            "https://picsum.photos/seed/university6/1200/700"
+        "assets/images/featured project/Urban_Design/Urban Design cover.png",
+        "assets/images/featured project/Urban_Design/01 Urban Design.png",
+        "assets/images/featured project/Urban_Design/02 Urban Design.png",
+        "assets/images/featured project/Urban_Design/03 Urban Design.png",
+        "assets/images/featured project/Urban_Design/04 Urban Design.png",
+        "assets/images/featured project/Urban_Design/05 Urban Design.png",
+        "assets/images/featured project/Urban_Design/06 Urban Design.png",
+        "assets/images/featured project/Urban_Design/07 Urban Design.png",
+        "assets/images/featured project/Urban_Design/08 Urban Design.png",
+        "assets/images/featured project/Urban_Design/09 Urban Design.png",
+        "assets/images/featured project/Urban_Design/10 Urban Design.png",
+        "assets/images/featured project/Urban_Design/11 Urban Design.png"
 
         ]
 

@@ -29,6 +29,7 @@
             <img src="https://picsum.photos/seed/villa4/1200/700" class="pd-slide" alt="">
             <img src="https://picsum.photos/seed/villa5/1200/700" class="pd-slide" alt="">
             <img src="https://picsum.photos/seed/villa6/1200/700" class="pd-slide" alt="">
+            <img src="https://picsum.photos/seed/villa6/1200/700" class="pd-slide" alt="">
 
         </div>
 
@@ -250,7 +251,8 @@
                 <a href="#" class="related-card"
                    data-project="interior">
 
-                    <img src="https://picsum.photos/seed/interior1/500/400" alt="">
+
+                    <img src="https://picsum.photos/seed/grouphousing1/500/400" alt="">
 
                     <div class="related-content">
 
