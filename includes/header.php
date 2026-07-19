@@ -37,7 +37,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     <a href="<?= $currentPage == 'index.php'
         ? '#f-projects_section'
         : 'index.php#f-projects_section'; ?>"
-       class="<?= $currentPage == 'index.php' ? 'inactive' : '' ?>">
+       class="<?= $currentPage == 'project_detail.php' ? 'active' : '' ?>">
         Projects
     </a>
 </li>
