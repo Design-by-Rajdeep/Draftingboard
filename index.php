@@ -408,10 +408,10 @@
                 </p>
 
                 <div class="mission-btn-wrapper">
-    <a href="#" class="mission-btn">
+    <!-- <a href="#" class="mission-btn">
         Know More
         <span>↗</span>
-    </a>
+    </a> -->
 </div>
 
             </div>

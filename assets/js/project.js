@@ -9,6 +9,15 @@
    project-slider.js defines window.changeHeroSlider(), which
    project-detail.js calls when a related card is clicked — so
    the slider block must stay ahead of the detail block.
+
+   ORDER BELOW MATCHES REQUESTED LIST:
+     1. Farmhouse
+     2. Group Housing
+     3. Commercial Building
+     4. Primary School
+     5. Villa
+     6. Bhowali Resort
+     7. Urban Design
 ============================================================ */
 
 
@@ -18,24 +27,58 @@
 
 const projects = {
 
-    villa: {
+    farmhouse: {
 
-        title: "LUXURY VILLA",
+        title: "FARMHOUSE",
 
         description:
-            "A premium residential villa designed with contemporary architecture, open living spaces, abundant natural light, and seamless indoor-outdoor connectivity. The project blends elegance, functionality, and sustainability while offering panoramic views and luxurious living experiences.",
+            "Designed as a peaceful countryside retreat, this farmhouse celebrates a close connection with nature. The layout is planned to ensure that every room enjoys views of the surrounding greenery, creating bright, open spaces that feel connected to the landscape throughout the day."+
+"Large openings and carefully planned spaces strengthen the visual connection between the indoors and outdoors, while cross ventilation in every room keeps the interiors naturally cool and comfortable. A small internal courtyard brings in natural light and fresh air, improving comfort without excessive heat."+
+"Privacy is enhanced through jali screens around the private areas. These screens filter sunlight, allow cool breezes to pass through, and add character to the façade. Outdoor decks are placed next to the living room, dining area, bedrooms, and gym, creating comfortable spaces for dining, reading, yoga, or simply enjoying the outdoors."+
+"Finished in warm, earthy tones, the farmhouse blends naturally with its surroundings, offering a calm and comfortable living experience inspired by the simplicity of countryside life."
+,
 
         map:
             "https://www.google.com/maps/embed?pb=",
 
         images: [
 
-            "https://picsum.photos/seed/villa1/1200/700",
-            "https://picsum.photos/seed/villa2/1200/700",
-            "https://picsum.photos/seed/villa3/1200/700",
-            "https://picsum.photos/seed/villa4/1200/700",
-            "https://picsum.photos/seed/villa5/1200/700",
-            "https://picsum.photos/seed/villa6/1200/700"
+          
+        "assets/images/featured project/farmhouse/farmhouse_exit.png",
+        "assets/images/featured project/farmhouse/Farmhouse Cover.png",
+        "assets/images/featured project/farmhouse/farmhouse_exit _6.png",
+        "assets/images/featured project/farmhouse/farmhouse_exit _7.png"
+
+        ]
+
+    },
+
+
+
+    grouphousing: {
+
+        title: "GROUP HOUSING",
+
+        description:
+            "A thoughtfully planned residential development balancing community living, privacy, green spaces, and efficient circulation while maximizing urban connectivity.",
+
+        map:
+            "https://www.google.com/maps/embed?pb=",
+
+         images: [
+
+          
+        "assets/images/featured project/Group Housing/Group Housing Cover.png",
+        "assets/images/featured project/Group Housing/01 Group Housing.png",
+        "assets/images/featured project/Group Housing/02 Group Housing.png",
+        "assets/images/featured project/Group Housing/03 Group Housing.png",
+        "assets/images/featured project/Group Housing/04 Group Housing.png",
+        "assets/images/featured project/Group Housing/05 Group Housing.png",
+        "assets/images/featured project/Group Housing/06 Group Housing.png",
+        "assets/images/featured project/Group Housing/07 Group Housing.png",
+        "assets/images/featured project/Group Housing/08 Group Housing.png",
+        "assets/images/featured project/Group Housing/09 Group Housing.png",
+        "assets/images/featured project/Group Housing/10 Group Housing.png"
 
         ]
 
@@ -55,12 +98,17 @@ const projects = {
 
         images: [
 
-            "https://picsum.photos/seed/commercial1/1200/700",
-            "https://picsum.photos/seed/commercial2/1200/700",
-            "https://picsum.photos/seed/commercial3/1200/700",
-            "https://picsum.photos/seed/commercial4/1200/700",
-            "https://picsum.photos/seed/commercial5/1200/700",
-            "https://picsum.photos/seed/commercial6/1200/700"
+        "assets/images/featured project/Commercial/Commercial Cover.png",
+        "assets/images/featured project/Commercial/01 Commercial.png",
+        "assets/images/featured project/Commercial/02 Commercial.png",
+        "assets/images/featured project/Commercial/03 Commercial.png",
+        "assets/images/featured project/Commercial/04 Commercial.png",
+        "assets/images/featured project/Commercial/05 Commercial.png",
+        "assets/images/featured project/Commercial/06 Commercial.png",
+        "assets/images/featured project/Commercial/07 Commercial.png",
+        "assets/images/featured project/Commercial/08 Commercial.png",
+        "assets/images/featured project/Commercial/09 Commercial.png",
+        "assets/images/featured project/Commercial/10 Commercial.png"
 
         ]
 
@@ -70,7 +118,7 @@ const projects = {
 
     school: {
 
-        title: "SCHOOL CAMPUS",
+        title: "PRIMARY SCHOOL",
 
         description:
             "A modern educational campus focusing on open learning spaces, environmental sustainability, and student interaction through thoughtful planning and contemporary architectural design.",
@@ -93,12 +141,62 @@ const projects = {
 
 
 
-    university: {
+    villa: {
 
-        title: "UNIVERSITY MASTERPLAN",
+        title: "VILLA",
 
         description:
-            "A large-scale university campus integrating academic buildings, public spaces, green zones, sports facilities, and student housing into one cohesive masterplan.",
+            "A premium residential villa designed with contemporary architecture, open living spaces, abundant natural light, and seamless indoor-outdoor connectivity. The project blends elegance, functionality, and sustainability while offering panoramic views and luxurious living experiences.",
+
+        map:
+            "https://www.google.com/maps/embed?pb=",
+
+        images: [
+
+            "https://picsum.photos/seed/villa1/1200/700",
+            "https://picsum.photos/seed/villa2/1200/700",
+            "https://picsum.photos/seed/villa3/1200/700",
+            "https://picsum.photos/seed/villa4/1200/700",
+            "https://picsum.photos/seed/villa5/1200/700",
+            "https://picsum.photos/seed/villa6/1200/700"
+
+        ]
+
+    },
+
+
+
+    bhowaliresort: {
+
+        title: "BHOWALI RESORT",
+
+        description:
+            "An elegant resort project emphasizing premium finishes, immersive interiors, lighting, and sophisticated material selection set within a scenic retreat setting.",
+
+        map:
+            "https://www.google.com/maps/embed?pb=",
+
+        images: [
+
+         
+        "assets/images/featured project/Bhowali/Bhowali Cover.png",
+        "assets/images/featured project/Bhowali/02 Bhowali.png",
+        "assets/images/featured project/Bhowali/09. Street View.png",
+        "assets/images/featured project/Bhowali/03Bhowali.png"
+
+
+        ]
+
+    },
+
+
+
+    urbandesign: {
+
+        title: "URBAN DESIGN",
+
+        description:
+            "A large-scale urban design masterplan integrating public spaces, green zones, connectivity, and shared amenities into one cohesive city-scale vision.",
 
         map:
             "https://www.google.com/maps/embed?pb=",
@@ -111,81 +209,6 @@ const projects = {
             "https://picsum.photos/seed/university4/1200/700",
             "https://picsum.photos/seed/university5/1200/700",
             "https://picsum.photos/seed/university6/1200/700"
-
-        ]
-
-    },
-
-
-
-    farmhouse: {
-
-        title: "FARM HOUSE",
-
-        description:
-            "A countryside retreat designed to create a peaceful living environment with natural materials, expansive landscapes, and modern comforts integrated into nature.",
-
-        map:
-            "https://www.google.com/maps/embed?pb=",
-
-        images: [
-
-            "https://picsum.photos/seed/farmhouse1/1200/700",
-            "https://picsum.photos/seed/farmhouse2/1200/700",
-            "https://picsum.photos/seed/farmhouse3/1200/700",
-            "https://picsum.photos/seed/farmhouse4/1200/700",
-            "https://picsum.photos/seed/farmhouse5/1200/700",
-            "https://picsum.photos/seed/farmhouse6/1200/700"
-
-        ]
-
-    },
-
-
-
-    grouphousing: {
-
-        title: "GROUP HOUSING",
-
-        description:
-            "A thoughtfully planned residential development balancing community living, privacy, green spaces, and efficient circulation while maximizing urban connectivity.",
-
-        map:
-            "https://www.google.com/maps/embed?pb=",
-
-        images: [
-
-            "https://picsum.photos/seed/grouphousing1/1200/700",
-            "https://picsum.photos/seed/grouphousing2/1200/700",
-            "https://picsum.photos/seed/grouphousing3/1200/700",
-            "https://picsum.photos/seed/grouphousing4/1200/700",
-            "https://picsum.photos/seed/grouphousing5/1200/700",
-            "https://picsum.photos/seed/grouphousing6/1200/700"
-
-        ]
-
-    },
-
-
-
-    interior: {
-
-        title: "INTERIOR DESIGN",
-
-        description:
-            "An elegant interior design project emphasizing premium finishes, lighting, furniture integration, spatial harmony, and sophisticated material selection.",
-
-        map:
-            "https://www.google.com/maps/embed?pb=",
-
-        images: [
-
-            "https://picsum.photos/seed/interior1/1200/700",
-            "https://picsum.photos/seed/interior2/1200/700",
-            "https://picsum.photos/seed/interior3/1200/700",
-            "https://picsum.photos/seed/interior4/1200/700",
-            "https://picsum.photos/seed/interior5/1200/700",
-            "https://picsum.photos/seed/interior6/1200/700"
 
         ]
 
@@ -206,7 +229,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const prevBtn = document.getElementById("pdPrevBtn");
     const nextBtn = document.getElementById("pdNextBtn");
 
-    let currentProject = "villa";
+    let currentProject = "farmhouse";
     let currentSlide = 0;
     let autoSlide;
 
@@ -427,7 +450,7 @@ document.addEventListener("DOMContentLoaded", () => {
        INITIAL LOAD
     ======================================= */
 
-    loadHeroSlider("villa");
+    loadHeroSlider("farmhouse");
 
 });
 
@@ -842,7 +865,7 @@ document.addEventListener("DOMContentLoaded", () => {
         INITIAL PROJECT
     ====================================*/
 
-    loadProject("villa");
+    loadProject("farmhouse");
 
     /* ==========================================================
        PROJECT DETAIL
