@@ -37,7 +37,7 @@
 /* Middle Menu Links (Centered perfectly relative to .navbar container) */
 .nav-links {
   position: absolute;
-  left: 50%;
+  left: 82%;
   transform: translateX(-50%);
   display: flex;
   gap: 36px;

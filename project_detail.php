@@ -68,21 +68,21 @@
     </div>
 
 
+    
+<!-- Concept Image -->
 
-    <!-- Google Map -->
+<div class="pd-map">
 
-    <div class="pd-map">
+    <h4>Concept Image</h4>
 
-        <h4>Project Location</h4>
+    <img
+        id="pdMap"
+        class="pd-concept-img"
+        src=""
+        alt="Concept Image"
+        loading="lazy">
 
-        <iframe
-            id="pdMap"
-            src="https://www.google.com/maps/embed?pb="
-            loading="lazy"
-            allowfullscreen>
-        </iframe>
-
-    </div>
+</div>
 
 
 

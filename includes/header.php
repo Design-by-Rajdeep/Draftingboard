@@ -63,9 +63,9 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         </a>
     </li>
 
-    <li class="mobile-cta-li">
+    <!-- <li class="mobile-cta-li">
         <a href="contact.php" class="nav-cta-btn">Connect Me</a>
-    </li>
+    </li> -->
 </ul>
 
 
@@ -73,6 +73,6 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
 
     <!-- Right Side Desktop CTA Button -->
-    <a href="contact.php" class="nav-cta-btn desktop-cta">Connect Me</a>
+    <!-- <a href="contact.php" class="nav-cta-btn desktop-cta">Connect Me</a> -->
   </div>
 </header>
