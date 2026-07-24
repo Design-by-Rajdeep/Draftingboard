@@ -71,8 +71,8 @@
     
 <!-- Concept Image -->
 
-<div class="pd-map">
-
+<!-- <div class="pd-map">
+<div class="Concept_image">
     <h4>Concept Image</h4>
 
     <img
@@ -81,10 +81,22 @@
         src=""
         alt="Concept Image"
         loading="lazy">
-
 </div>
+</div> -->
 
+<!-- Concept Image -->
+<div class="pd-map">
+    <div class="Concept_image">
+        <h4>Concept Image</h4>
 
+        <img
+            id="pdMap"
+            class="pd-concept-img"
+            src=""
+            alt="Concept Image"
+            loading="lazy">
+    </div>
+</div>
 
     <!-- ===========================================
          RELATED PROJECTS

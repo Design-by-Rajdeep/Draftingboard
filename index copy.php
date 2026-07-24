@@ -269,7 +269,7 @@
                         A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
                     </p> -->
 
-                    <a href="service.php#architectural-design" class="services-btn">
+                    <a href="#" class="services-btn">
                         Know More <span class="services-arrow">↗</span>
                     </a>
                 </div>
@@ -286,7 +286,7 @@
                         A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
                     </p> -->
 
-                    <a href="service.php#landscape-design" class="services-btn">
+                    <a href="#" class="services-btn">
                         Know More <span class="services-arrow">↗</span>
                     </a>
                 </div>
@@ -303,7 +303,7 @@
                         A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
                     </p> -->
 
-                    <a href="service.php#urban-design" class="services-btn">
+                    <a href="#" class="services-btn">
                         Know More <span class="services-arrow">↗</span>
                     </a>
                 </div>
@@ -320,7 +320,7 @@
                         A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
                     </p> -->
 
-                    <a href="service.php#sustainable-future" class="services-btn">
+                    <a href="#" class="services-btn">
                         Know More <span class="services-arrow">↗</span>
                     </a>
                 </div>

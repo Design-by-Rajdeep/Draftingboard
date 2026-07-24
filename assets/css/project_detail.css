@@ -162,13 +162,38 @@ section {
 
 }
 
-#pdMap{
+/* #pdMap{
 
     width:100%;
     height:520px;
 
     border:none;
 
+} */
+.pd-map{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin:50px auto;
+}
+
+.Concept_image{
+    width:100%;
+    max-width:1200px;
+    text-align:center;
+}
+
+.Concept_image h4{
+    margin-bottom:20px;
+}
+
+.pd-concept-img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:0 auto;
+    border-radius:16px;
 }
 
 /*==========================================
