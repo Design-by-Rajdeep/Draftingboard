@@ -1376,7 +1376,7 @@ MOBILE
 .build_a_project{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: space-between;
   width: 100%;
   height:auto;
   background: #ebe9e8;
@@ -1386,7 +1386,7 @@ MOBILE
 
 #lets-build{
     overflow: hidden;
-    border-radius: 14px;
+    border-radius: 0px;
 }
 
 #lets-build img{
@@ -1395,13 +1395,13 @@ MOBILE
     margin-top: 0px;
     object-fit:cover;         /* Keeps the full image visible */
     display: block;
-    border-radius: 14px;
+    border-radius: 0px;
     transition: transform .8s ease, filter .8s ease;
 }
 
 /* Hover Effect */
 #lets-build:hover img{
-    transform: scale(1.06);
+    transform: scale(1);
     filter: brightness(1.05);
 }
 
@@ -1470,18 +1470,21 @@ MOBILE
 
 .btn-primary {
     background: #ec7654;
+    background: #ee5149;
     color: #fff;
 }
 
-.btn-outline {
+.btn-outline:hover {
     border: 1px solid #ee5149;
     color: #fff;
 }
-
-.btn-primary:hover,
-.btn-outline:hover {
+.btn-outline {
+    border: 1px solid #ee5149;
+    color: #ee5149;
+}
+.btn-primary:hover{
     background: #ee5149;
-    border-color: #ec7654;
+    border-color: #ffffff;
 }
 
 /* ================= Tablet ================= */
