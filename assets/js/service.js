@@ -27,17 +27,9 @@ const services = {
             "From concept to construction, our approach blends aesthetics with practicality " +
             "to deliver buildings that stand the test of time.",
 
-        conceptImage: [
-
-        "assets/images/services/architectural_design/Concept.jpg"
-
-        ],
-
         images: [
 
-        "assets/images/services/architectural_design/cover.png",
-        "assets/images/services/architectural_design/01.png",
-        "assets/images/services/architectural_design/02.png"
+        "assets/images/services/Architecture_DBS.png",
 
         ]
 
@@ -56,17 +48,9 @@ const services = {
             "thoughtful hardscaping, and climate-responsive strategies to create spaces that " +
             "thrive over time.",
 
-        conceptImage: [
-
-        "assets/images/services/landscape_design/Concept.jpg"
-
-        ],
-
         images: [
 
-        "assets/images/services/landscape_design/cover.png",
-        "assets/images/services/landscape_design/01.png",
-        "assets/images/services/landscape_design/02.png"
+        "assets/images/services/Landscape_DBS.png",
 
         ]
 
@@ -84,17 +68,9 @@ const services = {
             "life together, creating streets, plazas, and districts that stay active and safe " +
             "throughout the day rather than after office hours alone.",
 
-        conceptImage: [
-
-        "assets/images/services/urban_design/Concept.jpg"
-
-        ],
-
         images: [
 
-        "assets/images/services/urban_design/cover.png",
-        "assets/images/services/urban_design/01.png",
-        "assets/images/services/urban_design/02.png"
+        "assets/images/services/Urban Design_DBS.png",
 
         ]
 
@@ -112,17 +88,9 @@ const services = {
             "into every project, reducing environmental impact while creating healthier, more " +
             "comfortable spaces for the people who live and work in them.",
 
-        conceptImage: [
-
-        "assets/images/services/sustainable_future/Concept.jpg"
-
-        ],
-
         images: [
 
-        "assets/images/services/sustainable_future/cover.png",
-        "assets/images/services/sustainable_future/01.png",
-        "assets/images/services/sustainable_future/02.png"
+        "assets/images/services/Sustainability_DBS.png",
 
         ]
 
@@ -141,17 +109,9 @@ const services = {
             "selection to furniture layout, every detail is considered to create a cohesive " +
             "and comfortable experience.",
 
-        conceptImage: [
-
-        "assets/images/services/interior/Concept.jpg"
-
-        ],
-
         images: [
 
-        "assets/images/services/interior/cover.png",
-        "assets/images/services/interior/01.png",
-        "assets/images/services/interior/02.png"
+        "assets/images/services/Interior_DBS.png",
 
         ]
 
@@ -721,7 +681,7 @@ document.addEventListener("DOMContentLoaded", () => {
        - Update Hero Slider
        - Update Title
        - Update Description
-       - Update Concept Image
+       - Update Hero Content
        - Active Service
        - Smooth Scroll
     ========================================================== */
@@ -734,8 +694,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const title = document.getElementById("msTitle");
 
     const description = document.getElementById("msDescription");
-
-    const conceptImage = document.getElementById("msConceptImg");
 
 
     /*====================================
@@ -770,27 +728,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
         description.style.opacity = 0;
 
-        /*--------------------------
-            Concept Image
-        ---------------------------*/
-
-        conceptImage.style.opacity = 0;
-
         setTimeout(()=>{
 
             title.textContent = service.title;
 
             description.textContent = service.description;
 
-            conceptImage.src =
-                (service.conceptImage && service.conceptImage[0]) ||
-                service.images[0];
-
             title.style.opacity = 1;
 
             description.style.opacity = 1;
-
-            conceptImage.style.opacity = 1;
 
         },300);
 
@@ -870,7 +816,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         title.style.transition = ".35s";
         description.style.transition = ".35s";
-        conceptImage.style.transition = ".35s";
 
     }
 
@@ -999,5 +944,27 @@ document.addEventListener("DOMContentLoaded", () => {
     /*====================================
         END
     ====================================*/
+
+});
+
+
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 400) {
+        backToTop.classList.add("show");
+    } else {
+        backToTop.classList.remove("show");
+    }
+
+});
+
+backToTop.addEventListener("click", () => {
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 
 });

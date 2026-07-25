@@ -23,9 +23,9 @@
 
         <div class="ms-slides">
 
-            <img src="https://picsum.photos/seed/service1/1200/700" class="ms-slide active" alt="">
-            <img src="https://picsum.photos/seed/service2/1200/700" class="ms-slide" alt="">
-            <img src="https://picsum.photos/seed/service3/1200/700" class="ms-slide" alt="">
+            <img src="https://source.unsplash.com/1600x900/?modern,architecture&sig=1" class="ms-slide active" alt="">
+            <img src="https://source.unsplash.com/1600x900/?architecture,building&sig=2" class="ms-slide" alt="">
+            <img src="https://source.unsplash.com/1600x900/?architecture,design&sig=3" class="ms-slide" alt="">
 
         </div>
 
@@ -61,20 +61,6 @@
     </div>
 
 
-    <!-- Concept Image -->
-    <div class="ms-map">
-        <div class="my_services_concept_image">
-            <h4>Concept Image</h4>
-
-            <img
-                id="msConceptImg"
-                class="ms-concept-img"
-                src=""
-                alt="Concept Image"
-                loading="lazy">
-        </div>
-    </div>
-
     <!-- ===========================================
          OUR SERVICES
     =========================================== -->
@@ -102,7 +88,7 @@
                 <a href="#" class="service-card active-service"
                    data-service="architecturaldesign">
 
-                    <img src="https://picsum.photos/seed/service1/500/400" alt="">
+                    <img src="https://source.unsplash.com/500x400/?modern,architecture&sig=1" alt="">
 
                     <div class="service-content">
 
@@ -125,7 +111,7 @@
                 <a href="#" class="service-card"
                    data-service="landscapedesign">
 
-                    <img src="https://picsum.photos/seed/service2/500/400" alt="">
+                    <img src="https://source.unsplash.com/500x400/?landscape,garden&sig=4" alt="">
 
                     <div class="service-content">
 
@@ -148,7 +134,7 @@
                 <a href="#" class="service-card"
                    data-service="urbandesign">
 
-                    <img src="https://picsum.photos/seed/service3/500/400" alt="">
+                    <img src="https://source.unsplash.com/500x400/?urban,city&sig=7" alt="">
 
                     <div class="service-content">
 
@@ -171,7 +157,7 @@
                 <a href="#" class="service-card"
                    data-service="sustainablefuture">
 
-                    <img src="https://picsum.photos/seed/service4/500/400" alt="">
+                    <img src="https://source.unsplash.com/500x400/?sustainable,green,architecture&sig=10" alt="">
 
                     <div class="service-content">
 
@@ -179,6 +165,29 @@
 
                         <p>
                             Climate-responsive design practices for a better tomorrow.
+                        </p>
+
+                        <span>Know More ↗</span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- CARD 5 -->
+
+                <a href="#" class="service-card"
+                   data-service="interiordesign">
+
+                    <img src="https://source.unsplash.com/500x400/?interior,design&sig=13" alt="">
+
+                    <div class="service-content">
+
+                        <h3>Interior</h3>
+
+                        <p>
+                            Interiors shaped by material, light, and everyday comfort.
                         </p>
 
                         <span>Know More ↗</span>

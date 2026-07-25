@@ -260,7 +260,7 @@
                 <!-- Service 1 -->
                 <div class="services-card">
                     <div class="services-card-image">
-                        <img src="assets/images/services/Architectural Design.png" alt="Architectural Design">
+                        <img src="assets/images/services/Architecture_DBS.png" alt="Architectural Design">
                     </div>
 
                     <h3 class="services-card-title">Architectural Design</h3>
@@ -277,7 +277,7 @@
                 <!-- Service 2 -->
                 <div class="services-card">
                     <div class="services-card-image">
-                        <img src="assets/images/services/Landscape Design.png" alt="Landscape Design">
+                        <img src="assets/images/services/Landscape_DBS.png" alt="Landscape Design">
                     </div>
 
                     <h3 class="services-card-title">Landscape Design</h3>
@@ -294,7 +294,7 @@
                 <!-- Service 3 -->
                 <div class="services-card">
                     <div class="services-card-image">
-                        <img src="assets/images/services/Urban Design.png" alt="Urban Design">
+                        <img src="assets/images/services/Urban Design_DBS.png" alt="Urban Design">
                     </div>
 
                     <h3 class="services-card-title">Urban Design</h3>
@@ -311,7 +311,7 @@
                 <!-- Service 4 -->
                 <div class="services-card">
                     <div class="services-card-image">
-                        <img src="assets/images/services/Sustainable Future.png" alt="Towards a Sustainable Future">
+                        <img src="assets/images/services/Sustainability_DBS.png" alt="Towards a Sustainable Future">
                     </div>
 
                     <h3 class="services-card-title">Towards a Sustainable Future!</h3>
@@ -327,7 +327,7 @@
          <!-- Service 5 -->
 <div class="services-card">
     <div class="services-card-image">
-        <img src="assets/images/services/Interior.png" alt="Interior">
+        <img src="assets/images/services/Interior_DBS.png" alt="Interior">
     </div>
 
     <h3 class="services-card-title">Interior</h3>

@@ -140,36 +140,6 @@ section {
 }
 
 /*==========================================
- CONCEPT IMAGE
-==========================================*/
-
-.ms-map{
-    width:100%;
-    display:flex;
-    justify-content:center;
-    margin:50px auto;
-}
-
-.my_services_concept_image{
-    width:100%;
-    max-width:1200px;
-    text-align:center;
-}
-
-.my_services_concept_image h4{
-    margin-bottom:20px;
-}
-
-.ms-concept-img{
-    width:100%;
-    max-width:100%;
-    height:auto;
-    display:block;
-    margin:0 auto;
-    border-radius:16px;
-}
-
-/*==========================================
  OUR SERVICES
 ==========================================*/
 .section-heading{
