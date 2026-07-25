@@ -6,6 +6,7 @@
      2. Landscape Design
      3. Urban Design
      4. Towards a Sustainable Future!
+     5. Interior
 ============================================================ */
 
 
@@ -125,6 +126,35 @@ const services = {
 
         ]
 
+    },
+
+
+
+    interiordesign: {
+
+        title: "INTERIOR",
+
+        description:
+            "Our interior design service shapes the spaces people experience every day, " +
+            "balancing material, light, and layout to create interiors that feel warm, " +
+            "functional, and true to the character of the building around them. From material " +
+            "selection to furniture layout, every detail is considered to create a cohesive " +
+            "and comfortable experience.",
+
+        conceptImage: [
+
+        "assets/images/services/interior/Concept.jpg"
+
+        ],
+
+        images: [
+
+        "assets/images/services/interior/cover.png",
+        "assets/images/services/interior/01.png",
+        "assets/images/services/interior/02.png"
+
+        ]
+
     }
 
 };
@@ -140,7 +170,8 @@ const serviceSlugMap = {
     "architectural-design": "architecturaldesign",
     "landscape-design": "landscapedesign",
     "urban-design": "urbandesign",
-    "sustainable-future": "sustainablefuture"
+    "sustainable-future": "sustainablefuture",
+    "interior-design": "interiordesign"
 };
 
 function getSelectedService() {

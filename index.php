@@ -324,6 +324,19 @@
                         Know More <span class="services-arrow">↗</span>
                     </a>
                 </div>
+         <!-- Service 5 -->
+<div class="services-card">
+    <div class="services-card-image">
+        <img src="assets/images/services/Interior.png" alt="Interior">
+    </div>
+
+    <h3 class="services-card-title">Interior</h3>
+
+    <a href="service.php#interior-design" class="services-btn">
+        Know More <span class="services-arrow">↗</span>
+    </a>
+</div>
+                                  
 
             </div>
 
