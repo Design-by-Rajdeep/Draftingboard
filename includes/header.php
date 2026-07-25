@@ -46,7 +46,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
        <a href="<?= $currentPage == 'index.php'
         ? '#services_section'
         : 'index.php#services_section'; ?>"
-       class="<?= $currentPage == 'index.php' ? 'inactive' : '' ?>">
+       class="<?= $currentPage == 'service.php' ? 'inactive' : '' ?>">
         Services
     </a>
     </li>
