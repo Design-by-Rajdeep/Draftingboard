@@ -1,19 +1,33 @@
-const reveal = document.querySelectorAll(".reveal");
+/* ============================================================
+   ABOUT.JS
+============================================================ */
 
-const observer = new IntersectionObserver((entries)=>{
+document.addEventListener("DOMContentLoaded", () => {
 
-entries.forEach(entry=>{
+    /*====================================
+        BACK TO TOP BUTTON
+    ====================================*/
 
-if(entry.isIntersecting){
+    const backToTop = document.getElementById("backToTop");
 
-entry.target.classList.add("active");
+    if (backToTop) {
 
-}
+        window.addEventListener("scroll", () => {
+
+            if (window.scrollY > 400) {
+                backToTop.classList.add("show");
+            } else {
+                backToTop.classList.remove("show");
+            }
+
+        });
+
+        backToTop.addEventListener("click", () => {
+
+            window.scrollTo({ top: 0, behavior: "smooth" });
+
+        });
+
+    }
 
 });
-
-},{
-threshold:.15
-});
-
-reveal.forEach(el=>observer.observe(el));

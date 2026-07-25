@@ -3,79 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - DraftingBoard</title>
-    <!-- Core layout stylesheets -->
+    <title>My Website</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <!-- Page-specific stylesheet -->
     <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
 </head>
+
 <body>
-<script src="assets/js/service.js"></script>
 <?php include 'includes/header.php'; ?>
 
+<!-- ================= ABOUT ================= -->
 
-  <!-- 1. Full-Width Hero Section -->
-<section class="dynamic-hero" id="project-hero" style="background-image: url('assets/images/Commercial_Cover.png');">
-  <div class="hero-overlay"></div>
-</section>
+<section id="about_section">
 
-<!-- 2. Dynamic Content Area (Title, Paragraph, Map) -->
-<section class="dynamic-content-section">
-  <div class="content-container">
-    
-   <section class="founder-section">
+    <div class="about-grid">
 
-    <div class="bg-circle circle1"></div>
-    <div class="bg-circle circle2"></div>
+        <!-- ===========================================
+             ABOUT CONTENT
+        =========================================== -->
 
-    <div class="founder-grid">
+        <div class="about-content">
 
-        <div class="founder-image reveal">
+            <span class="about-eyebrow">About</span>
 
-            <img src="images/founder.jpg" alt="R.D. Sen">
+            <h1 class="about-name">Sachin Goyal</h1>
+
+            <p class="about-role">Architect &nbsp;|&nbsp; Urbanist &nbsp;|&nbsp; Sustainability Consultant</p>
+
+            <span class="about-badge">Independent Practice · One Architect, Every Project</span>
+
+            <div class="about-story">
+
+                <h3>Story of Drafting Board &nbsp;—</h3>
+
+                <p>
+                    "Drafting Board" is a name that is both intriguing and playful.
+                    Architects and planners have historically spent much of their time at
+                    the drafting board, whether it's the traditional physical board or
+                    modern digital platforms like CAD and Rhino. Regardless of the medium,
+                    the essence remains the same: ideas are translated onto a flat surface,
+                    sketched out with lines and curves. It's a creative space where concepts
+                    take form, evolving from mere thoughts into tangible designs.
+                </p>
+
+                <p>
+                    I run Drafting Board as a solo practice by choice. Every project that
+                    comes through this studio is designed, developed, and detailed by me
+                    directly — there's no hand-off between a "senior architect" and a team
+                    of juniors along the way. From the first sketch to the final drawing set,
+                    you're working with the same person throughout, which means fewer
+                    miscommunications, more accountability, and a design that stays true to
+                    the idea it started as.
+                </p>
+
+            </div>
 
         </div>
 
-        <div class="founder-content reveal">
 
-            <span class="section-title">
-                Founder
-            </span>
+        <!-- ===========================================
+             PHOTO
+        =========================================== -->
 
-            <h2>
-                R.D. Sen
-            </h2>
+        <div class="about-image-wrap">
 
-            <h4>
-                Architect • Designer • Visionary
-            </h4>
-
-            <div class="line"></div>
-
-            <p>
-
-                I believe architecture should create experiences rather than
-                simply occupy land. Every project begins by understanding
-                how people interact with space, light, nature, and one
-                another.
-
-            </p>
-
-            <p>
-
-                My approach combines timeless aesthetics with practical
-                functionality, resulting in buildings that remain relevant,
-                efficient, and inspiring for generations.
-
-            </p>
-
-            <a href="contact.html" class="btn-outline">
-
-                Let's Talk
-
-            </a>
+            <img
+                src="assets/images/Sachin Goyal.png"
+                alt="Sachin Goyal, Architect at Drafting Board"
+                class="about-photo"
+                loading="lazy">
 
         </div>
 
@@ -84,52 +82,24 @@
 </section>
 
 
-
-<section class="vision-section">
-
-    <span class="section-title reveal">
-
-        My Vision
-
-    </span>
-
-    <h2 class="reveal">
-
-        Designing spaces that
-        improve everyday life.
-
-    </h2>
-
-    <p class="reveal">
-
-        Great architecture should make life simpler,
-        healthier and more meaningful. My vision is to
-        create timeless buildings where natural light,
-        sustainability and thoughtful planning come
-        together to enrich everyday living.
-
-    </p>
-
-</section>
-
-  
-
-  </div>
-</section>
-
-
-
-<!-- GLOBAL SITE FOOTER -->
+<footer>
 <?php include 'includes/footer.php'; ?>
+</footer>
 
-<!-- Back to Top System Button -->
+
 <button id="backToTop" aria-label="Back To Top">
-    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <svg xmlns="http://www.w3.org/2000/svg"
+         width="22"
+         height="22"
+         viewBox="0 0 24 24"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2">
         <path d="M12 19V5"/>
         <path d="M5 12l7-7 7 7"/>
     </svg>
 </button>
 
-<script src="assets/js/script.js"></script>
+<script src="assets/js/about.js"></script>
 </body>
 </html>
