@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/service.css">
     <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/service.css">
     <link rel="stylesheet" href="assets/css/footer.css">
 
 </head>
@@ -15,62 +14,215 @@
 <body>
 <?php include 'includes/header.php'; ?>
 
+<!-- ================= MY SERVICES ================= -->
 
- <!-- ==========================================
-     PROVID SERVICES
-========================================== -->
+<section id="my_services">
 
-<section class="provid_services">
-<div class="service_section_heading">
-    <h2>SERVICES</h2>
-    <span></span>
-</div>
-    <!-- Architectural Design -->
-    <div id="architectural-design" class="service-card architectural-design">
-        <div class="service-image">
-            <img src="assets/images/services/Architectural Design.png" alt="Architectural Design">
+    <!-- Hero Slider -->
+    <div class="ms-slider">
+
+        <div class="ms-slides">
+
+            <img src="https://picsum.photos/seed/service1/1200/700" class="ms-slide active" alt="">
+            <img src="https://picsum.photos/seed/service2/1200/700" class="ms-slide" alt="">
+            <img src="https://picsum.photos/seed/service3/1200/700" class="ms-slide" alt="">
+
         </div>
 
-        <h3>Architectural Design</h3>
     </div>
 
-    <!-- Landscape Design -->
-    <div id="landscape-design" class="service-card landscape-design">
-        <div class="service-image">
-            <img src="assets/images/services/Landscape Design.png" alt="Landscape Design">
+    <!-- Navigation BELOW the slider -->
+    <div class="ms-slider-nav">
+
+        <button id="msPrevBtn">Previous</button>
+
+        <div id="msDots"></div>
+
+        <button id="msNextBtn">Next</button>
+
+    </div>
+
+
+    <!-- Service Information -->
+
+    <div class="ms-content">
+
+        <h2 id="msTitle">
+            ARCHITECTURAL DESIGN
+        </h2>
+
+        <p id="msDescription">
+
+            We craft architectural designs that balance form, function, and context —
+            creating spaces that respond to the needs of the people who use them.
+
+        </p>
+
+    </div>
+
+
+    <!-- Concept Image -->
+    <div class="ms-map">
+        <div class="my_services_concept_image">
+            <h4>Concept Image</h4>
+
+            <img
+                id="msConceptImg"
+                class="ms-concept-img"
+                src=""
+                alt="Concept Image"
+                loading="lazy">
+        </div>
+    </div>
+
+    <!-- ===========================================
+         OUR SERVICES
+    =========================================== -->
+
+    <div class="my_services_related">
+
+        <div class="section-heading">
+
+            <h2>OUR SERVICES</h2>
+
+            <span></span>
+
         </div>
 
-        <h3>Landscape Design</h3>
-    </div>
 
-    <!-- Urban Design -->
-    <div id="urban-design" class="service-card urban-design">
-        <div class="service-image">
-            <img src="assets/images/services/Urban Design.png" alt="Urban Design">
+        <div class="my_services_slider">
+
+
+            <div id="serviceTrack" class="my_services_track">
+
+
+
+                <!-- CARD 1 -->
+
+                <a href="#" class="service-card active-service"
+                   data-service="architecturaldesign">
+
+                    <img src="https://picsum.photos/seed/service1/500/400" alt="">
+
+                    <div class="service-content">
+
+                        <h3>Architectural Design</h3>
+
+                        <p>
+                            Thoughtful architectural solutions rooted in context and craft.
+                        </p>
+
+                        <span>Know More ↗</span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- CARD 2 -->
+
+                <a href="#" class="service-card"
+                   data-service="landscapedesign">
+
+                    <img src="https://picsum.photos/seed/service2/500/400" alt="">
+
+                    <div class="service-content">
+
+                        <h3>Landscape Design</h3>
+
+                        <p>
+                            Outdoor spaces designed to connect people with nature.
+                        </p>
+
+                        <span>Know More ↗</span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- CARD 3 -->
+
+                <a href="#" class="service-card"
+                   data-service="urbandesign">
+
+                    <img src="https://picsum.photos/seed/service3/500/400" alt="">
+
+                    <div class="service-content">
+
+                        <h3>Urban Design</h3>
+
+                        <p>
+                            Shaping public spaces and city districts for everyday life.
+                        </p>
+
+                        <span>Know More ↗</span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- CARD 4 -->
+
+                <a href="#" class="service-card"
+                   data-service="sustainablefuture">
+
+                    <img src="https://picsum.photos/seed/service4/500/400" alt="">
+
+                    <div class="service-content">
+
+                        <h3>Towards a Sustainable Future!</h3>
+
+                        <p>
+                            Climate-responsive design practices for a better tomorrow.
+                        </p>
+
+                        <span>Know More ↗</span>
+
+                    </div>
+
+                </a>
+
+
+
+            </div>
+
         </div>
 
-        <h3>Urban Design</h3>
-    </div>
 
-    <!-- Towards a Sustainable Future -->
-    <div id="sustainable-future" class="service-card sustainable-future">
-        <div class="service-image">
-            <img src="assets/images/services/Sustainable Future.png" alt="Towards a Sustainable Future">
+
+        <!-- Services Slider Navigation -->
+
+        <div class="my_services_nav">
+
+            <button id="servicePrevBtn">
+
+                Previous
+
+            </button>
+
+            <div id="serviceDots"></div>
+
+            <button id="serviceNextBtn">
+
+                Next
+
+            </button>
+
         </div>
 
-        <h3>Towards a Sustainable Future</h3>
     </div>
-
-    
 
 </section>
 
 
-
-  <Footer>
-<?php include 'includes/footer.php'; ?></Footer>
-</section>
-
+<footer>
+<?php include 'includes/footer.php'; ?>
+</footer>
 
 
 <button id="backToTop" aria-label="Back To Top">
@@ -86,6 +238,6 @@
     </svg>
 </button>
 
-<script src="assets/js/script.js"></script>
+<script src="assets/js/service.js"></script>
 </body>
 </html>
