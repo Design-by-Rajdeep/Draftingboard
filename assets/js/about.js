@@ -1,12 +1,4 @@
-/* ============================================================
-   ABOUT.JS
-============================================================ */
-
 document.addEventListener("DOMContentLoaded", () => {
-
-    /*====================================
-        BACK TO TOP BUTTON
-    ====================================*/
 
     const backToTop = document.getElementById("backToTop");
 
@@ -24,7 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         backToTop.addEventListener("click", () => {
 
-            window.scrollTo({ top: 0, behavior: "smooth" });
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
 
         });
 

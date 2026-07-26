@@ -195,3 +195,44 @@
     visibility: visible;
   }
 }
+
+
+
+
+/* Logo */
+/* Logo */
+/* Logo */
+/* Logo */
+/* Logo */
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo img{
+    width: auto;
+    height: 50px;   /* Adjust as needed */
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover{
+    transform: scale(1.05);
+}
+
+
+/* Tablet */
+@media (max-width: 992px){
+    .logo img{
+        height: 44px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px){
+    .logo img{
+        height: 38px;
+    }
+}

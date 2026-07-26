@@ -16,8 +16,8 @@
         <h3>QUICK LINKS</h3>
         <span></span>
         <ul>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Service</a></li>
+            <li><a href="project_detail.php">Projects</a></li>
+            <li><a href="service.php">Service</a></li>
         </ul>
     </div>
 
