@@ -162,8 +162,8 @@ section {
     border: 1px solid #ee5149;
     border-radius: 14px;
 
-    background: #ee5149;
-    color: #fff;
+    background: transparent;
+    color: #ee5149;
 
     font-size: 15px;
     font-weight: 600;
@@ -173,26 +173,19 @@ section {
     transition: all 0.3s ease;
 }
 
-.contact-submit-btn:hover {
-    background: #d93d35;
-    border-color: #d93d35;
+/* Hover, Focus & Click */
+.contact-submit-btn:hover,
+.contact-submit-btn:focus,
+.contact-submit-btn:active {
+    background: #ee5149;
+    border-color: #ee5149;
     color: #fff;
-    transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(238, 81, 73, 0.25);
 }
 
-.contact-submit-btn:active {
-    transform: translateY(0);
-    box-shadow: none;
+.contact-submit-btn:focus {
+    outline: none;
 }
-.contact-arrow{
-    transition:.3s;
-}
-
-.contact-submit-btn:hover .contact-arrow{
-    transform:translate(3px,-3px);
-}
-
 /*==========================================
  INFO PANEL
 ==========================================*/
