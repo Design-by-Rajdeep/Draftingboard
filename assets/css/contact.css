@@ -140,7 +140,7 @@ section {
 
 .contact-field input::placeholder,
 .contact-field textarea::placeholder{
-    color:#b2b2b2;
+    color:#fff;
 }
 
 .contact-field input:focus,
@@ -150,35 +150,41 @@ section {
     background:#fff;
     box-shadow:0 0 0 3px rgba(238,81,73,0.1);
 }
+.contact-submit-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 
-.contact-submit-btn{
-    align-self:flex-start;
+    min-width: 190px;
+    height: 48px;
+    padding: 0 28px;
 
-    display:inline-flex;
-    align-items:center;
-    gap:8px;
+    border: 1px solid #ee5149;
+    border-radius: 14px;
 
-    background:#ee5149;
-    color:#fff;
+    background: #ee5149;
+    color: #fff;
 
-    border:none;
-    border-radius:30px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
 
-    padding:14px 32px;
-
-    font-size:14px;
-    font-weight:500;
-
-    cursor:pointer;
-    transition:.3s;
+    transition: all 0.3s ease;
 }
 
-.contact-submit-btn:hover{
-    background:#d93d35;
-    transform:translateY(-2px);
-    box-shadow:0 10px 20px rgba(238,81,73,0.25);
+.contact-submit-btn:hover {
+    background: #d93d35;
+    border-color: #d93d35;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(238, 81, 73, 0.25);
 }
 
+.contact-submit-btn:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
 .contact-arrow{
     transition:.3s;
 }

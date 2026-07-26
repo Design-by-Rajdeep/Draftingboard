@@ -15,95 +15,63 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- Image Hero slider starts here -->
-
 <section class="hero-slider">
 
-  <div class="hero-slide active" style="background-image: url('assets/images/banner_image/commercial_banner.jpg');">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>DBS</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        Drafting Board Studio      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
+    <!-- Slide 1 -->
+    <div class="hero-slide active" style="background-image: url('assets/images/banner_image/commercial_banner.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p>
+            <h1>DRAFTING BOARD STUDIO</h1>
+        </div>
     </div>
-  </div>
 
-<div class="hero-slide active" style="background-image: url('assets/images/banner_image/farm_house_banner.jpg');">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>FARM HOUSE</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
+    <!-- Slide 2 -->
+    <div class="hero-slide" style="background-image: url('assets/images/banner_image/farm_house_banner.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p>
+            <h1>DRAFTING BOARD STUDIO</h1>
+        </div>
     </div>
-  </div>
 
-  <div class="hero-slide active" style="background-image: url('assets/images/banner_image/group_housing_banner.jpg');">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>GROUP HOUSING</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
+    <!-- Slide 3 -->
+    <div class="hero-slide" style="background-image: url('assets/images/banner_image/group_housing_banner.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p>
+            <h1>DRAFTING BOARD STUDIO</h1>
+        </div>
     </div>
-  </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/School Banner.jpg');">
-    <div class="hero-overlay"></div>
 
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>SCHOOL PROJECT</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
+    <!-- Slide 4 -->
+    <div class="hero-slide" style="background-image: url('assets/images/banner_image/School Banner.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p>
+            <h1>DRAFTING BOARD STUDIO</h1>
+        </div>
     </div>
-  </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/UD banner.jpg');">
-    <div class="hero-overlay"></div>
 
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>UNIVERSITY PROJECT</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
+    <!-- Slide 5 -->
+    <div class="hero-slide" style="background-image: url('assets/images/banner_image/UD banner.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p>
+            <h1>DRAFTING BOARD STUDIO</h1>
+        </div>
     </div>
-  </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/Villa Banner.jpg');">
-    <div class="hero-overlay"></div>
 
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-DRAFTING BOARD STUDIO-</p> -->
-      <!-- <h1>VILLA PROJECT</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p> -->
-      <!-- <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
+    <!-- Slide 6 -->
+    <div class="hero-slide" style="background-image: url('assets/images/banner_image/Villa Banner.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p>
+            <h1>DRAFTING BOARD STUDIO</h1>
+        </div>
     </div>
-  </div>
-
-
 
 </section>
-
  
 
 
@@ -220,21 +188,13 @@
 <!-- ================= BEYOND THINKING ================= -->
 
 <section id="beyond-thinking">
-     <img src="assets/images/Beyond Thinking.png" alt="Architectural Design"
-      alt="Modern Architecture">
+    <!-- <img
+        src="assets/gif/tiny_white_twinkles.gif"
+        alt="Beyond Thinking Animation"> -->
 
-    <!-- <div class="overlay"></div> -->
-
-    <!-- <div class="content">
-    <span>OUR VISION</span>
-        <h2>BEYOND THINKING</h2>
-     <p>
-            We believe architecture is more than structures—it's about creating
-            experiences that inspire, connect, and stand the test of time.
-        </p> 
-
-        <a href="#projects" class="btn">Explore Projects</a> 
-    </div> -->
+        <img
+        src="assets/gif/minimal_twinkles.gif"
+        alt="Beyond Thinking Animation">
 </section>
 
   <!-- ================= SERVICES ================= -->

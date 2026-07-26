@@ -123,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
                 </div>
 
                 <button type="submit" name="contact_submit" class="contact-submit-btn">
-                    Send Message <span class="contact-arrow">↗</span>
+                    Send Message <span class="contact-arrow"></span>
                 </button>
 
             </form>
