@@ -21,7 +21,7 @@
     <div class="hero-slide active" style="background-image: url('assets/images/banner_image/commercial_banner.jpg');">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p>
+            <!-- <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p> -->
             <h1>DRAFTING BOARD STUDIO</h1>
         </div>
     </div>
@@ -30,7 +30,7 @@
     <div class="hero-slide" style="background-image: url('assets/images/banner_image/farm_house_banner.jpg');">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p>
+            <!-- <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p> -->
             <h1>DRAFTING BOARD STUDIO</h1>
         </div>
     </div>
@@ -39,7 +39,7 @@
     <div class="hero-slide" style="background-image: url('assets/images/banner_image/group_housing_banner.jpg');">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p>
+            <!-- <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p> -->
             <h1>DRAFTING BOARD STUDIO</h1>
         </div>
     </div>
@@ -48,7 +48,7 @@
     <div class="hero-slide" style="background-image: url('assets/images/banner_image/School Banner.jpg');">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p>
+            <!-- <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p> -->
             <h1>DRAFTING BOARD STUDIO</h1>
         </div>
     </div>
@@ -57,7 +57,7 @@
     <div class="hero-slide" style="background-image: url('assets/images/banner_image/UD banner.jpg');">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p>
+            <!-- <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p> -->
             <h1>DRAFTING BOARD STUDIO</h1>
         </div>
     </div>
@@ -66,7 +66,7 @@
     <div class="hero-slide" style="background-image: url('assets/images/banner_image/Villa Banner.jpg');">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p>
+            <!-- <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p> -->
             <h1>DRAFTING BOARD STUDIO</h1>
         </div>
     </div>
@@ -98,13 +98,23 @@
           <a href="project_detail.php?project=farmhouse" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
-        <div class="fp-card">
+  <div class="fp-card">
           <div class="fp-card-image">
-             <img src="assets/images/featured project/group_housing.png" alt="Modern house with pergola">
+               <img src="assets/images/featured project/Villa Cover.png" alt="Modern villa exterior design">
           </div>
-          <p class="fp-card-text">Group Housing<br><span>Reviving Community Living</span></p>
-          <a href="project_detail.php?project=grouphousing" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+          <p class="fp-card-text">Villa<br><span>Modern Living, Rooted in Community</span></p>
+          <a href="project_detail.php?project=villa" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
+
+
+  <div class="fp-card">
+          <div class="fp-card-image">
+               <img src="assets/images/featured project/primary_school.png" alt="Primary school building">
+          </div>
+          <p class="fp-card-text">Primary School<br><span>Learning Beyond the Classroom</span></p>
+          <a href="project_detail.php?project=school" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+        </div>
+
 
         <div class="fp-card">
           <div class="fp-card-image">
@@ -114,21 +124,25 @@
           <a href="project_detail.php?project=commercial" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/primary_school.png" alt="Primary school building">
-          </div>
-          <p class="fp-card-text">Primary School<br><span>Learning Beyond the Classroom</span></p>
-          <a href="project_detail.php?project=school" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
+
 
         <div class="fp-card">
           <div class="fp-card-image">
-               <img src="assets/images/featured project/Villa Cover.png" alt="Modern villa exterior design">
+             <img src="assets/images/featured project/group_housing.png" alt="Modern house with pergola">
           </div>
-          <p class="fp-card-text">Villa<br><span>Modern Living, Rooted in Community</span></p>
-          <a href="project_detail.php?project=villa" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+          <p class="fp-card-text">Group Housing<br><span>Reviving Community Living</span></p>
+          <a href="project_detail.php?project=grouphousing" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
+
+        
+         <div class="fp-card">
+          <div class="fp-card-image">
+               <img src="assets/images/featured project/urban_design.png" alt="Urban Design">
+          </div>
+          <p class="fp-card-text">Urban Design<br><span>Reimagining the Urban Marketplace</span></p>
+          <a href="project_detail.php?project=urbandesign" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+        </div>
+      
 
         <div class="fp-card">
           <div class="fp-card-image">
@@ -138,13 +152,7 @@
          <a href="project_detail.php?project=bhowaliresort" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
         </div>
 
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/urban_design.png" alt="Urban Design">
-          </div>
-          <p class="fp-card-text">Urban Design<br><span>Reimagining the Urban Marketplace</span></p>
-          <a href="project_detail.php?project=urbandesign" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
+     
 
       </div>
     </div>
@@ -162,41 +170,19 @@
 
 
 
-
-<!-- ================= VIDEO SECTION ================= -->
-
-<!-- <section class="video-section">
-
-    <div class="video-container">
-
-        <video autoplay muted loop playsinline>
-               <source src="assets/videos/video1.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-
-        <div class="video-overlay"></div>
-
-        <div class="video-content">
-            <h2>BEYOND THINKING</h2>
-            <p>Designing innovative spaces that inspire the future.</p>
-        </div>
-
-    </div>
-
-</section> -->
-
 <!-- ================= BEYOND THINKING ================= -->
 
 <section id="beyond-thinking">
-    <!-- <img
-        src="assets/gif/tiny_white_twinkles.gif"
-        alt="Beyond Thinking Animation"> -->
 
-        <img
-        src="assets/gif/minimal_twinkles.gif"
-        alt="Beyond Thinking Animation">
+    <img
+        src="assets/images/beyond_thinking.png"
+        alt="Beyond Thinking">
+
+    <div class="beyond-overlay">
+        <h2>BEYOND <span>THINKING</span></h2>
+    </div>
+
 </section>
-
   <!-- ================= SERVICES ================= -->
   <!-- ================= SERVICES ================= -->
   <!-- ================= SERVICES ================= -->
@@ -328,64 +314,29 @@
 <!-- Mission and vision starts here -->
 <!-- Mission and vision starts here -->
 
-
-      <section class="mission-section">
+<!-- Vision Section -->
+<!-- Vision Section -->
+<section class="mission-section">
 
     <div class="container">
 
-        <div class="section-heading">
-            <h2>VISION</h2>
-            <span></span>
-        </div>
+        <div class="vision-section">
 
-        <div class="mission-wrapper">
+            <div class="section-heading">
+                <h2>VISION</h2>
+                <span></span>
+            </div>
 
-        <!-- Vision Image Banner -->
-         <!-- <div class="vision-image-banner">
-         <img src="assets/images/built_projects_dbs.jpg"
-         alt="Architecture Vision"> -->
-        <!-- <div class="vision-image-overlay"></div>
-        <div class="vision-image-content">
-        <h3>Designing Spaces That Inspire</h3>
-        <p>
-            Every project begins with a vision—where architecture meets
-            innovation, sustainability, and timeless design.
-        </p>
-       </div> -->
 
-      </div>
-        
-
-            <!-- Left Video -->
-            <!-- <div class="mission-video">
-
-                <video autoplay muted loop playsinline preload="metadata">
-                    <source src="assets/videos/video1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>-->
-
-            
-
-            <!-- Right Content -->
-            <div class="mission-content">
-
-                <!-- <h3>
-                    Building Accessible, Human-Centered Environments for Future Generations —
-                </h3> -->
+            <div class="vision-content">
 
                 <p>
-                  To shape buildings and places that simply work—for people and for the life around them. 
-                  We envision cities that are accessible to everyone, filled with sunlight and fresh air, 
-                  where people and nature thrive together, and where the night sky becomes visible again. 
-                  Through thoughtful design, we aim to create environments that support healthier, calmer, and more connected lives.
+                    To shape buildings and places that simply work—for people and for the life around them.
+                    We envision cities that are accessible to everyone, filled with sunlight and fresh air,
+                    where people and nature thrive together, and where the night sky becomes visible again.
+                    Through thoughtful design, we aim to create environments that support healthier, calmer,
+                    and more connected lives.
                 </p>
-
-                <div class="mission-btn-wrapper">
-    <!-- <a href="#" class="mission-btn">
-        Know More
-        <span>↗</span>
-    </a> -->
-</div>
 
             </div>
 
@@ -396,39 +347,40 @@
 </section>
 
 
- <!-- last contact section with video here -->
- <!-- last contact section with video here -->
- <!-- last contact section with video here -->
- <!-- last contact section with video here -->
+<!-- Build A Project Section -->
+<section class="build_a_project">
 
-<section class="build_a_project"> 
-<!-- <section class="video-cta">
-  <div class="video-box">
-    <video autoplay muted loop playsinline>
-      <source src="assets/videos/video1.mp4" type="video/mp4">
-    </video>
-  </div>
-</section> -->
-
-<section id="lets-build">
-    <img src="assets/images/built_projects_dbs.jpg"
-         alt="Architecture">
-</section>
-
-<section>
-  <div class="cta-content">
-    <h2>Let's Build Something Worth<br>Remembering.</h2>
-
-    <p>
-      Consultation Or Project Enquiry — We'd Love To Hear From You.
-    </p>
-
-    <div class="cta-buttons">
-      <a href="#" class="btn-outline">+91 8826532115</a>
-      <a href="contact.php" class="btn-primary">Get In Touch ↗</a>
+    <div id="lets-build">
+        <img src="assets/images/built_projects_dbs.png"
+             alt="Architecture">
     </div>
-  </div>
-</section>
+
+
+    <div class="cta-content">
+
+        <h2>
+            Let's Build Something Worth<br>
+            Remembering.
+        </h2>
+
+        <p>
+            Consultation Or Project Enquiry — We'd Love To Hear From You.
+        </p>
+
+
+        <div class="cta-buttons">
+
+            <a href="tel:+918826532115" class="btn-outline">
+                +91 8826532115
+            </a>
+
+            <a href="contact.php" class="btn-primary">
+                Get In Touch ↗
+            </a>
+
+        </div>
+
+    </div>
 
 </section>
 

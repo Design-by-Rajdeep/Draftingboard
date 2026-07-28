@@ -125,7 +125,7 @@ section {
     max-width: 1100px;
     margin: 0;
 
-    font-size: 62px;
+    font-size: 40px;
     line-height: 1.15;
     font-weight: 500;
 
@@ -207,7 +207,7 @@ section {
         height:600px;
         min-height:600px;
 
-        margin:80px auto 16px;
+        /* margin:80px auto 16px; */
 
         border-radius:24px;
     }
@@ -645,132 +645,159 @@ section {
 
 /*================= BEYOND THINKING =================*/
 
+
 #beyond-thinking{
-    position: relative;
-    width: 72%;
-    height: 400px;
-    overflow: hidden;
-    border-radius: 14px;
-    margin: 80px auto;
+    width:82%;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+    border-radius:14px;
 }
 
 #beyond-thinking img{
     width:100%;
-    height:100%;
-    object-fit:cover;
-    transition:.8s ease;
+    height:auto;
+    display:block;
+    border-radius:14px;
 }
 
-#beyond-thinking:hover img{
-    transform:scale(1.08);
-}
 
-#beyond-thinking .overlay{
-    position:absolute;
-    inset:0;
-    background:linear-gradient(
-        90deg,
-        rgba(0,0,0,.78) 10%,
-        rgba(0,0,0,.45) 45%,
-        rgba(0,0,0,.25) 100%
-    );
-}
-
-#beyond-thinking .content{
-    align-items: center;
+/* Overlay */
+.beyond-overlay{
     position:absolute;
     top:50%;
-    left:8%;
-    transform:translateY(-50%);
-    max-width:600px;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align:center;
+    width:90%;
+}
+
+
+.beyond-overlay h2{
+    margin:0;
+    font-size:clamp(32px, 5vw, 72px);
+    font-weight:400;
+    letter-spacing:5px;
     color:#fff;
-    z-index:2;
+    animation: textReveal 1.2s ease forwards;
 }
 
-#beyond-thinking span{
-    display:inline-block;
-    color:#d8b36a;
-    letter-spacing:4px;
-    text-transform:uppercase;
-    font-size:.95rem;
-    margin-bottom:18px;
+
+.beyond-overlay p{
+    margin-top:20px;
+    font-size:clamp(12px, 1.5vw, 18px);
+    letter-spacing:6px;
+    color:#ffffff;
+    animation: textReveal 1.5s ease forwards;
 }
 
-#beyond-thinking h2{
-    font-size:4rem;
-    font-weight:800;
-    line-height:1.1;
-    margin-bottom:20px;
-}
-
-#beyond-thinking p{
-    font-size:1.1rem;
-    line-height:1.8;
-    color:#e5e5e5;
-    margin-bottom:35px;
-}
-
-#beyond-thinking .btn{
-    display:inline-block;
-    padding:15px 35px;
-    background:#d8b36a;
-    color:#111;
-    text-decoration:none;
-    border-radius:50px;
-    font-weight:700;
-    transition:.3s;
-}
-
-#beyond-thinking .btn:hover{
-    background:#fff;
-    transform:translateY(-3px);
-}
-
-/* Tablet */
-@media(max-width:992px){
+@media(max-width:768px){
 
     #beyond-thinking{
-        height:500px;
-         width:90%;
+        width:90%;
+        margin:0 auto;
     }
 
-    #beyond-thinking h2{
-        font-size:3rem;
+    .beyond-overlay{
+        width:95%;
+    }
+
+    .beyond-overlay h2{
+        font-size:clamp(22px, 6vw, 36px);
+        letter-spacing:6px;
+    }
+
+    .beyond-overlay p{
+        font-size:clamp(10px, 3vw, 14px);
+        margin-top:8px;
+        letter-spacing:6px;
     }
 
 }
+
+
+/* Text Animation */
+
+@keyframes textReveal{
+
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
 
 /* Mobile */
 @media(max-width:768px){
 
     #beyond-thinking{
-        height:420px;
-        border-radius:14px;
+        width:90%;
+        margin:0 auto;
     }
 
-    #beyond-thinking .content{
-        left:30px;
-        right:30px;
-        max-width:100%;
+    .beyond-overlay{
+        width:95%;
     }
 
-    #beyond-thinking h2{
-        font-size:2.2rem;
+    .beyond-overlay h2{
+        letter-spacing:2px;
     }
 
-    #beyond-thinking p{
-        font-size:.95rem;
+    .beyond-overlay p{
+        margin-top:10px;
+        letter-spacing:3px;
     }
 
-    #beyond-thinking .btn{
-        padding:12px 28px;
+}
+.beyond-overlay h2{
+    margin:0;
+    font-size:clamp(32px, 5vw, 72px);
+    font-weight:200;
+    letter-spacing:6px;
+
+    background:linear-gradient(
+        90deg,
+        #4285f4,
+        #9b72cb,
+        #d96570,
+        #fbbc04,
+        #4285f4
+    );
+
+    background-size:300% auto;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    animation:geminiGradient 12s linear infinite;
+}
+
+
+/* Gemini style moving gradient */
+@keyframes geminiGradient{
+
+    0%{
+        background-position:0% center;
+    }
+
+    50%{
+        background-position:100% center;
+    }
+
+    100%{
+        background-position:0% center;
     }
 
 }
 
-
-
-
+.beyond-overlay h2{
+    filter:drop-shadow(0 0 18px rgba(155,114,203,0.35));
+}
 
 
 
@@ -1148,183 +1175,32 @@ gap: 50px;
 
 
 
-/*================ Vision Image Banner ================*/
-
-.vision-image-banner{
-    position:relative;
-    width:100%;
-    height:350px;
-    margin-top:70px;
-    border-radius:14px;
-    overflow:hidden;
-}
-
-.vision-image-banner img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    display:block;
-    transition:.7s;
-}
-
-.vision-image-banner:hover img{
-    transform:scale(1.05);
-}
-
-.vision-image-overlay{
-    position:absolute;
-    inset:0;
-    background:linear-gradient(
-        to top,
-        rgba(0,0,0,.75),
-        rgba(0,0,0,.15)
-    );
-}
-
-.vision-image-content{
-    position:absolute;
-    bottom:50px;
-    left:50px;
-    color:#fff;
-    z-index:2;
-    max-width:500px;
-}
-
-.vision-image-content h3{
-    font-size:42px;
-    margin-bottom:15px;
-}
-
-.vision-image-content p{
-    font-size:17px;
-    line-height:1.8;
-    color:#eee;
-}
-
-@media(max-width:768px){
-    .mission-section{
-    padding:100px 0;
-    background:#ebe9e8;
-    height: 1000px;
-}
-
-    .vision-image-banner{
-        height:350px;
-    }
-
-    .vision-image-content{
-        left:25px;
-        right:25px;
-        bottom:25px;
-    }
-
-    .vision-image-content h3{
-        font-size:28px;
-    }
-
-    .vision-image-content p{
-        font-size:15px;
-    }
-
-}
-
-
-
-
 /*=========================
-VIDEO
-=========================*/
-/* 
-.mission-video{
-
-    width:100%;
-    aspect-ratio:16/9;
-
-    overflow:hidden;
-
-    border-radius:6px;
-
-    background:#ddd;
-
-}
-
-.mission-video video{
-
-    width:100%;
-    height:100%;
-
-    object-fit:cover;
-
-    display:block;
-
-    transition:.6s;
-
-}
-
-.mission-video:hover video{
-
-    transform:scale(1.05);
-
-} */
-
-/*=========================
-CONTENT
+VISION SECTION
 =========================*/
 
-.mission-content h3{
-    font-size:28px;
-    line-height:1.4;
-    color:#2f2f2f;
-    margin-bottom:25px;
-
-}
-
-.mission-content p{
+.vision-section{
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
     text-align:center;
+}
+
+
+.vision-content{
+    width:90%;
+    max-width:900px;
+    margin:0 auto;
+}
+
+
+.vision-content p{
+    margin:20px 0 0;
     font-size:18px;
-    margin-top:60px;
-    line-height:1.9;
-    color:#000000;
-    margin-bottom:35px;
-
-}
-
-/*=========================
-BUTTON
-=========================*/
-.mission-btn-wrapper{
-    display:flex;
-    justify-content:center;
-    margin-top:40px;
-}
-.mission-btn{
-    display:inline-flex;
-    align-items:center;
-    justify-content: center;
-    gap:10px;
-    padding:10px 60px;
-    border:1px solid #e57a59;
-    color:#e57a59;
-    text-decoration:none;
-    border-radius:20px;
-    transition:.35s;
-}
-
-.mission-btn:hover{
-    background:#ee5149;
-    color:#fff;
-}
-
-.mission-btn span{
-
-    transition:.3s;
-
-}
-
-.mission-btn:hover span{
-
-    transform:translateX(5px);
-
+    line-height:1.8;
+    font-weight:300;
+    color:#555;
 }
 
 
@@ -1335,31 +1211,19 @@ TABLET
 
 @media(max-width:992px){
 
-    .mission-wrapper{
-
-        grid-template-columns:1fr;
-
+    .vision-content{
+        width:90%;
     }
 
-    .mission-content{
 
-        text-align:center;
-
-    }
-
-    .section-heading{
-
-        text-align:center;
-
-    }
-
-    .section-heading span{
-
-        margin:10px auto 0;
-
+    .vision-content p{
+        font-size:16px;
+        line-height:1.7;
     }
 
 }
+
+
 
 /*=========================
 MOBILE
@@ -1367,92 +1231,90 @@ MOBILE
 
 @media(max-width:576px){
 
-    .mission-section{
-
-        padding:60px 0;
-
+    .vision-section{
+        padding:0;
     }
 
-    .mission-content h3{
 
-        font-size:22px;
-
+    .vision-content{
+        width:92%;
     }
 
-    .mission-content p{
 
-        font-size:15px;
-
-    }
-
-    .mission-btn{
-
-        width:100%;
-
-        justify-content:center;
-
+    .vision-content p{
+        margin-top:15px;
+        font-size:14px;
+        line-height:1.7;
     }
 
 }
 
 
-
   /* BUILD PROJECT AND THE VIDEO SECTION IS HER */
   /* BUILD PROJECT AND THE VIDEO SECTION IS HER */
   /* BUILD PROJECT AND THE VIDEO SECTION IS HER */
-
-
-.build_a_project{
-  display: flex;
-  flex-direction: column;
-  align-items: space-between;
-  width: 100%;
-  height:auto;
-  background: #ebe9e8;
-}
 
 /*================= LET'S BUILD =================*/
 
+
 #lets-build{
+    width: 60%;
+    height: auto;
+    margin: 50px auto;
     overflow: hidden;
-    border-radius: 0px;
+    border-radius: 14px;
 }
 
 #lets-build img{
+    padding: 0;
     width: 100%;
-    height: 600px; 
-    margin-top: 0px;
-    object-fit:cover;         /* Keeps the full image visible */
-    display: block;
-    border-radius: 0px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    /* Rounded corners on the image */
+    border-radius: 14px;
+
     transition: transform .8s ease, filter .8s ease;
 }
 
-/* Hover Effect */
 #lets-build:hover img{
-    transform: scale(1);
+    transform: scale(1.06);
     filter: brightness(1.05);
-}
-
-/* Hover Effect */
-#lets-build:hover img{
-    transform:scale(1.06);
-    filter:brightness(1.05);
 }
 
 /* Tablet */
 @media (max-width:992px){
+
     #lets-build{
-        height:500px;
+        width:85%;
+        height:auto;
+        margin:30px auto;
     }
+
 }
+
 
 /* Mobile */
 @media (max-width:768px){
+
     #lets-build{
-        height:350px;
+        width:92%;
+        height:auto;
+        margin:20px auto;
+        border-radius:12px;
     }
+
+    #lets-build img{
+        width:100%;
+        height:auto;
+        object-fit:contain;
+        border-radius:12px;
+    }
+
 }
+
+
 /* ================= CTA ================= */
 .cta-content {
     display: flex;
@@ -1460,7 +1322,7 @@ MOBILE
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: clamp(60px, 8vw, 120px) 20px;
+    padding: clamp(10px, 8vw, 50px) 20px;
     color: #2d2b2b;
 }
 

@@ -2,10 +2,10 @@
   <div class="footer-inner">
 
     <div class="footer-brand">
-      <h2>DB</h2>
+      <!-- <h2>DB</h2>
       <span></span>
       <p>ARCHITECTURE & URBAN DESIGN FOR COMMUNITIES THAT GENUINELY THRIVE.</p>
-    </div>
+    </div> -->
 
    
     
