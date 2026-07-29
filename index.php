@@ -365,9 +365,9 @@
             We're Evloving. Thanks !
         </h2>
 
-        <!-- <p>
+        <p>
             Consultation Or Project Enquiry — We'd Love To Hear From You.
-        </p> -->
+        </p>
 
 
         <div class="cta-buttons">

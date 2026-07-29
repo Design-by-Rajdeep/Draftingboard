@@ -139,12 +139,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
 
             <div class="contact-info-item">
                 <span class="contact-info-label">Studio</span>
-                <p>123 Design Avenue,<br>Siliguri, West Bengal, India</p>
+                <p>2/80, <br>Laxminagar, Delhi-110092, India</p>
             </div>
 
             <div class="contact-info-item">
                 <span class="contact-info-label">Email</span>
-                <p><a href="mailto:hello@example.com">hello@example.com</a></p>
+                <p><a href="mailto:hello@example.com">info@draftingboardstudio.com</a></p>
             </div>
 
             <div class="contact-info-item">
@@ -154,7 +154,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
 
             <div class="contact-info-item">
                 <span class="contact-info-label">Hours</span>
-                <p>Mon – Sat, 10:00 AM – 6:30 PM</p>
+                <p>Mon – Sat, 09:00 AM – 09:00 PM</p>
             </div>
 
             <div class="contact-social">

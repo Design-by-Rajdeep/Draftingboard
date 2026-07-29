@@ -32,7 +32,7 @@
 
             <p class="about-role">Architect &nbsp;|&nbsp; Urbanist &nbsp;|&nbsp; Sustainability Consultant</p>
 
-            <span class="about-badge">Independent Practice · One Architect, Every Project</span>
+            <!-- <span class="about-badge">Independent Practice · One Architect, Every Project</span> -->
 
             <div class="about-story">
 
@@ -48,7 +48,7 @@
                     take form, evolving from mere thoughts into tangible designs.
                 </p>
 
-                <p>
+                <!-- <p>
                     I run Drafting Board as a solo practice by choice. Every project that
                     comes through this studio is designed, developed, and detailed by me
                     directly — there's no hand-off between a "senior architect" and a team
@@ -56,7 +56,7 @@
                     you're working with the same person throughout, which means fewer
                     miscommunications, more accountability, and a design that stays true to
                     the idea it started as.
-                </p>
+                </p> -->
 
             </div>
 
@@ -70,7 +70,7 @@
         <div class="about-image-wrap">
 
             <img
-                src="assets/images/Sachin Goyal.png"
+                src="assets/images/Sachin Goyal.jpg"
                 alt="Sachin Goyal, Architect at Drafting Board"
                 class="about-photo"
                 loading="lazy">

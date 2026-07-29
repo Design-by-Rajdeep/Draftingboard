@@ -703,7 +703,7 @@ section {
     filter:drop-shadow(0 0 18px rgba(155,114,203,.35));
 
     animation:
-        geminiGradient 6s linear infinite,
+        geminiGradient 10s linear infinite,
         textReveal 1s ease forwards;
 }
 
@@ -1339,7 +1339,7 @@ MOBILE
     color: #aa7c3f;
     max-width: 700px;
     margin: 0 auto 40px;
-    line-height: 1.8;
+    line-height: 1;
 }
 
 .cta-buttons {
