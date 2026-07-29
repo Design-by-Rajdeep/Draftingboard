@@ -644,10 +644,13 @@ section {
 
 
 /*================= BEYOND THINKING =================*/
-
+/*=========================================
+  BEYOND THINKING
+=========================================*/
 
 #beyond-thinking{
     width:82%;
+    height:600px;
     margin:0 auto;
     position:relative;
     overflow:hidden;
@@ -656,109 +659,32 @@ section {
 
 #beyond-thinking img{
     width:100%;
-    height:auto;
+    height:100%;
     display:block;
+    object-fit:cover;
+    object-position:center 50%;
     border-radius:14px;
 }
 
+/*=========================================
+  TEXT OVERLAY
+=========================================*/
 
-/* Overlay */
 .beyond-overlay{
     position:absolute;
-    top:50%;
     left:50%;
-    transform:translate(-50%, -50%);
-    text-align:center;
+    bottom:40px;
+    transform:translateX(-50%);
     width:90%;
+    text-align:center;
+    z-index:2;
 }
-
 
 .beyond-overlay h2{
     margin:0;
-    font-size:clamp(32px, 5vw, 72px);
-    font-weight:400;
-    letter-spacing:5px;
-    color:#fff;
-    animation: textReveal 1.2s ease forwards;
-}
-
-
-.beyond-overlay p{
-    margin-top:20px;
-    font-size:clamp(12px, 1.5vw, 18px);
-    letter-spacing:6px;
-    color:#ffffff;
-    animation: textReveal 1.5s ease forwards;
-}
-
-@media(max-width:768px){
-
-    #beyond-thinking{
-        width:90%;
-        margin:0 auto;
-    }
-
-    .beyond-overlay{
-        width:95%;
-    }
-
-    .beyond-overlay h2{
-        font-size:clamp(22px, 6vw, 36px);
-        letter-spacing:6px;
-    }
-
-    .beyond-overlay p{
-        font-size:clamp(10px, 3vw, 14px);
-        margin-top:8px;
-        letter-spacing:6px;
-    }
-
-}
-
-
-/* Text Animation */
-
-@keyframes textReveal{
-
-    from{
-        opacity:0;
-        transform:translateY(30px);
-    }
-
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-
-}
-
-
-/* Mobile */
-@media(max-width:768px){
-
-    #beyond-thinking{
-        width:90%;
-        margin:0 auto;
-    }
-
-    .beyond-overlay{
-        width:95%;
-    }
-
-    .beyond-overlay h2{
-        letter-spacing:2px;
-    }
-
-    .beyond-overlay p{
-        margin-top:10px;
-        letter-spacing:3px;
-    }
-
-}
-.beyond-overlay h2{
-    margin:0;
-    font-size:clamp(32px, 5vw, 72px);
+    font-size:28px;
     font-weight:200;
+    line-height:1.2;
     letter-spacing:6px;
 
     background:linear-gradient(
@@ -774,32 +700,107 @@ section {
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 
-    animation:geminiGradient 12s linear infinite;
+    filter:drop-shadow(0 0 18px rgba(155,114,203,.35));
+
+    animation:
+        geminiGradient 6s linear infinite,
+        textReveal 1s ease forwards;
 }
 
+.beyond-overlay p{
+    margin-top:12px;
+    font-size:12px;
+    line-height:1.6;
+    letter-spacing:3px;
+    color:#fff;
+    animation:textReveal 1.2s ease forwards;
+}
 
-/* Gemini style moving gradient */
+/*=========================================
+  TABLET
+=========================================*/
+
+@media (max-width:991px){
+
+    #beyond-thinking{
+        width:90%;
+        height:450px;
+    }
+
+    .beyond-overlay{
+        width:92%;
+        bottom:30px;
+    }
+
+    .beyond-overlay h2{
+        font-size:22px;
+        letter-spacing:4px;
+    }
+
+    .beyond-overlay p{
+        font-size:11px;
+        letter-spacing:2px;
+    }
+
+}
+
+/*=========================================
+  MOBILE
+=========================================*/
+
+@media (max-width:768px){
+
+    #beyond-thinking{
+        width:94%;
+        height:320px;
+    }
+
+    .beyond-overlay{
+        width:94%;
+        bottom:22px;
+    }
+
+    .beyond-overlay h2{
+        font-size:20px;
+        letter-spacing:2px;
+    }
+
+    .beyond-overlay p{
+        margin-top:8px;
+        font-size:10px;
+        line-height:1.5;
+        letter-spacing:1px;
+    }
+
+}
+
+/*=========================================
+  ANIMATIONS
+=========================================*/
+
+
+@keyframes textReveal{
+    from{
+        opacity:0;
+        transform:translateY(25px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
 @keyframes geminiGradient{
-
     0%{
         background-position:0% center;
     }
-
     50%{
         background-position:100% center;
     }
-
     100%{
         background-position:0% center;
     }
-
-}
-
-.beyond-overlay h2{
-    filter:drop-shadow(0 0 18px rgba(155,114,203,0.35));
-}
-
-
+} 
 
 
 

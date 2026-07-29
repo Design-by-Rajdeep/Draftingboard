@@ -175,11 +175,14 @@
 <section id="beyond-thinking">
 
     <img
-        src="assets/images/beyond_thinking.png"
+        src="assets/images/beyond_thinking.jpg"
         alt="Beyond Thinking">
 
     <div class="beyond-overlay">
         <h2>BEYOND <span>THINKING</span></h2>
+         <div class="beyond-overlay">
+    
+</div>
     </div>
 
 </section>
@@ -359,13 +362,12 @@
     <div class="cta-content">
 
         <h2>
-            Let's Build Something Worth<br>
-            Remembering.
+            We're Evloving. Thanks !
         </h2>
 
-        <p>
+        <!-- <p>
             Consultation Or Project Enquiry — We'd Love To Hear From You.
-        </p>
+        </p> -->
 
 
         <div class="cta-buttons">
