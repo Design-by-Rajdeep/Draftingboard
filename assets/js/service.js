@@ -21,15 +21,20 @@ const services = {
         title: "ARCHITECTURAL DESIGN",
 
         description:
-            "We craft architectural designs that balance form, function, and context. " +
-            "Every project starts with understanding the site, the client's needs, and the " +
-            "surrounding environment, resulting in spaces that feel considered and purposeful. " +
-            "From concept to construction, our approach blends aesthetics with practicality " +
-            "to deliver buildings that stand the test of time.",
+           "Architecture is a profession of great responsibility, where every design decision " +
+"has a lasting impact on its users, the surrounding community, and the environment. " +
+"Great architecture is defined not only by its visual appeal but also by its ability " +
+"to respond thoughtfully to context, purpose, and sustainability. In every project, " +
+"we strive to balance our clients' aspirations with the unique character of the site " +
+"while embracing our responsibility toward the environment. Rather than relying on " +
+"expensive finishes to conceal raw surfaces and building services, we celebrate the " +
+"beauty of honest materials and thoughtful craftsmanship. This approach reduces the " +
+"building's carbon footprint, minimizes environmental impact, and creates spaces that " +
+"are authentic, sustainable, and timeless.",
 
         images: [
 
-        "assets/images/services/Architecture_DBS.png",
+        "assets/images/services/Architecture_DBS.jpg",
 
         ]
 
@@ -42,15 +47,19 @@ const services = {
         title: "LANDSCAPE DESIGN",
 
         description:
-            "Our landscape design service focuses on creating outdoor spaces that connect " +
-            "people with nature. From private gardens to public parks, we design environments " +
-            "that are sustainable, functional, and visually engaging, using native planting, " +
-            "thoughtful hardscaping, and climate-responsive strategies to create spaces that " +
-            "thrive over time.",
+            "Modern Indian architecture often emphasizes building envelopes and interiors, " +
+"while outdoor spaces are frequently overlooked. We believe these spaces are just " +
+"as important, with the potential to transform unused corners into peaceful and " +
+"inviting retreats. A thoughtfully designed outdoor environment encourages people " +
+"to pause, relax, enjoy a cup of coffee, or simply reconnect with nature. Surrounded " +
+"by greenery, these spaces become more than an extension of a building—they become " +
+"places of life, comfort, and well-being. Plants have the power to calm the mind, " +
+"uplift the spirit, and restore balance to everyday living. To us, outdoor spaces " +
+"are not an addition—they are an essential part of meaningful design.",
 
         images: [
 
-        "assets/images/services/Landscape_DBS.png",
+        "assets/images/services/Landscape_DBS.jpg",
 
         ]
 
@@ -63,14 +72,19 @@ const services = {
         title: "URBAN DESIGN",
 
         description:
-            "We shape public spaces and city districts to work better for the people who use " +
-            "them every day. Our urban design work looks at movement, accessibility, and public " +
-            "life together, creating streets, plazas, and districts that stay active and safe " +
-            "throughout the day rather than after office hours alone.",
+            "Urban design shapes the way people experience and interact with cities, influencing " +
+"movement, public spaces, accessibility, sustainability, and community identity. " +
+"Successful urban environments are not only functional but also vibrant, inclusive, " +
+"and enriching for everyone who uses them. Our vision is to create people-centered " +
+"places that improve the relationship between pedestrians, vehicles, and the built " +
+"environment while reducing conflicts and encouraging safe, efficient movement. By " +
+"prioritizing livability, environmental responsibility, and thoughtful planning, we " +
+"design urban spaces that promote healthier lifestyles, strengthen community bonds, " +
+"and contribute to cities that are resilient, harmonious, and inspiring.",
 
         images: [
 
-        "assets/images/services/Urban Design_DBS.png",
+        "assets/images/services/Urban Design_DBS.jpg",
 
         ]
 
@@ -83,14 +97,19 @@ const services = {
         title: "TOWARDS A SUSTAINABLE FUTURE!",
 
         description:
-            "Sustainability is at the core of everything we design. We integrate climate-" +
-            "responsive strategies, passive cooling, natural ventilation, and material efficiency " +
-            "into every project, reducing environmental impact while creating healthier, more " +
-            "comfortable spaces for the people who live and work in them.",
+            "In today's world, sustainable buildings are no longer optional—they are essential. " +
+"As climate change and rising pollution continue to affect our health and the future " +
+"of our planet, responsible design must prioritize environmental performance from " +
+"the very beginning. We provide sustainability consultancy services that help reduce " +
+"the carbon footprint of buildings through comprehensive daylight studies, solar " +
+"radiation analysis, energy simulations, embodied carbon assessments, and strategic " +
+"recommendations for optimizing building performance. Our goal is to create healthier, " +
+"more efficient, and environmentally responsible spaces that deliver long-term value " +
+"for both people and the planet.",
 
         images: [
 
-        "assets/images/services/Sustainability_DBS.png",
+        "assets/images/services/Sustainability_DBS.jpg",
 
         ]
 

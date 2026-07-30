@@ -127,6 +127,26 @@
 
                 </a>
 
+             <!-- CARD 5 -->
+
+                <a href="#" class="service-card"
+                   data-service="interiordesign">
+
+                    <img src="https://source.unsplash.com/500x400/?interior,design&sig=13" alt="">
+
+                    <div class="service-content">
+
+                        <h3>Interior</h3>
+
+                        <p>
+                            Interiors shaped by material, light, and everyday comfort.
+                        </p>
+
+                        <span>Know More ↗</span>
+
+                    </div>
+
+                </a>
 
 
                 <!-- CARD 3 -->
@@ -175,27 +195,7 @@
 
 
 
-                <!-- CARD 5 -->
-
-                <a href="#" class="service-card"
-                   data-service="interiordesign">
-
-                    <img src="https://source.unsplash.com/500x400/?interior,design&sig=13" alt="">
-
-                    <div class="service-content">
-
-                        <h3>Interior</h3>
-
-                        <p>
-                            Interiors shaped by material, light, and everyday comfort.
-                        </p>
-
-                        <span>Know More ↗</span>
-
-                    </div>
-
-                </a>
-
+               
 
 
             </div>
