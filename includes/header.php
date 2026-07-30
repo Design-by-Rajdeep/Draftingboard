@@ -5,7 +5,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <header class="site-header">
   <div class="navbar">
     <!-- Left Side Logo -->
-    <a href="index.php" class="logo">DraftingBoard</a>
+    <a href="index.php" class="logo">Drafting-Board</a>
      <!-- <a href="index.php" class="logo">
     <img src="assets/logo/Drafting Board light.png" alt="Drafting Board Studio Logo">
 </a> -->

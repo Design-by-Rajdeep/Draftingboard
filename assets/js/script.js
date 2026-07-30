@@ -18,17 +18,20 @@ document.addEventListener("DOMContentLoaded", () => {
         current = (current + 1) % slides.length;
 
         // Restart CSS animations
-        const subtitle = slides[current].querySelector(".hero-subtitle");
-        const title = slides[current].querySelector("h1");
+       const subtitle = slides[current].querySelector(".hero-subtitle");
+const title = slides[current].querySelector("h1");
 
-        subtitle.style.animation = "none";
-        title.style.animation = "none";
+if (subtitle) {
+    subtitle.style.animation = "none";
+    void subtitle.offsetWidth;
+    subtitle.style.animation = "";
+}
 
-        void subtitle.offsetWidth;
-        void title.offsetWidth;
-
-        subtitle.style.animation = "";
-        title.style.animation = "";
+if (title) {
+    title.style.animation = "none";
+    void title.offsetWidth;
+    title.style.animation = "";
+}
 
         // Show new slide
         slides[current].classList.add("active");

@@ -15,7 +15,7 @@ section {
     min-height: 800px;
     position: relative;
     overflow: hidden;
-    margin: 0;
+    margin: 90;
     padding: 0;
     z-index: 1;
 }
@@ -160,17 +160,25 @@ section {
 
 @media (max-width:768px){
 
+   @media (max-width:768px){
+
     .hero-slider{
-
-        width:calc(100% - 0px);
-        height:200px;
-        min-height:200px;
-
+        width:100%;
+        height:auto;
+        min-height:unset;
+        aspect-ratio:16/9;
         margin:30px auto 20px;
-
-        border-radius:0px;
         overflow:hidden;
     }
+
+    .hero-slide{
+        background-size:contain;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-color:#000; /* or #fff */
+    }
+
+}
 
     .hero-slide,
     .hero-overlay{
@@ -201,14 +209,9 @@ section {
 @media (max-width:480px){
 
     .hero-slider{
-
         width:calc(100% - 0px);
-  
-        height:200px;
-        min-height:400px;
-
-        /* margin:80px auto 16px; */
-
+        height:211px;
+        margin:72px auto 16px;
         border-radius:0px;
     }
 
@@ -539,113 +542,12 @@ section {
 
 
 
-  /* Beyonf thinking and services section starts here*/
-  /* Beyonf thinking and services section starts here*/
-  /* Beyonf thinking and services section starts here*/
-
-  /* ===============================
-   VIDEO SECTION
-================================= */
-/* 
-.video-section{
-    width:100%;
-    padding:80px 20px;
-    background:#f5f5f5;
-}
-
-.video-container{
-    position:relative;
-    max-width:1300px;
-    margin:auto;
-    height:500px;
-    border-radius:18px;
-    overflow:hidden;
-}
-
-.video-container video{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-}
-
-.video-overlay{
-    position:absolute;
-    inset:0;
-    background:rgba(0,0,0,.45);
-}
-
-.video-content{
-    position:absolute;
-    inset:0;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    color:#fff;
-    z-index:2;
-    padding:20px;
-}
-
-.video-content h2{
-    font-size:56px;
-    font-weight:700;
-    letter-spacing:2px;
-    margin-bottom:15px;
-}
-
-.video-content p{
-    font-size:18px;
-    max-width:650px;
-    line-height:1.8;
-    opacity:.95;
-}
-
-@media(max-width:991px){
-
-    .video-container{
-        height:400px;
-    }
-
-    .video-content h2{
-        font-size:42px;
-    }
-
-}
-
-@media(max-width:767px){
-
-    .video-section{
-        padding:50px 15px;
-    }
-
-    .video-container{
-        height:300px;
-        border-radius:12px;
-    }
-
-    .video-content h2{
-        font-size:28px;
-    }
-
-    .video-content p{
-        font-size:15px;
-    }
-
-} */
-
-
-
-
-
-
-
-
 
 
 /*================= BEYOND THINKING =================*/
+/*=========================================BEYOND THINKING =========================================*/
 /*=========================================
-  BEYOND THINKING
+  BEYOND THINKING SECTION
 =========================================*/
 
 #beyond-thinking{
@@ -667,14 +569,27 @@ section {
 }
 
 /*=========================================
+  DARK OVERLAY
+=========================================*/
+
+#beyond-thinking::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.35);
+    border-radius:14px;
+    z-index:1;
+}
+
+/*=========================================
   TEXT OVERLAY
 =========================================*/
 
 .beyond-overlay{
     position:absolute;
+    top:50%;
     left:50%;
-    bottom:40px;
-    transform:translateX(-50%);
+    transform:translate(-50%,-50%);
     width:90%;
     text-align:center;
     z-index:2;
@@ -683,37 +598,15 @@ section {
 .beyond-overlay h2{
     margin:0;
     font-size:28px;
-    font-weight:200;
+    font-weight:400;
     line-height:1.2;
     letter-spacing:6px;
-
-    background:linear-gradient(
-        90deg,
-        #4285f4,
-        #9b72cb,
-        #d96570,
-        #fbbc04,
-        #4285f4
-    );
-
-    background-size:300% auto;
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-
-    filter:drop-shadow(0 0 18px rgba(155,114,203,.35));
-
-    animation:
-        geminiGradient 10s linear infinite,
-        textReveal 1s ease forwards;
+    text-transform:uppercase;
+    color:#fff;
 }
 
-.beyond-overlay p{
-    margin-top:12px;
-    font-size:12px;
-    line-height:1.6;
-    letter-spacing:3px;
+.beyond-overlay h2 span{
     color:#fff;
-    animation:textReveal 1.2s ease forwards;
 }
 
 /*=========================================
@@ -725,21 +618,21 @@ section {
     #beyond-thinking{
         width:90%;
         height:450px;
+        border-radius:14px;
+    }
+
+    #beyond-thinking img,
+    #beyond-thinking::before{
+        border-radius:14px;
     }
 
     .beyond-overlay{
         width:92%;
-        bottom:30px;
     }
 
     .beyond-overlay h2{
         font-size:22px;
         letter-spacing:4px;
-    }
-
-    .beyond-overlay p{
-        font-size:11px;
-        letter-spacing:2px;
     }
 
 }
@@ -751,13 +644,18 @@ section {
 @media (max-width:768px){
 
     #beyond-thinking{
-        width:94%;
+        width:90%;
         height:320px;
+        border-radius:14px;
+    }
+
+    #beyond-thinking img,
+    #beyond-thinking::before{
+        border-radius:14px;
     }
 
     .beyond-overlay{
-        width:94%;
-        bottom:22px;
+        width:92%;
     }
 
     .beyond-overlay h2{
@@ -765,43 +663,35 @@ section {
         letter-spacing:2px;
     }
 
-    .beyond-overlay p{
-        margin-top:8px;
-        font-size:10px;
-        line-height:1.5;
+}
+
+/*=========================================
+  SMALL MOBILE
+=========================================*/
+
+@media (max-width:480px){
+
+    #beyond-thinking{
+        width:90%;
+        height:260px;
+        border-radius:14px;
+    }
+
+    #beyond-thinking img,
+    #beyond-thinking::before{
+        border-radius:14px;
+    }
+
+    .beyond-overlay{
+        width:92%;
+    }
+
+    .beyond-overlay h2{
+        font-size:18px;
         letter-spacing:1px;
     }
 
 }
-
-/*=========================================
-  ANIMATIONS
-=========================================*/
-
-
-@keyframes textReveal{
-    from{
-        opacity:0;
-        transform:translateY(25px);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-}
-
-@keyframes geminiGradient{
-    0%{
-        background-position:0% center;
-    }
-    50%{
-        background-position:100% center;
-    }
-    100%{
-        background-position:0% center;
-    }
-} 
-
 
 
 
