@@ -41,7 +41,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         ? '#f-projects_section'
         : 'index.php#f-projects_section'; ?>"
        class="<?= $currentPage == 'project_detail.php' ? 'active' : '' ?>">
-        Projects
+        Portfolio
     </a>
 </li>
 

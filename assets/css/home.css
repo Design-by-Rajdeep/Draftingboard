@@ -1367,30 +1367,22 @@ MOBILE
     position: fixed;
     right: 30px;
     bottom: 30px;
-
     width: 55px;
     height: 55px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     border: none;
     outline: none;
     border-radius: 50%;
-
     background: #ee5149;
     color: #ffffff;
-
     cursor: pointer;
     z-index: 9999;
-
-    box-shadow: 0 10px 25px rgba(238, 81, 73, 0.35);
-
+    box-shadow: 0 0px 0px rgba(238, 81, 73, 0.35);
     opacity: 0;
     visibility: hidden;
     transform: translateY(20px);
-
     transition: all 0.35s ease;
 }
 
@@ -1403,7 +1395,7 @@ MOBILE
 #backToTop:hover{
     background: #d93d35;
     transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(238, 81, 73, 0.45);
+    box-shadow: 0 5px 10px rgba(238, 81, 73, 0.45);
 }
 
 #backToTop:active{

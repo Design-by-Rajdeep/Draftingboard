@@ -149,7 +149,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
 
             <div class="contact-info-item">
                 <span class="contact-info-label">Phone</span>
-                <p><a href="tel:+910000000000">+91 00000 00000</a></p>
+                <p><a href="tel:+910000000000">+91 88265 32115</a></p>
             </div>
 
             <div class="contact-info-item">
@@ -159,7 +159,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
 
             <div class="contact-social">
 
-                <a href="#" aria-label="Instagram">
+                <a href="https://www.instagram.com/draftingboard_studio?igsh=MTM0Y3h0OWQ1emFyOA%3D%3D" target="_blank" aria-label="Instagram">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <rect x="2" y="2" width="20" height="20" rx="5"/>
                         <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
@@ -167,7 +167,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
                     </svg>
                 </a>
 
-                <a href="#" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/company/drafting-board-studio/" target="_blank" aria-label="LinkedIn">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
                         <rect x="2" y="9" width="4" height="12"/>
@@ -175,7 +175,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
                     </svg>
                 </a>
 
-                <a href="#" aria-label="Behance">
+                <!-- <a href="https://www.behance.net/draftingboardstudio" target="_blank" aria-label="Behance">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M2 7h7"/>
                         <path d="M2 7v11h5.5a3.5 3.5 0 0 0 0-7H2"/>
@@ -184,7 +184,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
                         <path d="M14 14a4 4 0 0 1 8 0z"/>
                         <path d="M15 8h6"/>
                     </svg>
-                </a>
+                </a> -->
 
             </div>
 
