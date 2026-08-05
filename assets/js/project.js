@@ -31,27 +31,30 @@ const projects = {
 
         conceptImage: [
 
-        "assets/images/featured_project/farmhouse/Farmhouse Concept.jpg"
+        "assets/images/featured_project/farmhouse/farmhouse_concept.jpg"
 
         ],
 
-        images: [
+      images: [
 
-          
-        "assets/images/featured_project/farmhouse/farmhouse_exit.png",
-        "assets/images/featured_project/farmhouse/Farmhouse Cover.png",
-        "assets/images/featured_project/farmhouse/farmhouse_exit _6.png",
-        "assets/images/featured_project/farmhouse/farmhouse_exit.png",
-        "assets/images/featured_project/farmhouse/Farmhouse Cover.png",
-        "assets/images/featured_project/farmhouse/farmhouse_exit _6.png",
-        "assets/images/featured_project/farmhouse/farmhouse_exit.png",
-        "assets/images/featured_project/farmhouse/Farmhouse Cover.png",
-        "assets/images/featured_project/farmhouse/farmhouse_exit _6.png",
-        "assets/images/featured_project/farmhouse/farmhouse_exit.png",
-        "assets/images/featured_project/farmhouse/Farmhouse Cover.png",
-        "assets/images/featured_project/farmhouse/farmhouse_exit _7.png"
+    "assets/images/featured_project/farmhouse/00_farmhouse_cover.png",
 
-        ]
+    "assets/images/featured_project/farmhouse/01_farmhouse.png",
+    "assets/images/featured_project/farmhouse/02_farmhouse.png",
+    "assets/images/featured_project/farmhouse/03_farmhouse.png",
+    "assets/images/featured_project/farmhouse/04_farmhouse.png",
+    "assets/images/featured_project/farmhouse/05_farmhouse.png",
+    "assets/images/featured_project/farmhouse/06_farmhouse.png",
+    "assets/images/featured_project/farmhouse/07_farmhouse.png",
+    "assets/images/featured_project/farmhouse/08_farmhouse.png",
+    "assets/images/featured_project/farmhouse/08_farmhouse(1).png",
+    "assets/images/featured_project/farmhouse/09_farmhouse.png",
+    "assets/images/featured_project/farmhouse/10_farmhouse.png",
+    "assets/images/featured_project/farmhouse/11_farmhouse.png",
+    "assets/images/featured_project/farmhouse/12_farmhouse.png",
+    "assets/images/featured_project/farmhouse/13_farmhouse.png"
+
+]
 
     },
 
@@ -68,28 +71,28 @@ const projects = {
 
             ,
 
-        conceptImage: [
+       conceptImage: [
 
-        "assets/images/featured_project/Group Housing/Group Housing Concept.jpg"
+    "assets/images/featured_project/group_housing/group_housing_concept.jpg"
 
-        ],
+],
 
-         images: [
+images: [
 
-          
-        "assets/images/featured_project/Group Housing/Group Housing Cover.png",
-        "assets/images/featured_project/Group Housing/01 Group Housing.png",
-        "assets/images/featured_project/Group Housing/02 Group Housing.png",
-        "assets/images/featured_project/Group Housing/03 Group Housing.png",
-        "assets/images/featured_project/Group Housing/04 Group Housing.png",
-        "assets/images/featured_project/Group Housing/05 Group Housing.png",
-        "assets/images/featured_project/Group Housing/06 Group Housing.png",
-        "assets/images/featured_project/Group Housing/07 Group Housing.png",
-        "assets/images/featured_project/Group Housing/08 Group Housing.png",
-        "assets/images/featured_project/Group Housing/09 Group Housing.png",
-        "assets/images/featured_project/Group Housing/10 Group Housing.png"
+    "assets/images/featured_project/group_housing/00_group_housing_cover.png",
+    "assets/images/featured_project/group_housing/01_group_housing.png",
+    "assets/images/featured_project/group_housing/02_group_housing.png",
+    "assets/images/featured_project/group_housing/003_group_housing.png",
+    "assets/images/featured_project/group_housing/04_group_housing.png",
+    "assets/images/featured_project/group_housing/05_group_housing.png",
+    "assets/images/featured_project/group_housing/06_group_housing.png",
+    "assets/images/featured_project/group_housing/07_group_housing.png",
+    "assets/images/featured_project/group_housing/08_group_housing.png",
+    "assets/images/featured_project/group_housing/09_group_housing.png",
+    "assets/images/featured_project/group_housing/10_group_housing.png",
+    "assets/images/featured_project/group_housing/11_group_housing.png"
 
-        ]
+]
 
     },
 
@@ -117,26 +120,26 @@ const projects = {
 "This simple climate-responsive approach can significantly reduce cooling demand compared to conventional all-glass office buildings while creating a healthier and more comfortable workplace.",
        
 
-        conceptImage: [
+       conceptImage: [
 
-        "assets/images/featured_project/Commercial/Commercial Building Concept.jpg"
+    "assets/images/featured_project/commercial/commercial_b_concept.jpg"
 
-        ],
+],
 
-        images: [
+images: [
 
-        "assets/images/featured_project/Commercial/Commercial Cover.png",
-        "assets/images/featured_project/Commercial/01 Commercial_building.png",
-        "assets/images/featured_project/Commercial/02 Commercial_building.png",
-        "assets/images/featured_project/Commercial/03 Commercial_building.png",
-        "assets/images/featured_project/Commercial/04 Commercial_building.png",
-        "assets/images/featured_project/Commercial/05 Commercial_building.png",
-        "assets/images/featured_project/Commercial/06 Commercial_building.png",
-        "assets/images/featured_project/Commercial/07 Commercial_building.png",
-        "assets/images/featured_project/Commercial/08 Commercial_building.png",
-        "assets/images/featured_project/Commercial/09 Commercial_building.png"
+    "assets/images/featured_project/commercial/00_commercial_cover.png",
+    "assets/images/featured_project/commercial/01_commercial.png",
+    "assets/images/featured_project/commercial/02_commercial.jpg",
+    "assets/images/featured_project/commercial/03_commercial.png",
+    "assets/images/featured_project/commercial/04_commercial.png",
+    "assets/images/featured_project/commercial/05_commercial.png",
+    "assets/images/featured_project/commercial/06_commercial.png",
+    "assets/images/featured_project/commercial/07_commercial.png",
+    "assets/images/featured_project/commercial/08_commercial.png",
+    "assets/images/featured_project/commercial/09_commercial.png"
 
-        ]
+]
 
     },
 
@@ -155,27 +158,29 @@ const projects = {
 "A central courtyard, along with a second-skin façade and roof, provides shade, reduces heat gain, and keeps the learning spaces naturally cool, minimizing the need for mechanical air conditioning.",
 
 
-        conceptImage: [
+       conceptImage: [
 
-        "assets/images/featured project/School/School Concept.jpg"
+    "assets/images/featured_project/school/school_concept.jpg"
 
-        ],
+],
 
-        images: [
+images: [
 
-        "assets/images/featured_project/School/School Cover.png",
-        "assets/images/featured_project/School/1. Student Entry.png",
-        "assets/images/featured_project/School/2. Courtyard View.png",
-        "assets/images/featured_project/School/3.Cortyard View 2.png",
-        "assets/images/featured_project/School/4.Courtyard 4.png",
-        "assets/images/featured_project/School/7. Agriculture.png",
-        "assets/images/featured_project/School/10. Angle 2.png",
-        "assets/images/featured_project/School/11.Front Elevation.png",
-        "assets/images/featured_project/School/14. Backside Birdeye.png",
-        "assets/images/featured_project/School/21 Classroom Indoor.png",
-        "assets/images/featured_project/School/22 Library Indoor.png"
+    "assets/images/featured_project/school/00_school_cover.png",
+    "assets/images/featured_project/school/01_school.png",
+    "assets/images/featured_project/school/02_school.png",
+    "assets/images/featured_project/school/03_school.png",
+    "assets/images/featured_project/school/04_school.png",
+    "assets/images/featured_project/school/05_school.png",
+    "assets/images/featured_project/school/06_school.png",
+    "assets/images/featured_project/school/07_school.png",
+    "assets/images/featured_project/school/08_school.png",
+    "assets/images/featured_project/school/09_school.png",
+    "assets/images/featured_project/school/10_school.png",
+    "assets/images/featured_project/school/11_school.png",
+    "assets/images/featured_project/school/12_school.png"
 
-        ]
+]
 
     },
 
@@ -193,23 +198,23 @@ const projects = {
 "Terraces, sit-outs, and open spaces are thoughtfully placed around the home, allowing residents to enjoy the outdoors as part of everyday life. " +
 "The result is a contemporary villa that respects the closely connected social culture of its surroundings while offering a clean, modern living experience.",
 
+conceptImage: [
 
-        conceptImage: [
+    "assets/images/featured_project/villa/villa_layouts.jpg"
 
-        "assets/images/featured_project/Modern Villa/Villa Layouts.jpg"
+],
 
-        ],
+images: [
 
-        images: [
+    "assets/images/featured_project/villa/00_villa_cover.png",
+    "assets/images/featured_project/villa/01_villa.png",
+    "assets/images/featured_project/villa/02_villa.png",
+    "assets/images/featured_project/villa/03_villa.png",
+    "assets/images/featured_project/villa/04_villa.png",
+    "assets/images/featured_project/villa/05_villa.png",
+    "assets/images/featured_project/villa/06_villa.png"
 
-        "assets/images/featured_project/Modern Villa/Villa Cover.png",
-        "assets/images/featured_project/Modern Villa/02 Villa.png",
-        "assets/images/featured_project/Modern Villa/01 Villa.png",
-        "assets/images/featured_project/Modern Villa/04 Villa.png",
-        "assets/images/featured_project/Modern Villa/05 Villa.png",
-        "assets/images/featured_project/Modern Villa/06 Villa.png"
-
-        ]
+]
 
     },
 
@@ -227,23 +232,27 @@ const projects = {
 "The master plan was redesigned by moving the road to the rear of the villas, freeing the front edge for living areas, bedrooms, terraces, and private decks. " +
 "This simple planning change allows every villa to enjoy uninterrupted views of the hills and forest while creating a quieter, more private, and immersive stay for guests.",
         
+conceptImage: [
 
-        conceptImage: [
+    "assets/images/featured_project/bhowali/bhowali_concept.jpg"
 
-        "assets/images/featured_project/Bhowali/Bhowali Concept.jpg"
+],
 
-        ],
+images: [
 
-        images: [
+    "assets/images/featured_project/bhowali/00_bhowali_cover.png",
+    "assets/images/featured_project/bhowali/01_bhowali.png",
+    "assets/images/featured_project/bhowali/02_bhowali.png",
+    "assets/images/featured_project/bhowali/03_bhowali.png",
+    "assets/images/featured_project/bhowali/04_bhowali.png",
+    "assets/images/featured_project/bhowali/05_bhowali.png",
+    "assets/images/featured_project/bhowali/06_bhowali.png",
+    "assets/images/featured_project/bhowali/07_bhowali.png",
+    "assets/images/featured_project/bhowali/08_bhowali.png",
+    "assets/images/featured_project/bhowali/09_bhowali.png",
+    "assets/images/featured_project/bhowali/10_bhowali.png"
 
-         
-        "assets/images/featured_project/Bhowali/Bhowali Cover.png",
-        "assets/images/featured_project/Bhowali/02 Bhowali.png",
-        "assets/images/featured_project/Bhowali/09. Street View.png",
-        "assets/images/featured_project/Bhowali/03Bhowali.png"
-
-
-        ]
+]
 
     },
 
@@ -261,29 +270,28 @@ const projects = {
 "A continuous 20-foot-wide circulation loop with ramps and gentle curves connects the entire marketplace, making it easy to navigate on foot, by bicycle, or by golf cart. " +
 "The result is a more accessible, inclusive, and people-friendly urban center.",
 
-        conceptImage: [
+       conceptImage: [
 
-        "assets/images/featured project/Urban_Design/Urban Design cover.png"
+    "assets/images/featured_project/urban_design/u_d.png"
 
-        ],
+],
 
-        images: [
+images: [
 
-        "assets/images/featured_project/Urban_Design/Urban Design cover.png",
-        "assets/images/featured_project/Urban_Design/01 Urban Design.png",
-        "assets/images/featured_project/Urban_Design/02 Urban Design.png",
-        "assets/images/featured_project/Urban_Design/03 Urban Design.png",
-        "assets/images/featured_project/Urban_Design/04 Urban Design.png",
-        "assets/images/featured_project/Urban_Design/05 Urban Design.png",
-        "assets/images/featured_project/Urban_Design/06 Urban Design.png",
-        "assets/images/featured_project/Urban_Design/07 Urban Design.png",
-        "assets/images/featured_project/Urban_Design/08 Urban Design.png",
-        "assets/images/featured_project/Urban_Design/09 Urban Design.png",
-        "assets/images/featured_project/Urban_Design/10 Urban Design.png",
-        "assets/images/featured_project/Urban_Design/11 Urban Design.png",
-        "assets/images/featured_project/Urban_Design/12 Urban Design.png"
+    "assets/images/featured_project/urban_design/00_ud_cover.png",
+    "assets/images/featured_project/urban_design/01_ud.png",
+    "assets/images/featured_project/urban_design/02_ud.png",
+    "assets/images/featured_project/urban_design/03_ud.png",
+    "assets/images/featured_project/urban_design/04_ud.png",
+    "assets/images/featured_project/urban_design/05_ud.png",
+    "assets/images/featured_project/urban_design/06_ud.png",
+    "assets/images/featured_project/urban_design/07_ud.png",
+    "assets/images/featured_project/urban_design/08_ud.png",
+    "assets/images/featured_project/urban_design/09_ud.png",
+    "assets/images/featured_project/urban_design/10_ud.png",
+    "assets/images/featured_project/urban_design/11_ud.png"
 
-        ]
+]
 
     }
 

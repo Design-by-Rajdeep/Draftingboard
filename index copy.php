@@ -270,7 +270,7 @@
                     </p> -->
 
                     <a href="#" class="services-btn">
-                        Know More <span class="services-arrow">↗</span>
+                        Know More <span class="services-arrow"></span>
                     </a>
                 </div>
 
@@ -287,7 +287,7 @@
                     </p> -->
 
                     <a href="#" class="services-btn">
-                        Know More <span class="services-arrow">↗</span>
+                        Know More <span class="services-arrow"></span>
                     </a>
                 </div>
 
@@ -304,7 +304,7 @@
                     </p> -->
 
                     <a href="#" class="services-btn">
-                        Know More <span class="services-arrow">↗</span>
+                        Know More <span class="services-arrow"></span>
                     </a>
                 </div>
 
@@ -321,7 +321,7 @@
                     </p> -->
 
                     <a href="#" class="services-btn">
-                        Know More <span class="services-arrow">↗</span>
+                        Know More <span class="services-arrow"></span>
                     </a>
                 </div>
 
