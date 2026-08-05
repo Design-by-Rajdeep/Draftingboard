@@ -75,98 +75,33 @@
  
 
 
-<!-- ================= FEATURED PROJECTS ================= -->
-<!-- ================= FEATURED PROJECTS ================= -->
+<!-- Farmhouse -->
+<img src="assets/images/featured-project/farmhouse/Farmhouse Cover.png"
+     alt="Modern facade building">
 
-  <section class="fp-section" id="f-projects_section">
-  <div class="fp-heading">
-    <h2>FEATURED PROJECTS</h2>
-    <span class="fp-underline"></span>
-  </div>
+<!-- Villa -->
+<img src="assets/images/featured-project/Modern Villa/Villa Cover.png"
+     alt="Modern villa exterior design">
 
-  <div class="fp-wrapper">
+<!-- Primary School -->
+<img src="assets/images/featured-project/School/School Cover.png"
+     alt="Primary school building">
 
-    <div class="fp-track-container">
-      <div class="fp-track" id="fpTrack">
+<!-- Commercial -->
+<img src="assets/images/featured-project/Commercial/Commercial Cover.png"
+     alt="Commercial building exterior">
 
-        <div class="fp-card">
-          <div class="fp-card-image">
-             <img src="assets/images/featured project/farmhouse/Farmhouse Cover.png" alt="Architectural Design"
-            alt="Modern facade building">
-          </div>
-          <p class="fp-card-text">Farmhouse <br><span>A Countryside Retreat</span></p>
-          <a href="project_detail.php?project=farmhouse" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
+<!-- Group Housing -->
+<img src="assets/images/featured-project/Group Housing/Group Housing Cover.png"
+     alt="Modern house with pergola">
 
-  <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/Villa Cover.png" alt="Modern villa exterior design">
-          </div>
-          <p class="fp-card-text">Villa<br><span>Modern Living, Rooted in Community</span></p>
-          <a href="project_detail.php?project=villa" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
+<!-- Urban Design -->
+<img src="assets/images/featured-project/Urban_Design/Urban Design cover.png"
+     alt="Urban Design">
 
-
-  <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/primary_school.png" alt="Primary school building">
-          </div>
-          <p class="fp-card-text">Primary School<br><span>Learning Beyond the Classroom</span></p>
-          <a href="project_detail.php?project=school" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/Commercial Cover.png" alt="Commercial building exterior">
-          </div>
-          <p class="fp-card-text">Commercial Building<br><span>Reimagining the Urban Workplace</span></p>
-          <a href="project_detail.php?project=commercial" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-             <img src="assets/images/featured project/group_housing.png" alt="Modern house with pergola">
-          </div>
-          <p class="fp-card-text">Group Housing<br><span>Reviving Community Living</span></p>
-          <a href="project_detail.php?project=grouphousing" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-        
-         <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/urban_design.png" alt="Urban Design">
-          </div>
-          <p class="fp-card-text">Urban Design<br><span>Reimagining the Urban Marketplace</span></p>
-          <a href="project_detail.php?project=urbandesign" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-      
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/bhowali_cover.png" alt="Bhowali Resort exterior design">
-          </div>
-         <p class="fp-card-text">Bhowali Resort<br><span>Designing Around the View</span></p>
-         <a href="project_detail.php?project=bhowaliresort" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-     
-
-      </div>
-    </div>
-
-    <div class="fp-controls">
-      <button class="fp-nav-btn fp-prev-btn" id="fpPrevBtn">&lsaquo; Previous</button>
-      <div class="fp-dots" id="fpDotsContainer"></div>
-      <button class="fp-nav-btn fp-next-btn" id="fpNextBtn">Next &rsaquo;</button>
-    </div>
-
-  </div>
-</section>
-
-<!-- ================= END FEATURED PROJECTS ================= -->
+<!-- Bhowali Resort -->
+<img src="assets/images/featured-project/Bhowali/Bhowali Cover.png"
+     alt="Bhowali Resort exterior design">
 
 
 

@@ -31,21 +31,25 @@ const projects = {
 
         conceptImage: [
 
-        "assets/images/featured project/farmhouse/Farmhouse Concept.jpg"
+        "assets/images/featured_project/farmhouse/Farmhouse Concept.jpg"
 
         ],
 
         images: [
 
           
-        "assets/images/featured project/farmhouse/farmhouse_exit.png",
-        "assets/images/featured project/farmhouse/Farmhouse Cover.png",
-        "assets/images/featured project/farmhouse/farmhouse_exit _6.png",
-        "assets/images/featured project/farmhouse/farmhouse_exit.png",
-        "assets/images/featured project/farmhouse/Farmhouse Cover.png",
-        "assets/images/featured project/farmhouse/farmhouse_exit _6.png",
-        "assets/images/featured project/farmhouse/farmhouse_exit.png",
-        "assets/images/featured project/farmhouse/farmhouse_exit _7.png"
+        "assets/images/featured_project/farmhouse/farmhouse_exit.png",
+        "assets/images/featured_project/farmhouse/Farmhouse Cover.png",
+        "assets/images/featured_project/farmhouse/farmhouse_exit _6.png",
+        "assets/images/featured_project/farmhouse/farmhouse_exit.png",
+        "assets/images/featured_project/farmhouse/Farmhouse Cover.png",
+        "assets/images/featured_project/farmhouse/farmhouse_exit _6.png",
+        "assets/images/featured_project/farmhouse/farmhouse_exit.png",
+        "assets/images/featured_project/farmhouse/Farmhouse Cover.png",
+        "assets/images/featured_project/farmhouse/farmhouse_exit _6.png",
+        "assets/images/featured_project/farmhouse/farmhouse_exit.png",
+        "assets/images/featured_project/farmhouse/Farmhouse Cover.png",
+        "assets/images/featured_project/farmhouse/farmhouse_exit _7.png"
 
         ]
 
@@ -66,24 +70,24 @@ const projects = {
 
         conceptImage: [
 
-        "assets/images/featured project/Group Housing/Group Housing Concept.jpg"
+        "assets/images/featured_project/Group Housing/Group Housing Concept.jpg"
 
         ],
 
          images: [
 
           
-        "assets/images/featured project/Group Housing/Group Housing Cover.png",
-        "assets/images/featured project/Group Housing/01 Group Housing.png",
-        "assets/images/featured project/Group Housing/02 Group Housing.png",
-        "assets/images/featured project/Group Housing/03 Group Housing.png",
-        "assets/images/featured project/Group Housing/04 Group Housing.png",
-        "assets/images/featured project/Group Housing/05 Group Housing.png",
-        "assets/images/featured project/Group Housing/06 Group Housing.png",
-        "assets/images/featured project/Group Housing/07 Group Housing.png",
-        "assets/images/featured project/Group Housing/08 Group Housing.png",
-        "assets/images/featured project/Group Housing/09 Group Housing.png",
-        "assets/images/featured project/Group Housing/10 Group Housing.png"
+        "assets/images/featured_project/Group Housing/Group Housing Cover.png",
+        "assets/images/featured_project/Group Housing/01 Group Housing.png",
+        "assets/images/featured_project/Group Housing/02 Group Housing.png",
+        "assets/images/featured_project/Group Housing/03 Group Housing.png",
+        "assets/images/featured_project/Group Housing/04 Group Housing.png",
+        "assets/images/featured_project/Group Housing/05 Group Housing.png",
+        "assets/images/featured_project/Group Housing/06 Group Housing.png",
+        "assets/images/featured_project/Group Housing/07 Group Housing.png",
+        "assets/images/featured_project/Group Housing/08 Group Housing.png",
+        "assets/images/featured_project/Group Housing/09 Group Housing.png",
+        "assets/images/featured_project/Group Housing/10 Group Housing.png"
 
         ]
 
@@ -115,22 +119,22 @@ const projects = {
 
         conceptImage: [
 
-        "assets/images/featured project/Commercial/Commercial Building Concept.jpg"
+        "assets/images/featured_project/Commercial/Commercial Building Concept.jpg"
 
         ],
 
         images: [
 
-        "assets/images/featured project/Commercial/Commercial Cover.png",
-        "assets/images/featured project/Commercial/01 Commercial_building.png",
-        "assets/images/featured project/Commercial/02 Commercial_building.png",
-        "assets/images/featured project/Commercial/03 Commercial_building.png",
-        "assets/images/featured project/Commercial/04 Commercial_building.png",
-        "assets/images/featured project/Commercial/05 Commercial_building.png",
-        "assets/images/featured project/Commercial/06 Commercial_building.png",
-        "assets/images/featured project/Commercial/07 Commercial_building.png",
-        "assets/images/featured project/Commercial/08 Commercial_building.png",
-        "assets/images/featured project/Commercial/09 Commercial_building.png"
+        "assets/images/featured_project/Commercial/Commercial Cover.png",
+        "assets/images/featured_project/Commercial/01 Commercial_building.png",
+        "assets/images/featured_project/Commercial/02 Commercial_building.png",
+        "assets/images/featured_project/Commercial/03 Commercial_building.png",
+        "assets/images/featured_project/Commercial/04 Commercial_building.png",
+        "assets/images/featured_project/Commercial/05 Commercial_building.png",
+        "assets/images/featured_project/Commercial/06 Commercial_building.png",
+        "assets/images/featured_project/Commercial/07 Commercial_building.png",
+        "assets/images/featured_project/Commercial/08 Commercial_building.png",
+        "assets/images/featured_project/Commercial/09 Commercial_building.png"
 
         ]
 
@@ -159,17 +163,17 @@ const projects = {
 
         images: [
 
-        "assets/images/featured project/School/School Cover.png",
-        "assets/images/featured project/School/1. Student Entry.png",
-        "assets/images/featured project/School/2. Courtyard View.png",
-        "assets/images/featured project/School/3.Cortyard View 2.png",
-        "assets/images/featured project/School/4.Courtyard 4.png",
-        "assets/images/featured project/School/7. Agriculture.png",
-        "assets/images/featured project/School/10. Angle 2.png",
-        "assets/images/featured project/School/11.Front Elevation.png",
-        "assets/images/featured project/School/14. Backside Birdeye.png",
-        "assets/images/featured project/School/21 Classroom Indoor.png",
-        "assets/images/featured project/School/22 Library Indoor.png"
+        "assets/images/featured_project/School/School Cover.png",
+        "assets/images/featured_project/School/1. Student Entry.png",
+        "assets/images/featured_project/School/2. Courtyard View.png",
+        "assets/images/featured_project/School/3.Cortyard View 2.png",
+        "assets/images/featured_project/School/4.Courtyard 4.png",
+        "assets/images/featured_project/School/7. Agriculture.png",
+        "assets/images/featured_project/School/10. Angle 2.png",
+        "assets/images/featured_project/School/11.Front Elevation.png",
+        "assets/images/featured_project/School/14. Backside Birdeye.png",
+        "assets/images/featured_project/School/21 Classroom Indoor.png",
+        "assets/images/featured_project/School/22 Library Indoor.png"
 
         ]
 
@@ -192,18 +196,18 @@ const projects = {
 
         conceptImage: [
 
-        "assets/images/featured project/Modern Villa/Villa Layouts.jpg"
+        "assets/images/featured_project/Modern Villa/Villa Layouts.jpg"
 
         ],
 
         images: [
 
-        "assets/images/featured project/Modern Villa/Villa Cover.png",
-        "assets/images/featured project/Modern Villa/02 Villa.png",
-        "assets/images/featured project/Modern Villa/01 Villa.png",
-        "assets/images/featured project/Modern Villa/04 Villa.png",
-        "assets/images/featured project/Modern Villa/05 Villa.png",
-        "assets/images/featured project/Modern Villa/06 Villa.png"
+        "assets/images/featured_project/Modern Villa/Villa Cover.png",
+        "assets/images/featured_project/Modern Villa/02 Villa.png",
+        "assets/images/featured_project/Modern Villa/01 Villa.png",
+        "assets/images/featured_project/Modern Villa/04 Villa.png",
+        "assets/images/featured_project/Modern Villa/05 Villa.png",
+        "assets/images/featured_project/Modern Villa/06 Villa.png"
 
         ]
 
@@ -226,17 +230,17 @@ const projects = {
 
         conceptImage: [
 
-        "assets/images/featured project/Bhowali/Bhowali Concept.jpg"
+        "assets/images/featured_project/Bhowali/Bhowali Concept.jpg"
 
         ],
 
         images: [
 
          
-        "assets/images/featured project/Bhowali/Bhowali Cover.png",
-        "assets/images/featured project/Bhowali/02 Bhowali.png",
-        "assets/images/featured project/Bhowali/09. Street View.png",
-        "assets/images/featured project/Bhowali/03Bhowali.png"
+        "assets/images/featured_project/Bhowali/Bhowali Cover.png",
+        "assets/images/featured_project/Bhowali/02 Bhowali.png",
+        "assets/images/featured_project/Bhowali/09. Street View.png",
+        "assets/images/featured_project/Bhowali/03Bhowali.png"
 
 
         ]
@@ -265,19 +269,19 @@ const projects = {
 
         images: [
 
-        "assets/images/featured project/Urban_Design/Urban Design cover.png",
-        "assets/images/featured project/Urban_Design/01 Urban Design.png",
-        "assets/images/featured project/Urban_Design/02 Urban Design.png",
-        "assets/images/featured project/Urban_Design/03 Urban Design.png",
-        "assets/images/featured project/Urban_Design/04 Urban Design.png",
-        "assets/images/featured project/Urban_Design/05 Urban Design.png",
-        "assets/images/featured project/Urban_Design/06 Urban Design.png",
-        "assets/images/featured project/Urban_Design/07 Urban Design.png",
-        "assets/images/featured project/Urban_Design/08 Urban Design.png",
-        "assets/images/featured project/Urban_Design/09 Urban Design.png",
-        "assets/images/featured project/Urban_Design/10 Urban Design.png",
-        "assets/images/featured project/Urban_Design/11 Urban Design.png",
-        "assets/images/featured project/Urban_Design/12 Urban Design.png"
+        "assets/images/featured_project/Urban_Design/Urban Design cover.png",
+        "assets/images/featured_project/Urban_Design/01 Urban Design.png",
+        "assets/images/featured_project/Urban_Design/02 Urban Design.png",
+        "assets/images/featured_project/Urban_Design/03 Urban Design.png",
+        "assets/images/featured_project/Urban_Design/04 Urban Design.png",
+        "assets/images/featured_project/Urban_Design/05 Urban Design.png",
+        "assets/images/featured_project/Urban_Design/06 Urban Design.png",
+        "assets/images/featured_project/Urban_Design/07 Urban Design.png",
+        "assets/images/featured_project/Urban_Design/08 Urban Design.png",
+        "assets/images/featured_project/Urban_Design/09 Urban Design.png",
+        "assets/images/featured_project/Urban_Design/10 Urban Design.png",
+        "assets/images/featured_project/Urban_Design/11 Urban Design.png",
+        "assets/images/featured_project/Urban_Design/12 Urban Design.png"
 
         ]
 
