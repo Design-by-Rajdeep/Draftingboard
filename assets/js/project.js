@@ -29,31 +29,27 @@ const projects = {
 "Finished in warm, earthy tones, the farmhouse blends naturally with its surroundings, offering a calm and comfortable living experience inspired by the simplicity of countryside life."
 ,
 
-        conceptImage: [
+   conceptImage: [
+  "assets/images/featured_project/farmhouse/farmhouse_concept.jpg"
+],
 
-        "assets/images/featured_project/farmhouse/farmhouse_concept.jpg"
+images: [
+  "assets/images/featured_project/farmhouse/00_farmhouse_cover.jpg",
 
-        ],
-
-      images: [
-
-    "assets/images/featured_project/farmhouse/00_farmhouse_cover.png",
-
-    "assets/images/featured_project/farmhouse/01_farmhouse.png",
-    "assets/images/featured_project/farmhouse/02_farmhouse.png",
-    "assets/images/featured_project/farmhouse/03_farmhouse.png",
-    "assets/images/featured_project/farmhouse/04_farmhouse.png",
-    "assets/images/featured_project/farmhouse/05_farmhouse.png",
-    "assets/images/featured_project/farmhouse/06_farmhouse.png",
-    "assets/images/featured_project/farmhouse/07_farmhouse.png",
-    "assets/images/featured_project/farmhouse/08_farmhouse.png",
-    "assets/images/featured_project/farmhouse/08_farmhouse(1).png",
-    "assets/images/featured_project/farmhouse/09_farmhouse.png",
-    "assets/images/featured_project/farmhouse/10_farmhouse.png",
-    "assets/images/featured_project/farmhouse/11_farmhouse.png",
-    "assets/images/featured_project/farmhouse/12_farmhouse.png",
-    "assets/images/featured_project/farmhouse/13_farmhouse.png"
-
+  "assets/images/featured_project/farmhouse/01_farmhouse.jpg",
+  "assets/images/featured_project/farmhouse/02_farmhouse.jpg",
+  "assets/images/featured_project/farmhouse/03_farmhouse.jpg",
+  "assets/images/featured_project/farmhouse/04_farmhouse.jpg",
+  "assets/images/featured_project/farmhouse/05_farmhouse.jpg",
+  "assets/images/featured_project/farmhouse/06_farmhouse.jpg",
+  "assets/images/featured_project/farmhouse/07_farmhouse.jpg",
+  "assets/images/featured_project/farmhouse/08_farmhouse.jpg",
+  "assets/images/featured_project/farmhouse/09_farmhouse.jpg",
+  "assets/images/featured_project/farmhouse/10_farmhouse.jpg",
+  "assets/images/featured_project/farmhouse/11_farmhouse.jpg",
+  "assets/images/featured_project/farmhouse/12_farmhouse.jpg",
+  "assets/images/featured_project/farmhouse/13_farmhouse.jpg",
+  "assets/images/featured_project/farmhouse/14_farmhouse.jpg"
 ]
 
     },
@@ -70,28 +66,23 @@ const projects = {
 "Located just a short walk from every home, these spaces encourage children to play close to their families while providing comfortable areas for conversations, relaxation, and informal gatherings. By bringing people together within the residential floors, the design creates a safer, more connected, and socially active living environment that reimagines the warmth of traditional street culture in a modern vertical community."
 
             ,
-
-       conceptImage: [
-
+conceptImage: [
     "assets/images/featured_project/group_housing/group_housing_concept.jpg"
-
 ],
 
 images: [
-
-    "assets/images/featured_project/group_housing/00_group_housing_cover.png",
-    "assets/images/featured_project/group_housing/01_group_housing.png",
-    "assets/images/featured_project/group_housing/02_group_housing.png",
-    "assets/images/featured_project/group_housing/003_group_housing.png",
-    "assets/images/featured_project/group_housing/04_group_housing.png",
-    "assets/images/featured_project/group_housing/05_group_housing.png",
-    "assets/images/featured_project/group_housing/06_group_housing.png",
-    "assets/images/featured_project/group_housing/07_group_housing.png",
-    "assets/images/featured_project/group_housing/08_group_housing.png",
-    "assets/images/featured_project/group_housing/09_group_housing.png",
-    "assets/images/featured_project/group_housing/10_group_housing.png",
-    "assets/images/featured_project/group_housing/11_group_housing.png"
-
+    "assets/images/featured_project/group_housing/00_group_housing.jpg",
+    "assets/images/featured_project/group_housing/01_group_housing.jpg",
+    "assets/images/featured_project/group_housing/02_group_housing.jpg",
+    "assets/images/featured_project/group_housing/03_group_housing.jpg",
+    "assets/images/featured_project/group_housing/04_group_housing.jpg",
+    "assets/images/featured_project/group_housing/05_group_housing.jpg",
+    "assets/images/featured_project/group_housing/06_group_housing.jpg",
+    "assets/images/featured_project/group_housing/07_group_housing.jpg",
+    "assets/images/featured_project/group_housing/08_group_housing.jpg",
+    "assets/images/featured_project/group_housing/09_group_housing.jpg",
+    "assets/images/featured_project/group_housing/10_group_housing.jpg",
+    "assets/images/featured_project/group_housing/11_group_housing.jpg"
 ]
 
     },
@@ -119,26 +110,21 @@ images: [
 "The façade is divided into three parts—a glazed middle section with chajjas for daylight and shading, and perforated MS panels at the top and bottom that allow natural airflow. " +
 "This simple climate-responsive approach can significantly reduce cooling demand compared to conventional all-glass office buildings while creating a healthier and more comfortable workplace.",
        
-
-       conceptImage: [
-
+conceptImage: [
     "assets/images/featured_project/commercial/commercial_b_concept.jpg"
-
 ],
 
 images: [
-
-    "assets/images/featured_project/commercial/00_commercial_cover.png",
-    "assets/images/featured_project/commercial/01_commercial.png",
+    "assets/images/featured_project/commercial/00_commercial_cover.jpg",
+    "assets/images/featured_project/commercial/01_commercial.jpg",
     "assets/images/featured_project/commercial/02_commercial.jpg",
-    "assets/images/featured_project/commercial/03_commercial.png",
-    "assets/images/featured_project/commercial/04_commercial.png",
-    "assets/images/featured_project/commercial/05_commercial.png",
-    "assets/images/featured_project/commercial/06_commercial.png",
-    "assets/images/featured_project/commercial/07_commercial.png",
-    "assets/images/featured_project/commercial/08_commercial.png",
-    "assets/images/featured_project/commercial/09_commercial.png"
-
+    "assets/images/featured_project/commercial/03_commercial.jpg",
+    "assets/images/featured_project/commercial/04_commercial.jpg",
+    "assets/images/featured_project/commercial/05_commercial.jpg",
+    "assets/images/featured_project/commercial/06_commercial.jpg",
+    "assets/images/featured_project/commercial/07_commercial.jpg",
+    "assets/images/featured_project/commercial/08_commercial.jpg",
+    "assets/images/featured_project/commercial/09_commercial.jpg"
 ]
 
     },
@@ -157,29 +143,24 @@ images: [
 "The classrooms are arranged in a zigzag layout, creating shared green spaces while maintaining visual privacy for each class. " +
 "A central courtyard, along with a second-skin façade and roof, provides shade, reduces heat gain, and keeps the learning spaces naturally cool, minimizing the need for mechanical air conditioning.",
 
-
-       conceptImage: [
-
+conceptImage: [
     "assets/images/featured_project/school/school_concept.jpg"
-
 ],
 
 images: [
-
-    "assets/images/featured_project/school/00_school_cover.png",
-    "assets/images/featured_project/school/01_school.png",
-    "assets/images/featured_project/school/02_school.png",
-    "assets/images/featured_project/school/03_school.png",
-    "assets/images/featured_project/school/04_school.png",
-    "assets/images/featured_project/school/05_school.png",
-    "assets/images/featured_project/school/06_school.png",
-    "assets/images/featured_project/school/07_school.png",
-    "assets/images/featured_project/school/08_school.png",
-    "assets/images/featured_project/school/09_school.png",
-    "assets/images/featured_project/school/10_school.png",
-    "assets/images/featured_project/school/11_school.png",
-    "assets/images/featured_project/school/12_school.png"
-
+    "assets/images/featured_project/school/00_school_cover.jpg",
+    "assets/images/featured_project/school/01_school.jpg",
+    "assets/images/featured_project/school/02_school.jpg",
+    "assets/images/featured_project/school/03_school.jpg",
+    "assets/images/featured_project/school/04_school.jpg",
+    "assets/images/featured_project/school/05_school.jpg",
+    "assets/images/featured_project/school/06_school.jpg",
+    "assets/images/featured_project/school/07_school.jpg",
+    "assets/images/featured_project/school/08_school.jpg",
+    "assets/images/featured_project/school/09_school.jpg",
+    "assets/images/featured_project/school/10_school.jpg",
+    "assets/images/featured_project/school/11_school.jpg",
+    "assets/images/featured_project/school/12_school.jpg"
 ]
 
     },
@@ -197,23 +178,18 @@ images: [
 
 "Terraces, sit-outs, and open spaces are thoughtfully placed around the home, allowing residents to enjoy the outdoors as part of everyday life. " +
 "The result is a contemporary villa that respects the closely connected social culture of its surroundings while offering a clean, modern living experience.",
-
 conceptImage: [
-
     "assets/images/featured_project/villa/villa_layouts.jpg"
-
 ],
 
 images: [
-
-    "assets/images/featured_project/villa/00_villa_cover.png",
-    "assets/images/featured_project/villa/01_villa.png",
-    "assets/images/featured_project/villa/02_villa.png",
-    "assets/images/featured_project/villa/03_villa.png",
-    "assets/images/featured_project/villa/04_villa.png",
-    "assets/images/featured_project/villa/05_villa.png",
-    "assets/images/featured_project/villa/06_villa.png"
-
+    "assets/images/featured_project/villa/00_villa_cover.jpg",
+    "assets/images/featured_project/villa/01_villa.jpg",
+    "assets/images/featured_project/villa/02_villa.jpg",
+    "assets/images/featured_project/villa/03_villa.jpg",
+    "assets/images/featured_project/villa/04_villa.jpg",
+    "assets/images/featured_project/villa/05_villa.jpg",
+    "assets/images/featured_project/villa/06_villa.jpg"
 ]
 
     },
@@ -231,27 +207,22 @@ images: [
 
 "The master plan was redesigned by moving the road to the rear of the villas, freeing the front edge for living areas, bedrooms, terraces, and private decks. " +
 "This simple planning change allows every villa to enjoy uninterrupted views of the hills and forest while creating a quieter, more private, and immersive stay for guests.",
-        
-conceptImage: [
-
+ conceptImage: [
     "assets/images/featured_project/bhowali/bhowali_concept.jpg"
-
 ],
 
 images: [
-
-    "assets/images/featured_project/bhowali/00_bhowali_cover.png",
-    "assets/images/featured_project/bhowali/01_bhowali.png",
-    "assets/images/featured_project/bhowali/02_bhowali.png",
-    "assets/images/featured_project/bhowali/03_bhowali.png",
-    "assets/images/featured_project/bhowali/04_bhowali.png",
-    "assets/images/featured_project/bhowali/05_bhowali.png",
-    "assets/images/featured_project/bhowali/06_bhowali.png",
-    "assets/images/featured_project/bhowali/07_bhowali.png",
-    "assets/images/featured_project/bhowali/08_bhowali.png",
-    "assets/images/featured_project/bhowali/09_bhowali.png",
-    "assets/images/featured_project/bhowali/10_bhowali.png"
-
+    "assets/images/featured_project/bhowali/00_bhowali_cover.jpg",
+    "assets/images/featured_project/bhowali/01_bhowali.jpg",
+    "assets/images/featured_project/bhowali/02_bhowali.jpg",
+    "assets/images/featured_project/bhowali/03_bhowali.jpg",
+    "assets/images/featured_project/bhowali/04_bhowali.jpg",
+    "assets/images/featured_project/bhowali/05_bhowali.jpg",
+    "assets/images/featured_project/bhowali/06_bhowali.jpg",
+    "assets/images/featured_project/bhowali/07_bhowali.jpg",
+    "assets/images/featured_project/bhowali/08_bhowali.jpg",
+    "assets/images/featured_project/bhowali/09_bhowali.jpg",
+    "assets/images/featured_project/bhowali/10_bhowali.jpg"
 ]
 
     },
@@ -270,29 +241,24 @@ images: [
 "A continuous 20-foot-wide circulation loop with ramps and gentle curves connects the entire marketplace, making it easy to navigate on foot, by bicycle, or by golf cart. " +
 "The result is a more accessible, inclusive, and people-friendly urban center.",
 
-       conceptImage: [
-
-    "assets/images/featured_project/urban_design/u_d.png"
-
+    conceptImage: [
+    "assets/images/featured_project/urban_design/u_d.jpg"
 ],
 
 images: [
-
-    "assets/images/featured_project/urban_design/00_ud_cover.png",
-    "assets/images/featured_project/urban_design/01_ud.png",
-    "assets/images/featured_project/urban_design/02_ud.png",
-    "assets/images/featured_project/urban_design/03_ud.png",
-    "assets/images/featured_project/urban_design/04_ud.png",
-    "assets/images/featured_project/urban_design/05_ud.png",
-    "assets/images/featured_project/urban_design/06_ud.png",
-    "assets/images/featured_project/urban_design/07_ud.png",
-    "assets/images/featured_project/urban_design/08_ud.png",
-    "assets/images/featured_project/urban_design/09_ud.png",
-    "assets/images/featured_project/urban_design/10_ud.png",
-    "assets/images/featured_project/urban_design/11_ud.png"
-
+    "assets/images/featured_project/urban_design/00_ud_cover.jpg",
+    "assets/images/featured_project/urban_design/01_ud.jpg",
+    "assets/images/featured_project/urban_design/02_ud.jpg",
+    "assets/images/featured_project/urban_design/03_ud.jpg",
+    "assets/images/featured_project/urban_design/04_ud.jpg",
+    "assets/images/featured_project/urban_design/05_ud.jpg",
+    "assets/images/featured_project/urban_design/06_ud.jpg",
+    "assets/images/featured_project/urban_design/07_ud.jpg",
+    "assets/images/featured_project/urban_design/08_ud.jpg",
+    "assets/images/featured_project/urban_design/09_ud.jpg",
+    "assets/images/featured_project/urban_design/10_ud.jpg",
+    "assets/images/featured_project/urban_design/11_ud.jpg"
 ]
-
     }
 
 };

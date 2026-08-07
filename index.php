@@ -91,63 +91,53 @@
     <div class="fp-track-container">
       <div class="fp-track" id="fpTrack">
 
-        <div class="fp-card">
-          <div class="fp-card-image">
-             <img src="assets/images/featured_project/farmhouse/00_farmhouse_cover.png" alt="Architectural Design"
-            alt="Modern facade building">
-          </div>
-          <p class="fp-card-text">Farmhouse <br><span>A Countryside Retreat</span></p>
-          <a href="project_detail.php?project=farmhouse" class="fp-btn">Know More <span class="fp-arrow"></span></a>
-        </div>
-        
        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured_project/villa/00_villa_cover.png" alt="Modern villa exterior design">
-          </div>
-          <p class="fp-card-text">Villa<br><span>Modern Living, Rooted in Community</span></p>
-          <a href="project_detail.php?project=villa" class="fp-btn">Know More <span class="fp-arrow"></span></a>
-        </div>
+  <div class="fp-card-image">
+    <img src="assets/images/featured_project/villa/00_villa_cover.jpg" alt="Modern villa exterior design">
+  </div>
+  <p class="fp-card-text">Villa<br><span>Modern Living, Rooted in Community</span></p>
+  <a href="project_detail.php?project=villa" class="fp-btn">Know More <span class="fp-arrow"></span></a>
+</div>
 
-       <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured_project/school/00_school_cover.png" alt="Primary school building">
-          </div>
-          <p class="fp-card-text">Primary School<br><span>Learning Beyond the Classroom</span></p>
-          <a href="project_detail.php?project=school" class="fp-btn">Know More <span class="fp-arrow"></span></a>
-        </div>
+<div class="fp-card">
+  <div class="fp-card-image">
+    <img src="assets/images/featured_project/school/00_school_cover.jpg" alt="Primary school building">
+  </div>
+  <p class="fp-card-text">Primary School<br><span>Learning Beyond the Classroom</span></p>
+  <a href="project_detail.php?project=school" class="fp-btn">Know More <span class="fp-arrow"></span></a>
+</div>
 
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured_project/commercial/00_commercial_cover.png" alt="Commercial building exterior">
-          </div>
-          <p class="fp-card-text">Commercial Building<br><span>Reimagining the Urban Workplace</span></p>
-          <a href="project_detail.php?project=commercial" class="fp-btn">Know More <span class="fp-arrow"></span></a>
-        </div>
+<div class="fp-card">
+  <div class="fp-card-image">
+    <img src="assets/images/featured_project/commercial/00_commercial_cover.jpg" alt="Commercial building exterior">
+  </div>
+  <p class="fp-card-text">Commercial Building<br><span>Reimagining the Urban Workplace</span></p>
+  <a href="project_detail.php?project=commercial" class="fp-btn">Know More <span class="fp-arrow"></span></a>
+</div>
 
+<div class="fp-card">
+  <div class="fp-card-image">
+    <img src="assets/images/featured_project/group_housing/00_group_housing_cover.jpg" alt="Modern house with pergola">
+  </div>
+  <p class="fp-card-text">Group Housing<br><span>Reviving Community Living</span></p>
+  <a href="project_detail.php?project=group_housing" class="fp-btn">Know More <span class="fp-arrow"></span></a>
+</div>
 
-        <div class="fp-card">
-          <div class="fp-card-image">
-             <img src="assets/images/featured_project/group_housing/00_group_housing_cover.png" alt="Modern house with pergola">
-          </div>
-          <p class="fp-card-text">Group Housing<br><span>Reviving Community Living</span></p>
-          <a href="project_detail.php?project=group_housing" class="fp-btn">Know More <span class="fp-arrow"></span></a>
-        </div>
+<div class="fp-card">
+  <div class="fp-card-image">
+    <img src="assets/images/featured_project/urban_design/00_ud_cover.jpg" alt="Urban Design">
+  </div>
+  <p class="fp-card-text">Urban Design<br><span>Reimagining the Urban Marketplace</span></p>
+  <a href="project_detail.php?project=urbandesign" class="fp-btn">Know More <span class="fp-arrow"></span></a>
+</div>
 
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured_project/urban_design/00_ud_cover.png" alt="Urban Design">
-          </div>
-          <p class="fp-card-text">Urban Design<br><span>Reimagining the Urban Marketplace</span></p>
-          <a href="project_detail.php?project=urbandesign" class="fp-btn">Know More <span class="fp-arrow"></span></a>
-        </div>
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured_project/bhowali/00_bhowali_cover.png" alt="Bhowali Resort exterior design">
-          </div>
-         <p class="fp-card-text">Bhowali Resort<br><span>Designing Around the View</span></p>
-         <a href="project_detail.php?project=bhowali" class="fp-btn">Know More <span class="fp-arrow"></span></a>
-        </div>
+<div class="fp-card">
+  <div class="fp-card-image">
+    <img src="assets/images/featured_project/bhowali/00_bhowali_cover.jpg" alt="Bhowali Resort exterior design">
+  </div>
+  <p class="fp-card-text">Bhowali Resort<br><span>Designing Around the View</span></p>
+  <a href="project_detail.php?project=bhowali" class="fp-btn">Know More <span class="fp-arrow"></span></a>
+</div>
 
       </div>
     </div>
