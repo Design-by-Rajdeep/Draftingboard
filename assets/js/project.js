@@ -29,22 +29,32 @@ const projects = {
 "Finished in warm, earthy tones, the farmhouse blends naturally with its surroundings, offering a calm and comfortable living experience inspired by the simplicity of countryside life."
 ,
 
-        map:
-            "https://www.google.com/maps/embed?pb=",
+        conceptImage: [
 
-        images: [
+        "assets/images/featured_project/farmhouse/farmhouse_concept.jpg"
 
-          
-        "assets/images/featured project/farmhouse/farmhouse_exit.png",
-        "assets/images/featured project/farmhouse/Farmhouse Cover.png",
-        "assets/images/featured project/farmhouse/farmhouse_exit _6.png",
-        "assets/images/featured project/farmhouse/farmhouse_exit.png",
-        "assets/images/featured project/farmhouse/Farmhouse Cover.png",
-        "assets/images/featured project/farmhouse/farmhouse_exit _6.png",
-        "assets/images/featured project/farmhouse/farmhouse_exit.png",
-        "assets/images/featured project/farmhouse/farmhouse_exit _7.png"
+        ],
 
-        ]
+      images: [
+
+    "assets/images/featured_project/farmhouse/00_farmhouse_cover.png",
+
+    "assets/images/featured_project/farmhouse/01_farmhouse.png",
+    "assets/images/featured_project/farmhouse/02_farmhouse.png",
+    "assets/images/featured_project/farmhouse/03_farmhouse.png",
+    "assets/images/featured_project/farmhouse/04_farmhouse.png",
+    "assets/images/featured_project/farmhouse/05_farmhouse.png",
+    "assets/images/featured_project/farmhouse/06_farmhouse.png",
+    "assets/images/featured_project/farmhouse/07_farmhouse.png",
+    "assets/images/featured_project/farmhouse/08_farmhouse.png",
+    "assets/images/featured_project/farmhouse/08_farmhouse(1).png",
+    "assets/images/featured_project/farmhouse/09_farmhouse.png",
+    "assets/images/featured_project/farmhouse/10_farmhouse.png",
+    "assets/images/featured_project/farmhouse/11_farmhouse.png",
+    "assets/images/featured_project/farmhouse/12_farmhouse.png",
+    "assets/images/featured_project/farmhouse/13_farmhouse.png"
+
+]
 
     },
 
@@ -55,27 +65,34 @@ const projects = {
         title: "GROUP HOUSING",
 
         description:
-            "A thoughtfully planned residential development balancing community living, privacy, green spaces, and efficient circulation while maximizing urban connectivity.",
+            "Modern high-rise communities often have parks and public spaces that feel disconnected from everyday life. In contrast, traditional neighborhoods had lively streets where children played safely, elders gathered, and neighbors naturally interacted, creating a strong sense of community."+
+"This project brings that spirit back by introducing double-height community spaces on alternate floors. Instead of limiting social life to the ground level, these shared spaces become an extension of everyday living, making them easily accessible to residents of all ages."+
+"Located just a short walk from every home, these spaces encourage children to play close to their families while providing comfortable areas for conversations, relaxation, and informal gatherings. By bringing people together within the residential floors, the design creates a safer, more connected, and socially active living environment that reimagines the warmth of traditional street culture in a modern vertical community."
 
-        map:
-            "https://www.google.com/maps/embed?pb=",
+            ,
 
-         images: [
+       conceptImage: [
 
-          
-        "assets/images/featured project/Group Housing/Group Housing Cover.png",
-        "assets/images/featured project/Group Housing/01 Group Housing.png",
-        "assets/images/featured project/Group Housing/02 Group Housing.png",
-        "assets/images/featured project/Group Housing/03 Group Housing.png",
-        "assets/images/featured project/Group Housing/04 Group Housing.png",
-        "assets/images/featured project/Group Housing/05 Group Housing.png",
-        "assets/images/featured project/Group Housing/06 Group Housing.png",
-        "assets/images/featured project/Group Housing/07 Group Housing.png",
-        "assets/images/featured project/Group Housing/08 Group Housing.png",
-        "assets/images/featured project/Group Housing/09 Group Housing.png",
-        "assets/images/featured project/Group Housing/10 Group Housing.png"
+    "assets/images/featured_project/group_housing/group_housing_concept.jpg"
 
-        ]
+],
+
+images: [
+
+    "assets/images/featured_project/group_housing/00_group_housing_cover.png",
+    "assets/images/featured_project/group_housing/01_group_housing.png",
+    "assets/images/featured_project/group_housing/02_group_housing.png",
+    "assets/images/featured_project/group_housing/003_group_housing.png",
+    "assets/images/featured_project/group_housing/04_group_housing.png",
+    "assets/images/featured_project/group_housing/05_group_housing.png",
+    "assets/images/featured_project/group_housing/06_group_housing.png",
+    "assets/images/featured_project/group_housing/07_group_housing.png",
+    "assets/images/featured_project/group_housing/08_group_housing.png",
+    "assets/images/featured_project/group_housing/09_group_housing.png",
+    "assets/images/featured_project/group_housing/10_group_housing.png",
+    "assets/images/featured_project/group_housing/11_group_housing.png"
+
+]
 
     },
 
@@ -86,25 +103,43 @@ const projects = {
         title: "COMMERCIAL BUILDING",
 
         description:
-            "A contemporary commercial development designed to maximize business functionality, customer engagement, and efficient space utilization while maintaining a strong architectural identity.",
+            "This commercial building is designed to be more than just an office. " +
+"Instead of becoming inactive after working hours, it brings together retail, dining, entertainment, and workspaces to create a lively destination throughout the day. " +
+"Retail shops on the ground and first floors activate the street, while a semi-open restaurant with outdoor terraces on the upper level provides a place to relax and socialize. " +
+"Two cinema auditoriums at the rear further attract visitors, creating a vibrant mix of people and activities." +
 
-        map:
-            "https://www.google.com/maps/embed?pb=",
+"The second design idea celebrates movement through the building. " +
+"Instead of hiding the staircases in corners as a fire safety requirement, they are placed prominently on the front façade. " +
+"This encourages people to choose the stairs, discover different levels, and experience the building in a more engaging way. " +
+"The staircases become a defining architectural feature, giving the building its unique identity while promoting a more active and connected urban experience." +
 
-        images: [
+"The office facade idea - " +
+"Instead of a fully sealed glass façade, this office is designed to work with the local climate. " +
+"Every workspace is planned with cross ventilation, allowing fresh air to reduce the dependence on air conditioning during comfortable months." +
+"The façade is divided into three parts—a glazed middle section with chajjas for daylight and shading, and perforated MS panels at the top and bottom that allow natural airflow. " +
+"This simple climate-responsive approach can significantly reduce cooling demand compared to conventional all-glass office buildings while creating a healthier and more comfortable workplace.",
+       
 
-        "assets/images/featured project/Commercial/Commercial Cover.png",
-        "assets/images/featured project/Commercial/01 Commercial_building.png",
-        "assets/images/featured project/Commercial/02 Commercial_building.png",
-        "assets/images/featured project/Commercial/03 Commercial_building.png",
-        "assets/images/featured project/Commercial/04 Commercial_building.png",
-        "assets/images/featured project/Commercial/05 Commercial_building.png",
-        "assets/images/featured project/Commercial/06 Commercial_building.png",
-        "assets/images/featured project/Commercial/07 Commercial_building.png",
-        "assets/images/featured project/Commercial/08 Commercial_building.png",
-        "assets/images/featured project/Commercial/09 Commercial_building.png"
+       conceptImage: [
 
-        ]
+    "assets/images/featured_project/commercial/commercial_b_concept.jpg"
+
+],
+
+images: [
+
+    "assets/images/featured_project/commercial/00_commercial_cover.png",
+    "assets/images/featured_project/commercial/01_commercial.png",
+    "assets/images/featured_project/commercial/02_commercial.jpg",
+    "assets/images/featured_project/commercial/03_commercial.png",
+    "assets/images/featured_project/commercial/04_commercial.png",
+    "assets/images/featured_project/commercial/05_commercial.png",
+    "assets/images/featured_project/commercial/06_commercial.png",
+    "assets/images/featured_project/commercial/07_commercial.png",
+    "assets/images/featured_project/commercial/08_commercial.png",
+    "assets/images/featured_project/commercial/09_commercial.png"
+
+]
 
     },
 
@@ -115,26 +150,37 @@ const projects = {
         title: "PRIMARY SCHOOL",
 
         description:
-            "A modern educational campus focusing on open learning spaces, environmental sustainability, and student interaction through thoughtful planning and contemporary architectural design.",
+            
+        "This school is designed around the idea that education should extend beyond textbooks and technology. " +
+"A dedicated nursery and farming area allows students to learn how food is grown, helping them develop a stronger connection with nature and the environment." +
 
-        map:
-            "https://www.google.com/maps/embed?pb=",
+"The classrooms are arranged in a zigzag layout, creating shared green spaces while maintaining visual privacy for each class. " +
+"A central courtyard, along with a second-skin façade and roof, provides shade, reduces heat gain, and keeps the learning spaces naturally cool, minimizing the need for mechanical air conditioning.",
 
-        images: [
 
-        "assets/images/featured project/School/School Cover.png",
-        "assets/images/featured project/School/1. Student Entry.png",
-        "assets/images/featured project/School/2. Courtyard View.png",
-        "assets/images/featured project/School/3.Cortyard View 2.png",
-        "assets/images/featured project/School/4.Courtyard 4.png",
-        "assets/images/featured project/School/7. Agriculture.png",
-        "assets/images/featured project/School/10. Angle 2.png",
-        "assets/images/featured project/School/11.Front Elevation.png",
-        "assets/images/featured project/School/14. Backside Birdeye.png",
-        "assets/images/featured project/School/21 Classroom Indoor.png",
-        "assets/images/featured project/School/22 Library Indoor.png"
+       conceptImage: [
 
-        ]
+    "assets/images/featured_project/school/school_concept.jpg"
+
+],
+
+images: [
+
+    "assets/images/featured_project/school/00_school_cover.png",
+    "assets/images/featured_project/school/01_school.png",
+    "assets/images/featured_project/school/02_school.png",
+    "assets/images/featured_project/school/03_school.png",
+    "assets/images/featured_project/school/04_school.png",
+    "assets/images/featured_project/school/05_school.png",
+    "assets/images/featured_project/school/06_school.png",
+    "assets/images/featured_project/school/07_school.png",
+    "assets/images/featured_project/school/08_school.png",
+    "assets/images/featured_project/school/09_school.png",
+    "assets/images/featured_project/school/10_school.png",
+    "assets/images/featured_project/school/11_school.png",
+    "assets/images/featured_project/school/12_school.png"
+
+]
 
     },
 
@@ -145,21 +191,30 @@ const projects = {
         title: "VILLA",
 
         description:
-            "A premium residential villa designed with contemporary architecture, open living spaces, abundant natural light, and seamless indoor-outdoor connectivity. The project blends elegance, functionality, and sustainability while offering panoramic views and luxurious living experiences.",
+            
+        "Designed for a rural setting, this villa combines modern architecture with the openness of traditional community living. " +
+"Instead of turning away from the neighborhood, the house features multiple outdoor spaces that maintain a direct visual connection with the street, encouraging interaction while preserving comfort." +
 
-        map:
-            "https://www.google.com/maps/embed?pb=",
+"Terraces, sit-outs, and open spaces are thoughtfully placed around the home, allowing residents to enjoy the outdoors as part of everyday life. " +
+"The result is a contemporary villa that respects the closely connected social culture of its surroundings while offering a clean, modern living experience.",
 
-        images: [
+conceptImage: [
 
-        "assets/images/featured project/Modern Villa/Villa Cover.png",
-        "assets/images/featured project/Modern Villa/02 Villa.png",
-        "assets/images/featured project/Modern Villa/01 Villa.png",
-        "assets/images/featured project/Modern Villa/04 Villa.png",
-        "assets/images/featured project/Modern Villa/05 Villa.png",
-        "assets/images/featured project/Modern Villa/06 Villa.png"
+    "assets/images/featured_project/villa/villa_layouts.jpg"
 
-        ]
+],
+
+images: [
+
+    "assets/images/featured_project/villa/00_villa_cover.png",
+    "assets/images/featured_project/villa/01_villa.png",
+    "assets/images/featured_project/villa/02_villa.png",
+    "assets/images/featured_project/villa/03_villa.png",
+    "assets/images/featured_project/villa/04_villa.png",
+    "assets/images/featured_project/villa/05_villa.png",
+    "assets/images/featured_project/villa/06_villa.png"
+
+]
 
     },
 
@@ -170,21 +225,34 @@ const projects = {
         title: "BHOWALI RESORT",
 
         description:
-            "An elegant resort project emphasizing premium finishes, immersive interiors, lighting, and sophisticated material selection set within a scenic retreat setting.",
+        
+        "This hillside resort features eight independent villas, each designed to make the most of its natural surroundings. " +
+"The original layout placed the access road along the front of the site, blocking the best views and reducing the quality of the outdoor spaces." +
 
-        map:
-            "https://www.google.com/maps/embed?pb=",
+"The master plan was redesigned by moving the road to the rear of the villas, freeing the front edge for living areas, bedrooms, terraces, and private decks. " +
+"This simple planning change allows every villa to enjoy uninterrupted views of the hills and forest while creating a quieter, more private, and immersive stay for guests.",
+        
+conceptImage: [
 
-        images: [
+    "assets/images/featured_project/bhowali/bhowali_concept.jpg"
 
-         
-        "assets/images/featured project/Bhowali/Bhowali Cover.png",
-        "assets/images/featured project/Bhowali/02 Bhowali.png",
-        "assets/images/featured project/Bhowali/09. Street View.png",
-        "assets/images/featured project/Bhowali/03Bhowali.png"
+],
 
+images: [
 
-        ]
+    "assets/images/featured_project/bhowali/00_bhowali_cover.png",
+    "assets/images/featured_project/bhowali/01_bhowali.png",
+    "assets/images/featured_project/bhowali/02_bhowali.png",
+    "assets/images/featured_project/bhowali/03_bhowali.png",
+    "assets/images/featured_project/bhowali/04_bhowali.png",
+    "assets/images/featured_project/bhowali/05_bhowali.png",
+    "assets/images/featured_project/bhowali/06_bhowali.png",
+    "assets/images/featured_project/bhowali/07_bhowali.png",
+    "assets/images/featured_project/bhowali/08_bhowali.png",
+    "assets/images/featured_project/bhowali/09_bhowali.png",
+    "assets/images/featured_project/bhowali/10_bhowali.png"
+
+]
 
     },
 
@@ -195,28 +263,35 @@ const projects = {
         title: "URBAN DESIGN",
 
         description:
-            "test",
+          "This urban design proposal transforms a business-focused CBD into a lively public destination that remains active throughout the day. " +
+"Recreational spaces, open cafés, diverse retail, and dedicated areas for street vendors attract people before and after business hours, creating a safer and more vibrant environment for all, especially women." +
 
-        map:
-            "https://www.google.com/maps/embed?pb=",
+"The second focus is seamless movement across the district. " +
+"A continuous 20-foot-wide circulation loop with ramps and gentle curves connects the entire marketplace, making it easy to navigate on foot, by bicycle, or by golf cart. " +
+"The result is a more accessible, inclusive, and people-friendly urban center.",
 
-        images: [
+       conceptImage: [
 
-        "assets/images/featured project/Urban_Design/Urban Design cover.png",
-        "assets/images/featured project/Urban_Design/01 Urban Design.png",
-        "assets/images/featured project/Urban_Design/02 Urban Design.png",
-        "assets/images/featured project/Urban_Design/03 Urban Design.png",
-        "assets/images/featured project/Urban_Design/04 Urban Design.png",
-        "assets/images/featured project/Urban_Design/05 Urban Design.png",
-        "assets/images/featured project/Urban_Design/06 Urban Design.png",
-        "assets/images/featured project/Urban_Design/07 Urban Design.png",
-        "assets/images/featured project/Urban_Design/08 Urban Design.png",
-        "assets/images/featured project/Urban_Design/09 Urban Design.png",
-        "assets/images/featured project/Urban_Design/10 Urban Design.png",
-        "assets/images/featured project/Urban_Design/11 Urban Design.png",
-        "assets/images/featured project/Urban_Design/12 Urban Design.png"
+    "assets/images/featured_project/urban_design/u_d.png"
 
-        ]
+],
+
+images: [
+
+    "assets/images/featured_project/urban_design/00_ud_cover.png",
+    "assets/images/featured_project/urban_design/01_ud.png",
+    "assets/images/featured_project/urban_design/02_ud.png",
+    "assets/images/featured_project/urban_design/03_ud.png",
+    "assets/images/featured_project/urban_design/04_ud.png",
+    "assets/images/featured_project/urban_design/05_ud.png",
+    "assets/images/featured_project/urban_design/06_ud.png",
+    "assets/images/featured_project/urban_design/07_ud.png",
+    "assets/images/featured_project/urban_design/08_ud.png",
+    "assets/images/featured_project/urban_design/09_ud.png",
+    "assets/images/featured_project/urban_design/10_ud.png",
+    "assets/images/featured_project/urban_design/11_ud.png"
+
+]
 
     }
 
@@ -764,7 +839,7 @@ document.addEventListener("DOMContentLoaded", () => {
        - Update Hero Slider
        - Update Title
        - Update Description
-       - Update Google Map
+       - Update Concept Image
        - Active Project
        - Smooth Scroll
     ========================================================== */
@@ -778,7 +853,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const description = document.getElementById("pdDescription");
 
-    const map = document.getElementById("pdMap");
+    /* NOTE: pdMap is now expected to be an <img> tag, not an <iframe> */
+    const conceptImage = document.getElementById("pdMap");
 
 
     /*====================================
@@ -814,10 +890,10 @@ document.addEventListener("DOMContentLoaded", () => {
         description.style.opacity = 0;
 
         /*--------------------------
-            Google Map
+            Concept Image
         ---------------------------*/
 
-        map.style.opacity = 0;
+        conceptImage.style.opacity = 0;
 
         setTimeout(()=>{
 
@@ -825,13 +901,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
             description.textContent = project.description;
 
-            map.src = project.map;
+            conceptImage.src =
+                (project.conceptImage && project.conceptImage[0]) ||
+                project.images[0];
 
             title.style.opacity = 1;
 
             description.style.opacity = 1;
 
-            map.style.opacity = 1;
+            conceptImage.style.opacity = 1;
 
         },300);
 
@@ -911,7 +989,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         title.style.transition = ".35s";
         description.style.transition = ".35s";
-        map.style.transition = ".35s";
+        conceptImage.style.transition = ".35s";
 
     }
 
@@ -1040,5 +1118,28 @@ document.addEventListener("DOMContentLoaded", () => {
     /*====================================
         END
     ====================================*/
+
+});
+
+
+
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 400) {
+        backToTop.classList.add("show");
+    } else {
+        backToTop.classList.remove("show");
+    }
+
+});
+
+backToTop.addEventListener("click", () => {
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 
 });

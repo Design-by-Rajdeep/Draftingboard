@@ -19,33 +19,29 @@
 <section id="project_detail">
 
     <!-- Hero Slider -->
-    <div class="pd-slider">
+   <div class="pd-slider">
 
-        <div class="pd-slides">
+    <div class="pd-slides">
 
-            <img src="https://picsum.photos/seed/villa1/1200/700" class="pd-slide active" alt="">
-            <img src="https://picsum.photos/seed/villa2/1200/700" class="pd-slide" alt="">
-            <img src="https://picsum.photos/seed/villa3/1200/700" class="pd-slide" alt="">
-            <img src="https://picsum.photos/seed/villa4/1200/700" class="pd-slide" alt="">
-            <img src="https://picsum.photos/seed/villa5/1200/700" class="pd-slide" alt="">
-            <img src="https://picsum.photos/seed/villa6/1200/700" class="pd-slide" alt="">
-            <img src="https://picsum.photos/seed/villa6/1200/700" class="pd-slide" alt="">
-
-        </div>
+        <img src="https://picsum.photos/seed/villa1/1200/700" class="pd-slide active" alt="">
+        <img src="https://picsum.photos/seed/villa2/1200/700" class="pd-slide" alt="">
+        <img src="https://picsum.photos/seed/villa3/1200/700" class="pd-slide" alt="">
+        <img src="https://picsum.photos/seed/villa4/1200/700" class="pd-slide" alt="">
+        <img src="https://picsum.photos/seed/villa5/1200/700" class="pd-slide" alt="">
+        <img src="https://picsum.photos/seed/villa6/1200/700" class="pd-slide" alt="">
 
     </div>
 
-    <!-- Navigation BELOW the slider -->
-    <div class="pd-slider-nav">
+    <!-- Buttons over image -->
+    <button id="pdPrevBtn" class="pd-arrow">&#10094;</button>
+    <button id="pdNextBtn" class="pd-arrow">&#10095;</button>
 
-        <button id="pdPrevBtn">Previous</button>
+</div>
 
-        <div id="pdDots"></div>
-
-        <button id="pdNextBtn">Next</button>
-
-    </div>
-
+<!-- Dots stay below -->
+<div class="pd-slider-nav">
+    <div id="pdDots"></div>
+</div>
 
     <!-- Project Information -->
 
@@ -68,23 +64,34 @@
     </div>
 
 
+    
+<!-- Concept Image -->
 
-    <!-- Google Map -->
+<!-- <div class="pd-map">
+<div class="Concept_image">
+    <h4>Concept Image</h4>
 
-    <div class="pd-map">
+    <img
+        id="pdMap"
+        class="pd-concept-img"
+        src=""
+        alt="Concept Image"
+        loading="lazy">
+</div>
+</div> -->
 
-        <h4>Project Location</h4>
+<!-- Concept Image -->
+<div class="pd-map">
+    <div class="Concept_image">
+        <h4>Concept Image</h4>
 
-        <iframe
-            id="pdMap"
-            src="https://www.google.com/maps/embed?pb="
-            loading="lazy"
-            allowfullscreen>
-        </iframe>
-
+       <img
+    id="pdMap"
+    class="pd-concept-img"
+    src=""
+    alt="Concept Image">
     </div>
-
-
+</div>
 
     <!-- ===========================================
          RELATED PROJECTS

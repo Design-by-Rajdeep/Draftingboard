@@ -1,19 +1,28 @@
-const reveal = document.querySelectorAll(".reveal");
+document.addEventListener("DOMContentLoaded", () => {
 
-const observer = new IntersectionObserver((entries)=>{
+    const backToTop = document.getElementById("backToTop");
 
-entries.forEach(entry=>{
+    if (backToTop) {
 
-if(entry.isIntersecting){
+        window.addEventListener("scroll", () => {
 
-entry.target.classList.add("active");
+            if (window.scrollY > 400) {
+                backToTop.classList.add("show");
+            } else {
+                backToTop.classList.remove("show");
+            }
 
-}
+        });
+
+        backToTop.addEventListener("click", () => {
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+        });
+
+    }
 
 });
-
-},{
-threshold:.15
-});
-
-reveal.forEach(el=>observer.observe(el));

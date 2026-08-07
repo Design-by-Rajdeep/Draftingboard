@@ -5,7 +5,10 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <header class="site-header">
   <div class="navbar">
     <!-- Left Side Logo -->
-    <a href="index.php" class="logo">DraftingBoard</a>
+    <a href="index.php" class="logo">Drafting Board</a>
+     <!-- <a href="index.php" class="logo">
+    <img src="assets/logo/Drafting Board light.png" alt="Drafting Board Studio Logo">
+</a> -->
 
     <!-- Mobile Hamburger Toggle Controls (Must be directly inside .navbar) -->
     <input type="checkbox" id="menu-toggle">
@@ -38,18 +41,18 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         ? '#f-projects_section'
         : 'index.php#f-projects_section'; ?>"
        class="<?= $currentPage == 'project_detail.php' ? 'active' : '' ?>">
-        Projects
+        Portfolio
     </a>
 </li>
 
-    <li>
-       <a href="<?= $currentPage == 'index.php'
+   <li>
+    <a href="<?= $currentPage == 'index.php'
         ? '#services_section'
         : 'index.php#services_section'; ?>"
-       class="<?= $currentPage == 'index.php' ? 'inactive' : '' ?>">
+       class="<?= in_array($currentPage, ['service.php', 'service_detail.php']) ? 'active' : '' ?>">
         Services
     </a>
-    </li>
+</li>
 
     <li>
         <a href="about.php" class="<?= $currentPage == 'about.php' ? 'active' : '' ?>">
@@ -63,9 +66,9 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         </a>
     </li>
 
-    <li class="mobile-cta-li">
+    <!-- <li class="mobile-cta-li">
         <a href="contact.php" class="nav-cta-btn">Connect Me</a>
-    </li>
+    </li> -->
 </ul>
 
 
@@ -73,6 +76,6 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
 
     <!-- Right Side Desktop CTA Button -->
-    <a href="contact.php" class="nav-cta-btn desktop-cta">Connect Me</a>
+    <!-- <a href="contact.php" class="nav-cta-btn desktop-cta">Connect Me</a> -->
   </div>
 </header>

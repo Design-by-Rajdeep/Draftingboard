@@ -2,10 +2,10 @@
   <div class="footer-inner">
 
     <div class="footer-brand">
-      <h2>DB</h2>
+      <!-- <h2>DB</h2>
       <span></span>
       <p>ARCHITECTURE & URBAN DESIGN FOR COMMUNITIES THAT GENUINELY THRIVE.</p>
-    </div>
+    </div> -->
 
    
     
@@ -16,8 +16,8 @@
         <h3>QUICK LINKS</h3>
         <span></span>
         <ul>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Service</a></li>
+            <li><a href="project_detail.php">Projects</a></li>
+            <li><a href="service.php">Service</a></li>
         </ul>
     </div>
 
@@ -25,8 +25,8 @@
         <h3>SOCIAL LINKS</h3>
         <span></span>
         <ul>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/drafting-board-studio/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/draftingboard_studio?igsh=MTM0Y3h0OWQ1emFyOA%3D%3D" target="_blank">Instagram</a></li>
         </ul>
     </div>
 

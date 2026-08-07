@@ -1,23 +1,45 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const heroSlides = document.querySelectorAll(".hero-slide");
-  let currentHeroSlide = 0;
+document.addEventListener("DOMContentLoaded", () => {
 
-  if (heroSlides.length > 0) {
-    heroSlides[currentHeroSlide].classList.add("active");
+    const slides = document.querySelectorAll(".hero-slide");
+    let current = 0;
+    const intervalTime = 5000; // 5 seconds
 
-    setInterval(function () {
-   heroSlides[currentHeroSlide].classList.remove("active");
+    if (!slides.length) return;
 
-currentHeroSlide = (currentHeroSlide + 1) % heroSlides.length;
+    // Show first slide
+    slides[0].classList.add("active");
 
-// Force reflow so animation restarts
-void heroSlides[currentHeroSlide].offsetWidth;
+    function showNextSlide() {
 
-heroSlides[currentHeroSlide].classList.add("active");
-    }, 4000);
-  }
+        // Remove current slide
+        slides[current].classList.remove("active");
+
+        // Next slide
+        current = (current + 1) % slides.length;
+
+        // Restart CSS animations
+       const subtitle = slides[current].querySelector(".hero-subtitle");
+const title = slides[current].querySelector("h1");
+
+if (subtitle) {
+    subtitle.style.animation = "none";
+    void subtitle.offsetWidth;
+    subtitle.style.animation = "";
+}
+
+if (title) {
+    title.style.animation = "none";
+    void title.offsetWidth;
+    title.style.animation = "";
+}
+
+        // Show new slide
+        slides[current].classList.add("active");
+    }
+
+    setInterval(showNextSlide, intervalTime);
+
 });
-
 
 // const backToTop = document.getElementById("backToTop");
 

@@ -3,175 +3,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - DraftingBoard</title>
-    <!-- Core layout stylesheets -->
+    <title>My Website</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <!-- Page-specific stylesheet -->
     <link rel="stylesheet" href="assets/css/service.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
 </head>
+
 <body>
-<script src="assets/js/service.js"></script>
 <?php include 'includes/header.php'; ?>
 
-<!-- MAIN SERVICES VIEW AREA -->
-<main class="services-section">
+<!-- ================= MY SERVICES ================= -->
 
-  <!-- 1. Full-Width Hero Section -->
-<section class="dynamic-hero" id="project-hero" style="background-image: url('assets/images/Commercial_Cover.png');">
-  <div class="hero-overlay"></div>
-</section>
+<section id="my_services">
 
-<!-- 2. Dynamic Content Area (Title, Paragraph, Map) -->
-<section class="dynamic-content-section">
-  <div class="content-container">
-    
-    <h2 class="dynamic-title" id="project-title">EXPERIENCE DISTRICTS ARE WHERE THE ORDINARY BECOMES REMARKABLE —</h2>
-    
-    <p class="dynamic-desc" id="project-desc">
-      The Marvila Masterplan covers approximately 28 hectares between Marvila and Beato on Lisbon's riverfront. Developed by MVRDV and OODA, in collaboration with LOLA Landscape Architects and Thornton Tomasetti, the plan defines a new urban and landscape framework for one of the largest regeneration projects currently under development in the city.
-    </p>
+    <!-- Hero Slider -->
+    <div class="ms-slider">
 
-    <!-- Google Map Wrapper -->
-    <div class="map-wrapper">
-      <iframe 
-        id="project-map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12453.563820235339!2d-9.108603685957194!3d38.73177651817454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19339003666d9b%3A0x500eae2a6b3bc40!2sMarvila%2C%20Lisbon%2C%20Portugal!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s" 
-        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
-      </iframe>
-    </div>
+        <div class="ms-slides">
 
-  </div>
-</section>
+            <img src="https://source.unsplash.com/1600x900/?modern,architecture&sig=1" class="ms-slide active" alt="">
+            <img src="https://source.unsplash.com/1600x900/?architecture,building&sig=2" class="ms-slide" alt="">
+            <img src="https://source.unsplash.com/1600x900/?architecture,design&sig=3" class="ms-slide" alt="">
 
-<!-- 3. Related Projects Carousel Section -->
-<section class="related-section">
-  <div class="content-container">
-    <div class="section-heading">
-      <h2>Other Related Projects</h2>
-      <span></span>
-    </div>
-
-    <!-- Carousel Track -->
-    <div id="related_project" class="carousel-track">
-   
-      <!-- Project Item 1 (Active by default) -->
-      <div class="carousel-card active" 
-           data-hero="assets/images/Commercial_Cover.png"
-           data-title="EXPERIENCE DISTRICTS ARE WHERE THE ORDINARY BECOMES REMARKABLE —"
-           data-desc="The Marvila Masterplan covers approximately 28 hectares between Marvila and Beato on Lisbon's riverfront. Developed by MVRDV and OODA, in collaboration with LOLA Landscape Architects and Thornton Tomasetti, the plan defines a new urban and landscape framework."
-           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12453.563820235339!2d-9.108603685957194!3d38.73177651817454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19339003666d9b%3A0x500eae2a6b3bc40!2sMarvila%2C%20Lisbon%2C%20Portugal!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
-        <img src="assets/images/Commercial_Cover.png" alt="Marvila Masterplan">
-        <h3>Marvila Masterplan</h3>
-        <button class="carousel-cta">Explore Project ↗</button>
-      </div>
-
-      <!-- Project Item 2 -->
-      <div class="carousel-card active" 
-           data-hero="assets/images/Bhowali_Cover.png"
-           data-title="BHOWALI ECO RESORT: CONNECTING NATURE AND DESIGN —"
-           data-desc="Nestled amidst the hills, the Bhowali Eco Resort balances structural precision with vernacular landscape methods. This project introduces sustainable holiday cabins designed with natural timber accents, open terraces, and premium spatial orientation facing the deep valley layout views."
-           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.2458428100586!2d79.51356077626081!3d29.377759575165992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a16fc4159501%3A0x6b77cd5d5ec36318!2sBhowali%2C%20Uttarakhand!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
-        <img src="assets/images/Bhowali_Cover.png" alt="Bhowali Project">
-        <h3>Bhowali Eco Resort</h3>
-        <button class="carousel-cta">Explore Project ↗</button>
-      </div>
-
-      <div class="carousel-card active" 
-           data-hero="assets/images/Commercial_Cover.png"
-           data-title="EXPERIENCE DISTRICTS ARE WHERE THE ORDINARY BECOMES REMARKABLE —"
-           data-desc="The Marvila Masterplan covers approximately 28 hectares between Marvila and Beato on Lisbon's riverfront. Developed by MVRDV and OODA, in collaboration with LOLA Landscape Architects and Thornton Tomasetti, the plan defines a new urban and landscape framework."
-           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12453.563820235339!2d-9.108603685957194!3d38.73177651817454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19339003666d9b%3A0x500eae2a6b3bc40!2sMarvila%2C%20Lisbon%2C%20Portugal!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
-        <img src="assets/images/Commercial_Cover.png" alt="Marvila Masterplan">
-        <h3>Marvila Masterplan</h3>
-        <button class="carousel-cta">Explore Project ↗</button>
-      </div>
-
-      <!-- Project Item 2 -->
-      <div class="carousel-card active" 
-           data-hero="assets/images/Bhowali_Cover.png"
-           data-title="BHOWALI ECO RESORT: CONNECTING NATURE AND DESIGN —"
-           data-desc="Nestled amidst the hills, the Bhowali Eco Resort balances structural precision with vernacular landscape methods. This project introduces sustainable holiday cabins designed with natural timber accents, open terraces, and premium spatial orientation facing the deep valley layout views."
-           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.2458428100586!2d79.51356077626081!3d29.377759575165992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a16fc4159501%3A0x6b77cd5d5ec36318!2sBhowali%2C%20Uttarakhand!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
-        <img src="assets/images/Bhowali_Cover.png" alt="Bhowali Project">
-        <h3>Bhowali Eco Resort</h3>
-        <button class="carousel-cta">Explore Project ↗</button>
-      </div> <div class="carousel-card active" 
-           data-hero="assets/images/Commercial_Cover.png"
-           data-title="EXPERIENCE DISTRICTS ARE WHERE THE ORDINARY BECOMES REMARKABLE —"
-           data-desc="The Marvila Masterplan covers approximately 28 hectares between Marvila and Beato on Lisbon's riverfront. Developed by MVRDV and OODA, in collaboration with LOLA Landscape Architects and Thornton Tomasetti, the plan defines a new urban and landscape framework."
-           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12453.563820235339!2d-9.108603685957194!3d38.73177651817454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19339003666d9b%3A0x500eae2a6b3bc40!2sMarvila%2C%20Lisbon%2C%20Portugal!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
-        <img src="assets/images/Commercial_Cover.png" alt="Marvila Masterplan">
-        <h3>Marvila Masterplan</h3>
-        <button class="carousel-cta">Explore Project ↗</button>
-      </div>
-
-      <!-- Project Item 2 -->
-        <div class="carousel-card active" 
-           data-hero="assets/images/Bhowali_Cover.png"
-           data-title="BHOWALI ECO RESORT: CONNECTING NATURE AND DESIGN —"
-           data-desc="Nestled amidst the hills, the Bhowali Eco Resort balances structural precision with vernacular landscape methods. This project introduces sustainable holiday cabins designed with natural timber accents, open terraces, and premium spatial orientation facing the deep valley layout views."
-           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.2458428100586!2d79.51356077626081!3d29.377759575165992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a16fc4159501%3A0x6b77cd5d5ec36318!2sBhowali%2C%20Uttarakhand!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
-        <img src="assets/images/Bhowali_Cover.png" alt="Bhowali Project">
-        <h3>Bhowali Eco Resort</h3>
-        <button class="carousel-cta">Explore Project ↗</button>
-      </div>
-
-
-      <!-- Project Item 2 -->
-      <div class="carousel-card active" 
-           data-hero="assets/images/Bhowali_Cover.png"
-           data-title="BHOWALI ECO RESORT: CONNECTING NATURE AND DESIGN —"
-           data-desc="Nestled amidst the hills, the Bhowali Eco Resort balances structural precision with vernacular landscape methods. This project introduces sustainable holiday cabins designed with natural timber accents, open terraces, and premium spatial orientation facing the deep valley layout views."
-           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.2458428100586!2d79.51356077626081!3d29.377759575165992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a16fc4159501%3A0x6b77cd5d5ec36318!2sBhowali%2C%20Uttarakhand!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
-        <img src="assets/images/Bhowali_Cover.png" alt="Bhowali Project">
-        <h3>Bhowali Eco Resort</h3>
-        <button class="carousel-cta">Explore Project ↗</button>
-      </div> <div class="carousel-card active" 
-           data-hero="assets/images/Commercial_Cover.png"
-           data-title="EXPERIENCE DISTRICTS ARE WHERE THE ORDINARY BECOMES REMARKABLE —"
-           data-desc="The Marvila Masterplan covers approximately 28 hectares between Marvila and Beato on Lisbon's riverfront. Developed by MVRDV and OODA, in collaboration with LOLA Landscape Architects and Thornton Tomasetti, the plan defines a new urban and landscape framework."
-           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12453.563820235339!2d-9.108603685957194!3d38.73177651817454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19339003666d9b%3A0x500eae2a6b3bc40!2sMarvila%2C%20Lisbon%2C%20Portugal!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
-        <img src="assets/images/Commercial_Cover.png" alt="Marvila Masterplan">
-        <h3>Marvila Masterplan</h3>
-        <button class="carousel-cta">Explore Project ↗</button>
-      </div>
-
-      <!-- Project Item 2 -->
-        <div class="carousel-card active" 
-           data-hero="assets/images/Bhowali_Cover.png"
-           data-title="BHOWALI ECO RESORT: CONNECTING NATURE AND DESIGN —"
-           data-desc="Nestled amidst the hills, the Bhowali Eco Resort balances structural precision with vernacular landscape methods. This project introduces sustainable holiday cabins designed with natural timber accents, open terraces, and premium spatial orientation facing the deep valley layout views."
-           data-map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.2458428100586!2d79.51356077626081!3d29.377759575165992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a16fc4159501%3A0x6b77cd5d5ec36318!2sBhowali%2C%20Uttarakhand!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s">
-        <img src="assets/images/Bhowali_Cover.png" alt="Bhowali Project">
-        <h3>Bhowali Eco Resort</h3>
-        <button class="carousel-cta">Explore Project ↗</button>
-      </div>
-
+        </div>
 
     </div>
-  </div>
-     <div class="carousel-dots">
-    <span class="carousel-dot active"></span>
-    <span class="carousel-dot"></span>
-    <span class="carousel-dot"></span>
-</div>
-<div class="carousel-dots"></div>
-</section>
+
+    <!-- Navigation BELOW the slider -->
+    <div class="ms-slider-nav">
+
+        <button id="msPrevBtn">Previous</button>
+
+        <div id="msDots"></div>
+
+        <button id="msNextBtn">Next</button>
+
+    </div>
+
+
+    <!-- Service Information -->
+
+    <div class="ms-content">
+
+        <h2 id="msTitle">
+            ARCHITECTURAL DESIGN
+        </h2>
+
+        <p id="msDescription">
+
+            We craft architectural designs that balance form, function, and context —
+            creating spaces that respond to the needs of the people who use them.
+
+        </p>
+
+    </div>
+
+
+    <!-- ===========================================
+         OUR SERVICES
+    =========================================== -->
+
+    <div class="my_services_related">
+
+        <div class="section-heading">
+
+            <h2>OUR SERVICES</h2>
+
+            <span></span>
+
+        </div>
+
+
+        <div class="my_services_slider">
+
+
+            <div id="serviceTrack" class="my_services_track">
+
+
+
+                <!-- CARD 1 -->
+
+                <a href="#" class="service-card active-service"
+                   data-service="architecturaldesign">
+
+                    <img src="https://source.unsplash.com/500x400/?modern,architecture&sig=1" alt="">
+
+                    <div class="service-content">
+
+                        <h3>Architectural Design</h3>
+
+                        <p>
+                            Thoughtful architectural solutions rooted in context and craft.
+                        </p>
+
+                        <span>Know More ↗</span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- CARD 2 -->
+
+                <a href="#" class="service-card"
+                   data-service="landscapedesign">
+
+                    <img src="https://source.unsplash.com/500x400/?landscape,garden&sig=4" alt="">
+
+                    <div class="service-content">
+
+                        <h3>Landscape Design</h3>
+
+                        <p>
+                            Outdoor spaces designed to connect people with nature.
+                        </p>
+
+                        <span>Know More ↗</span>
+
+                    </div>
+
+                </a>
+
+             <!-- CARD 5 -->
+
+                <a href="#" class="service-card"
+                   data-service="interiordesign">
+
+                    <img src="https://source.unsplash.com/500x400/?interior,design&sig=13" alt="">
+
+                    <div class="service-content">
+
+                        <h3>Interior</h3>
+
+                        <p>
+                            Interiors shaped by material, light, and everyday comfort.
+                        </p>
+
+                        <span>Know More ↗</span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- CARD 3 -->
+
+                <a href="#" class="service-card"
+                   data-service="urbandesign">
+
+                    <img src="https://source.unsplash.com/500x400/?urban,city&sig=7" alt="">
+
+                    <div class="service-content">
+
+                        <h3>Urban Design</h3>
+
+                        <p>
+                            Shaping public spaces and city districts for everyday life.
+                        </p>
+
+                        <span>Know More ↗</span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- CARD 4 -->
+
+                <a href="#" class="service-card"
+                   data-service="sustainablefuture">
+
+                    <img src="https://source.unsplash.com/500x400/?sustainable,green,architecture&sig=10" alt="">
+
+                    <div class="service-content">
+
+                        <h3>Towards a Sustainable Future!</h3>
+
+                        <p>
+                            Climate-responsive design practices for a better tomorrow.
+                        </p>
+
+                        <span>Know More ↗</span>
+
+                    </div>
+
+                </a>
+
+
+
+               
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Services Slider Navigation -->
+
+        <div class="my_services_nav">
+
+            <button id="servicePrevBtn">
+
+                Previous
+
+            </button>
+
+            <div id="serviceDots"></div>
+
+            <button id="serviceNextBtn">
+
+                Next
+
+            </button>
+
+        </div>
+
+    </div>
+
 </section>
 
-<!-- GLOBAL SITE FOOTER -->
+
+<footer>
 <?php include 'includes/footer.php'; ?>
+</footer>
 
-<!-- Back to Top System Button -->
+
 <button id="backToTop" aria-label="Back To Top">
-    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <svg xmlns="http://www.w3.org/2000/svg"
+         width="22"
+         height="22"
+         viewBox="0 0 24 24"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2">
         <path d="M12 19V5"/>
         <path d="M5 12l7-7 7 7"/>
     </svg>
 </button>
 
-<script src="assets/js/script.js"></script>
+<script src="assets/js/service.js"></script>
 </body>
 </html>

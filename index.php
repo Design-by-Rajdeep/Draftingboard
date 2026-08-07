@@ -15,96 +15,66 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- Image Hero slider starts here -->
-
 <section class="hero-slider">
 
-  <div class="hero-slide active" style="background-image: url('assets/images/banner_image/commercial_banner.jpg');">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>DBS</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        Drafting Board Studio      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
+    <!-- Slide 1 -->
+    <div class="hero-slide active" style="background-image: url('assets/images/banner_image/commercial_banner.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <!-- <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p> -->
+            <h1>DRAFTING BOARD STUDIO</h1>
+        </div>
     </div>
-  </div>
 
-<div class="hero-slide active" style="background-image: url('assets/images/banner_image/farm_house_banner.jpg');">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>FARM HOUSE</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
+    <!-- Slide 2 -->
+    <div class="hero-slide" style="background-image: url('assets/images/banner_image/farm_house_banner.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <!-- <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p> -->
+            <h1>DRAFTING BOARD STUDIO</h1>
+        </div>
     </div>
-  </div>
 
-  <div class="hero-slide active" style="background-image: url('assets/images/banner_image/group_housing_banner.jpg');">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>GROUP HOUSING</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
+    <!-- Slide 3 -->
+    <div class="hero-slide" style="background-image: url('assets/images/banner_image/group_housing_banner.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <!-- <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p> -->
+            <h1>DRAFTING BOARD STUDIO</h1>
+        </div>
     </div>
-  </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/School Banner.jpg');">
-    <div class="hero-overlay"></div>
 
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>SCHOOL PROJECT</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
+    <!-- Slide 4 -->
+    <div class="hero-slide" style="background-image: url('assets/images/banner_image/School Banner.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <!-- <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p> -->
+            <h1>DRAFTING BOARD STUDIO</h1>
+        </div>
     </div>
-  </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/UD banner.jpg');">
-    <div class="hero-overlay"></div>
 
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-INDEPENDENT ARCHITECT</p> -->
-      <!-- <h1>UNIVERSITY PROJECT</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p>
-      <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
+    <!-- Slide 5 -->
+    <div class="hero-slide" style="background-image: url('assets/images/banner_image/UD banner.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <!-- <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p> -->
+            <h1>DRAFTING BOARD STUDIO</h1>
+        </div>
     </div>
-  </div><div class="hero-slide active" style="background-image: url('assets/images/banner_image/Villa Banner.jpg');">
-    <div class="hero-overlay"></div>
 
-    <div class="hero-content">
-      <!-- <p class="hero-subtitle">-DRAFTING BOARD STUDIO-</p> -->
-      <!-- <h1>VILLA PROJECT</h1> -->
-      <h1>DRAFTING BOARD STUDIO</h1>
-      <!-- <p class="hero-desc">
-        I’m DB — a solo architect based in Siliguri. I work directly with homeowners,
-        developers, and small businesses to create considered buildings and interiors.
-      </p> -->
-      <!-- <a href="contact.php" class="hero-btn">START A PROJECT ↗</a> -->
+    <!-- Slide 6 -->
+    <div class="hero-slide" style="background-image: url('assets/images/banner_image/Villa Banner.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <!-- <p class="hero-subtitle">Crafting Timeless Architecture &amp; Inspired Interiors</p> -->
+            <h1>DRAFTING BOARD STUDIO</h1>
+        </div>
     </div>
-  </div>
-
-
 
 </section>
-
  
+
+
 
 
 <!-- ================= FEATURED PROJECTS ================= -->
@@ -123,59 +93,60 @@
 
         <div class="fp-card">
           <div class="fp-card-image">
-             <img src="assets/images/featured project/farmhouse/Farmhouse Cover.png" alt="Architectural Design"
+             <img src="assets/images/featured_project/farmhouse/00_farmhouse_cover.png" alt="Architectural Design"
             alt="Modern facade building">
           </div>
           <p class="fp-card-text">Farmhouse <br><span>A Countryside Retreat</span></p>
-          <a href="project_detail.php?project=farmhouse" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+          <a href="project_detail.php?project=farmhouse" class="fp-btn">Know More <span class="fp-arrow"></span></a>
         </div>
-
-        <div class="fp-card">
+        
+       <div class="fp-card">
           <div class="fp-card-image">
-             <img src="assets/images/featured project/group_housing.png" alt="Modern house with pergola">
-          </div>
-          <p class="fp-card-text">Group Housing<br><span>Reviving Community Living</span></p>
-          <a href="project_detail.php?project=grouphousing" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/Commercial Cover.png" alt="Commercial building exterior">
-          </div>
-          <p class="fp-card-text">Commercial Building<br><span>Reimagining the Urban Workplace</span></p>
-          <a href="project_detail.php?project=commercial" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/primary_school.png" alt="Primary school building">
-          </div>
-          <p class="fp-card-text">Primary School<br><span>Learning Beyond the Classroom</span></p>
-          <a href="project_detail.php?project=school" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
-        </div>
-
-        <div class="fp-card">
-          <div class="fp-card-image">
-               <img src="assets/images/featured project/Villa Cover.png" alt="Modern villa exterior design">
+               <img src="assets/images/featured_project/villa/00_villa_cover.png" alt="Modern villa exterior design">
           </div>
           <p class="fp-card-text">Villa<br><span>Modern Living, Rooted in Community</span></p>
-          <a href="project_detail.php?project=villa" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+          <a href="project_detail.php?project=villa" class="fp-btn">Know More <span class="fp-arrow"></span></a>
         </div>
 
-        <div class="fp-card">
+       <div class="fp-card">
           <div class="fp-card-image">
-               <img src="assets/images/featured project/bhowali_cover.png" alt="Bhowali Resort exterior design">
+               <img src="assets/images/featured_project/school/00_school_cover.png" alt="Primary school building">
           </div>
-         <p class="fp-card-text">Bhowali Resort<br><span>Designing Around the View</span></p>
-         <a href="project_detail.php?project=bhowaliresort" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+          <p class="fp-card-text">Primary School<br><span>Learning Beyond the Classroom</span></p>
+          <a href="project_detail.php?project=school" class="fp-btn">Know More <span class="fp-arrow"></span></a>
         </div>
 
         <div class="fp-card">
           <div class="fp-card-image">
-               <img src="assets/images/featured project/urban_design.png" alt="Urban Design">
+               <img src="assets/images/featured_project/commercial/00_commercial_cover.png" alt="Commercial building exterior">
+          </div>
+          <p class="fp-card-text">Commercial Building<br><span>Reimagining the Urban Workplace</span></p>
+          <a href="project_detail.php?project=commercial" class="fp-btn">Know More <span class="fp-arrow"></span></a>
+        </div>
+
+
+        <div class="fp-card">
+          <div class="fp-card-image">
+             <img src="assets/images/featured_project/group_housing/00_group_housing_cover.png" alt="Modern house with pergola">
+          </div>
+          <p class="fp-card-text">Group Housing<br><span>Reviving Community Living</span></p>
+          <a href="project_detail.php?project=group_housing" class="fp-btn">Know More <span class="fp-arrow"></span></a>
+        </div>
+
+        <div class="fp-card">
+          <div class="fp-card-image">
+               <img src="assets/images/featured_project/urban_design/00_ud_cover.png" alt="Urban Design">
           </div>
           <p class="fp-card-text">Urban Design<br><span>Reimagining the Urban Marketplace</span></p>
-          <a href="project_detail.php?project=urbandesign" class="fp-btn">Know More <span class="fp-arrow">↗</span></a>
+          <a href="project_detail.php?project=urbandesign" class="fp-btn">Know More <span class="fp-arrow"></span></a>
+        </div>
+
+        <div class="fp-card">
+          <div class="fp-card-image">
+               <img src="assets/images/featured_project/bhowali/00_bhowali_cover.png" alt="Bhowali Resort exterior design">
+          </div>
+         <p class="fp-card-text">Bhowali Resort<br><span>Designing Around the View</span></p>
+         <a href="project_detail.php?project=bhowali" class="fp-btn">Know More <span class="fp-arrow"></span></a>
         </div>
 
       </div>
@@ -195,48 +166,23 @@
 
 
 
-<!-- ================= VIDEO SECTION ================= -->
-
-<!-- <section class="video-section">
-
-    <div class="video-container">
-
-        <video autoplay muted loop playsinline>
-               <source src="assets/videos/video1.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-
-        <div class="video-overlay"></div>
-
-        <div class="video-content">
-            <h2>BEYOND THINKING</h2>
-            <p>Designing innovative spaces that inspire the future.</p>
-        </div>
-
-    </div>
-
-</section> -->
 
 <!-- ================= BEYOND THINKING ================= -->
 
 <section id="beyond-thinking">
-     <img src="assets/images/Beyond Thinking.png" alt="Architectural Design"
-      alt="Modern Architecture">
 
-    <!-- <div class="overlay"></div> -->
+    <img
+        src="assets/images/beyond_thinking.jpg"
+        alt="Beyond Thinking">
 
-    <!-- <div class="content">
-    <span>OUR VISION</span>
-        <h2>BEYOND THINKING</h2>
-     <p>
-            We believe architecture is more than structures—it's about creating
-            experiences that inspire, connect, and stand the test of time.
-        </p> 
+    <div class="beyond-overlay">
+        <h2>BEYOND <span>THINKING</span></h2>
+         <div class="beyond-overlay">
+    
+</div>
+    </div>
 
-        <a href="#projects" class="btn">Explore Projects</a> 
-    </div> -->
 </section>
-
   <!-- ================= SERVICES ================= -->
   <!-- ================= SERVICES ================= -->
   <!-- ================= SERVICES ================= -->
@@ -260,7 +206,7 @@
                 <!-- Service 1 -->
                 <div class="services-card">
                     <div class="services-card-image">
-                        <img src="assets/images/services/Architectural Design.png" alt="Architectural Design">
+                        <img src="assets/images/services/Architecture_DBS.jpg" alt="Architectural Design">
                     </div>
 
                     <h3 class="services-card-title">Architectural Design</h3>
@@ -269,15 +215,15 @@
                         A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
                     </p> -->
 
-                    <a href="#" class="services-btn">
-                        Know More <span class="services-arrow">↗</span>
+                    <a href="service.php#architectural-design" class="services-btn">
+                        Know More <span class="services-arrow"></span>
                     </a>
                 </div>
 
                 <!-- Service 2 -->
                 <div class="services-card">
                     <div class="services-card-image">
-                        <img src="assets/images/services/Landscape Design.png" alt="Landscape Design">
+                        <img src="assets/images/services/Landscape_DBS.jpg" alt="Landscape Design">
                     </div>
 
                     <h3 class="services-card-title">Landscape Design</h3>
@@ -286,15 +232,15 @@
                         A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
                     </p> -->
 
-                    <a href="#" class="services-btn">
-                        Know More <span class="services-arrow">↗</span>
+                    <a href="service.php#landscape-design" class="services-btn">
+                        Know More <span class="services-arrow"></span>
                     </a>
                 </div>
 
                 <!-- Service 3 -->
                 <div class="services-card">
                     <div class="services-card-image">
-                        <img src="assets/images/services/Urban Design.png" alt="Urban Design">
+                        <img src="assets/images/services/Urban Design_DBS.jpg" alt="Urban Design">
                     </div>
 
                     <h3 class="services-card-title">Urban Design</h3>
@@ -303,15 +249,15 @@
                         A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
                     </p> -->
 
-                    <a href="#" class="services-btn">
-                        Know More <span class="services-arrow">↗</span>
+                    <a href="service.php#urban-design" class="services-btn">
+                        Know More <span class="services-arrow"></span>
                     </a>
                 </div>
 
                 <!-- Service 4 -->
                 <div class="services-card">
                     <div class="services-card-image">
-                        <img src="assets/images/services/Sustainable Future.png" alt="Towards a Sustainable Future">
+                        <img src="assets/images/services/Sustainability_DBS.jpg" alt="Towards a Sustainable Future">
                     </div>
 
                     <h3 class="services-card-title">Towards a Sustainable Future!</h3>
@@ -320,10 +266,23 @@
                         A featured project is a standout piece of work or a key initiative hand-picked to be displayed prominently.
                     </p> -->
 
-                    <a href="#" class="services-btn">
-                        Know More <span class="services-arrow">↗</span>
+                    <a href="service.php#sustainable-future" class="services-btn">
+                        Know More <span class="services-arrow"></span>
                     </a>
                 </div>
+         <!-- Service 5 -->
+<div class="services-card">
+    <div class="services-card-image">
+        <img src="assets/images/services/Interior_DBS.png" alt="Interior">
+    </div>
+
+    <h3 class="services-card-title">Interior</h3>
+
+    <a href="service.php#interior-design" class="services-btn">
+        Know More <span class="services-arrow"></span>
+    </a>
+</div>
+                                  
 
             </div>
 
@@ -355,64 +314,29 @@
 <!-- Mission and vision starts here -->
 <!-- Mission and vision starts here -->
 
-
-      <section class="mission-section">
+<!-- Vision Section -->
+<!-- Vision Section -->
+<section class="mission-section">
 
     <div class="container">
 
-        <div class="section-heading">
-            <h2>VISION</h2>
-            <span></span>
-        </div>
+        <div class="vision-section">
 
-        <div class="mission-wrapper">
+            <div class="section-heading">
+                <h2>VISION</h2>
+                <span></span>
+            </div>
 
-        <!-- Vision Image Banner -->
-         <!-- <div class="vision-image-banner">
-         <img src="assets/images/built_projects_dbs.jpg"
-         alt="Architecture Vision"> -->
-        <!-- <div class="vision-image-overlay"></div>
-        <div class="vision-image-content">
-        <h3>Designing Spaces That Inspire</h3>
-        <p>
-            Every project begins with a vision—where architecture meets
-            innovation, sustainability, and timeless design.
-        </p>
-       </div> -->
 
-      </div>
-        
-
-            <!-- Left Video -->
-            <!-- <div class="mission-video">
-
-                <video autoplay muted loop playsinline preload="metadata">
-                    <source src="assets/videos/video1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>-->
-
-            
-
-            <!-- Right Content -->
-            <div class="mission-content">
-
-                <!-- <h3>
-                    Building Accessible, Human-Centered Environments for Future Generations —
-                </h3> -->
+            <div class="vision-content">
 
                 <p>
-                  To shape buildings and places that simply work—for people and for the life around them. 
-                  We envision cities that are accessible to everyone, filled with sunlight and fresh air, 
-                  where people and nature thrive together, and where the night sky becomes visible again. 
-                  Through thoughtful design, we aim to create environments that support healthier, calmer, and more connected lives.
+                    To shape buildings and places that simply work—for people and for the life around them.
+                    We envision cities that are accessible to everyone, filled with sunlight and fresh air,
+                    where people and nature thrive together, and where the night sky becomes visible again.
+                    Through thoughtful design, we aim to create environments that support healthier, calmer,
+                    and more connected lives.
                 </p>
-
-                <div class="mission-btn-wrapper">
-    <!-- <a href="#" class="mission-btn">
-        Know More
-        <span>↗</span>
-    </a> -->
-</div>
 
             </div>
 
@@ -423,39 +347,39 @@
 </section>
 
 
- <!-- last contact section with video here -->
- <!-- last contact section with video here -->
- <!-- last contact section with video here -->
- <!-- last contact section with video here -->
+<!-- Build A Project Section -->
+<section class="build_a_project">
 
-<section class="build_a_project"> 
-<!-- <section class="video-cta">
-  <div class="video-box">
-    <video autoplay muted loop playsinline>
-      <source src="assets/videos/video1.mp4" type="video/mp4">
-    </video>
-  </div>
-</section> -->
-
-<section id="lets-build">
-    <img src="assets/images/built_projects_dbs.jpg"
-         alt="Architecture">
-</section>
-
-<section>
-  <div class="cta-content">
-    <h2>Let's Build Something Worth<br>Remembering.</h2>
-
-    <p>
-      Consultation Or Project Enquiry — We'd Love To Hear From You.
-    </p>
-
-    <div class="cta-buttons">
-      <a href="#" class="btn-outline">+91 8826532115</a>
-      <a href="contact.php" class="btn-primary">Get In Touch ↗</a>
+    <div id="lets-build">
+        <img src="assets/images/built_projects_dbs.png"
+             alt="Architecture">
     </div>
-  </div>
-</section>
+
+
+    <div class="cta-content">
+
+        <h2>
+            We're Evloving. Thanks !
+        </h2>
+
+        <p>
+            Consultation Or Project Enquiry — We'd Love To Hear From You.
+        </p>
+
+
+        <div class="cta-buttons">
+
+            <a href="tel:+918826532115" class="btn-outline">
+                +91 8826532115
+            </a>
+
+            <a href="contact.php" class="btn-primary">
+                Get In Touch ↗
+            </a>
+
+        </div>
+
+    </div>
 
 </section>
 
