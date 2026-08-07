@@ -102,7 +102,7 @@
         
        <div class="fp-card">
           <div class="fp-card-image">
-               <img src="assets/images/featured_project/Villa/00_villa_cover.png" alt="Modern villa exterior design">
+               <img src="assets/images/featured_project/villa/00_villa_cover.png" alt="Modern villa exterior design">
           </div>
           <p class="fp-card-text">Villa<br><span>Modern Living, Rooted in Community</span></p>
           <a href="project_detail.php?project=villa" class="fp-btn">Know More <span class="fp-arrow"></span></a>
@@ -130,7 +130,7 @@
              <img src="assets/images/featured_project/group_housing/00_group_housing_cover.png" alt="Modern house with pergola">
           </div>
           <p class="fp-card-text">Group Housing<br><span>Reviving Community Living</span></p>
-          <a href="project_detail.php?project=grouphousing" class="fp-btn">Know More <span class="fp-arrow"></span></a>
+          <a href="project_detail.php?project=group_housing" class="fp-btn">Know More <span class="fp-arrow"></span></a>
         </div>
 
         <div class="fp-card">
@@ -146,7 +146,7 @@
                <img src="assets/images/featured_project/bhowali/00_bhowali_cover.png" alt="Bhowali Resort exterior design">
           </div>
          <p class="fp-card-text">Bhowali Resort<br><span>Designing Around the View</span></p>
-         <a href="project_detail.php?project=bhowaliresort" class="fp-btn">Know More <span class="fp-arrow"></span></a>
+         <a href="project_detail.php?project=bhowali" class="fp-btn">Know More <span class="fp-arrow"></span></a>
         </div>
 
       </div>

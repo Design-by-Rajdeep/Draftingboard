@@ -85,12 +85,11 @@
     <div class="Concept_image">
         <h4>Concept Image</h4>
 
-        <img
-            id="pdMap"
-            class="pd-concept-img"
-            src=""
-            alt="Concept Image"
-            loading="lazy">
+       <img
+    id="pdMap"
+    class="pd-concept-img"
+    src=""
+    alt="Concept Image">
     </div>
 </div>
 
