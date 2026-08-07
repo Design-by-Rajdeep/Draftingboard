@@ -21,97 +21,189 @@ section {
 /*=========================================
   MISSION SLIDER
 =========================================*/
+/* =========================================================
+   MS SLIDER
+   ========================================================= */
 
-.ms-slider{
-    width:100%;
-    position:relative;
-    overflow:hidden;
-    border-radius:14px;
+.ms-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: 72px 0 0 0; /* fixed navbar height */
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
-.ms-slides{
-    position:relative;
-    width:100%;
-    height:700px;
-    margin-top:22px;
-    overflow:hidden;
-    border-radius:14px;
+
+/* =========================================================
+   SLIDER
+   ========================================================= */
+
+.ms-slider {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
-.ms-slide{
-    position:absolute;
-    inset:0;
-    width:100%;
-    height:100%;
-    object-fit:cover;        /* Desktop */
-    object-position:center;
-    opacity:0;
-    transition:opacity .8s ease;
+
+/* =========================================================
+   SLIDER TRACK
+   ========================================================= */
+
+.ms-track {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-.ms-slide.active{
-    opacity:1;
-    z-index:1;
+
+/* =========================================================
+   SLIDES / IMAGES
+   ========================================================= */
+
+.ms-slide {
+    display: none;
+
+    width: 100%;
+    height: auto;
+
+    max-width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    object-fit: cover;
+
+    vertical-align: middle;
 }
 
-/*=========================================
-  TABLET
-=========================================*/
-
-@media (max-width:991px){
-
-    .ms-slider{
-        width:90%;
-        margin:0 auto;
-    }
-
-    .ms-slides{
-        height:450px;
-    }
-
-    .ms-slide{
-        object-fit:contain;
-        background:#fff;      /* Optional */
-    }
-
+.ms-slide.active {
+    display: block;
 }
 
-/*=========================================
-  MOBILE
-=========================================*/
 
-@media (max-width:768px){
+/* =========================================================
+   REMOVE ANY NAVIGATION
+   ========================================================= */
 
-    .ms-slider{
-        width:90%;
-    }
-
-    .ms-slides{
-        height:320px;
-    }
-
-    .ms-slide{
-        object-fit:contain;
-        background:#fff;
-    }
-
+.ms-nav,
+#msPrevBtn,
+#msNextBtn,
+#msDots {
+    display: none !important;
 }
 
-/*=========================================
-  SMALL MOBILE
-=========================================*/
 
-@media (max-width:480px){
+/* =========================================================
+   RESPONSIVE - TABLET
+   ========================================================= */
 
-    .ms-slides{
-        height:260px;
+@media (max-width: 1024px) {
+
+    .ms-container {
+        margin-top: 72px;
     }
 
-    .ms-slide{
-        object-fit:contain;
+    .ms-slider,
+    .ms-track {
+        width: 100%;
+        height: auto;
     }
 
+    .ms-slide {
+        width: 100%;
+        height: auto;
+    }
 }
+
+/* =========================================================
+   RESPONSIVE - MOBILE / TABLET
+========================================================= */
+/* =========================================================
+   RESPONSIVE - MOBILE / TABLET
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .ms-container {
+        margin-top: 72px;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .ms-slider,
+    .ms-track {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .ms-slide {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .ms-container {
+        margin-top: 72px;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .ms-slider,
+    .ms-track {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .ms-slide {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .ms-container {
+        margin-top: 72px;
+        min-height: 400px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .ms-slide {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+
+
+
 /*==========================================
  HERO NAVIGATION
 ==========================================*/
@@ -121,7 +213,7 @@ section {
     justify-content:center;
     align-items:center;
     gap:35px;
-    margin:22px 0 70px;
+    margin:px 0 70px;
 }
 
 .ms-slider-nav button{
@@ -142,33 +234,103 @@ section {
 
 }
 
-#msDots{
 
-    display:flex;
-    gap:8px;
 
+
+/* =========================================
+   SERVICE SLIDER NAVIGATION
+   INDEPENDENT CSS
+========================================= */
+
+.service-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
 }
 
-.ms-dot{
+/* Previous / Next buttons */
 
-    width:9px;
-    height:9px;
+#servicePrevBtn,
+#serviceNextBtn {
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
 
-    border-radius:50%;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 500;
 
-    background:#e0e0e0;
-
-    cursor:pointer;
-    transition:.3s;
-
+    cursor: pointer;
 }
 
-.ms-dot.active{
+/* Previous */
 
-    background:#ee5149;
-    transform:scale(1.15);
-
+#servicePrevBtn {
+    color: #222;
 }
+
+/* Next */
+
+#serviceNextBtn {
+    color: #0066ff;
+}
+
+
+/* =========================================
+   SERVICE DOTS
+========================================= */
+
+#serviceDots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+/* Inactive dot */
+
+#serviceDots .service-dot {
+    width: 10px;
+    height: 10px;
+    min-width: 10px;
+    min-height: 10px;
+
+    padding: 0;
+    margin: 0;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #d6d6d6;
+
+    outline: none;
+    box-shadow: none;
+
+    cursor: pointer;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    transform: none;
+}
+
+/* Active dot */
+
+#serviceDots .service-dot.active {
+    background: #ee5149;
+
+    border: none;
+    transform: none;
+}
+
+
+
+
+
 
 /*==========================================
  SERVICE CONTENT
@@ -557,3 +719,5 @@ section {
         bottom:20px;
     }
 }
+
+

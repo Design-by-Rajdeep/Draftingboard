@@ -93,193 +93,168 @@
     </div>
 </div>
 
-    <!-- ===========================================
-         RELATED PROJECTS
-    =========================================== -->
 
-    <div class="related-projects">
 
-        <div class="section-heading">
+   <div class="related-projects">
 
-            <h2>RELATED PROJECTS</h2>
+    <div class="section-heading">
+        <h2>RELATED PROJECTS</h2>
+        <span></span>
+    </div>
 
-            <span></span>
+    <div class="related-slider">
+
+        <div id="relatedTrack" class="related-track">
+
+            <!-- CARD 1 - VILLA -->
+
+            <a href="#" class="related-card active-project"
+               data-project="villa">
+
+                <img src="assets/images/featured_project/villa/00_villa_cover.jpg"
+                     alt="Villa">
+
+                <div class="related-content">
+                    <h3>Villa</h3>
+
+                    <p>
+                        Modern living, rooted in community.
+                    </p>
+
+                    <span>Know More ↗</span>
+                </div>
+
+            </a>
+
+
+            <!-- CARD 2 - COMMERCIAL -->
+
+            <a href="#" class="related-card"
+               data-project="commercial">
+
+                <img src="assets/images/featured_project/commercial/00_commercial_cover.jpg"
+                     alt="Commercial Building">
+
+                <div class="related-content">
+                    <h3>Commercial Building</h3>
+
+                    <p>
+                        Reimagining the urban workplace.
+                    </p>
+
+                    <span>Know More ↗</span>
+                </div>
+
+            </a>
+
+
+            <!-- CARD 3 - SCHOOL -->
+
+            <a href="#" class="related-card"
+               data-project="school">
+
+                <img src="assets/images/featured_project/school/00_school_cover.jpg"
+                     alt="Primary School">
+
+                <div class="related-content">
+                    <h3>Primary School</h3>
+
+                    <p>
+                        Learning beyond the classroom.
+                    </p>
+
+                    <span>Know More ↗</span>
+                </div>
+
+            </a>
+
+
+            <!-- CARD 4 - FARMHOUSE -->
+
+            <a href="#" class="related-card"
+               data-project="farmhouse">
+
+                <img src="assets/images/featured_project/farmhouse/00_farmhouse_cover.jpg"
+                     alt="Farmhouse">
+
+                <div class="related-content">
+                    <h3>Farmhouse</h3>
+
+                    <p>
+                        A countryside retreat.
+                    </p>
+
+                    <span>Know More ↗</span>
+                </div>
+
+            </a>
+
+
+            <!-- CARD 5 - GROUP HOUSING -->
+
+            <a href="#" class="related-card"
+               data-project="group_housing">
+
+                <img src="assets/images/featured_project/group_housing/00_group_housing_cover.jpg"
+                     alt="Group Housing">
+
+                <div class="related-content">
+                    <h3>Group Housing</h3>
+
+                    <p>
+                        Reviving community living.
+                    </p>
+
+                    <span>Know More ↗</span>
+                </div>
+
+            </a>
+
+
+            <!-- CARD 6 - URBAN DESIGN -->
+
+            <a href="#" class="related-card"
+               data-project="urban_design">
+
+                <img src="assets/images/featured_project/urban_design/00_ud_cover.jpg"
+                     alt="Urban Design">
+
+                <div class="related-content">
+                    <h3>Urban Design</h3>
+
+                    <p>
+                        Reimagining the urban marketplace.
+                    </p>
+
+                    <span>Know More ↗</span>
+                </div>
+
+            </a>
+
+
+            <!-- CARD 7 - BHOWALI RESORT -->
+
+            <a href="#" class="related-card"
+               data-project="bhowali">
+
+                <img src="assets/images/featured_project/bhowali/00_bhowali_cover.jpg"
+                     alt="Bhowali Resort">
+
+                <div class="related-content">
+                    <h3>Bhowali Resort</h3>
+
+                    <p>
+                        Designing around the view.
+                    </p>
+
+                    <span>Know More ↗</span>
+                </div>
+
+            </a>
 
         </div>
 
-
-        <div class="related-slider">
-
-
-            <div id="relatedTrack" class="related-track">
-
-
-
-                <!-- CARD 1 -->
-
-                <a href="#" class="related-card active-project"
-                   data-project="villa">
-
-                    <img src="https://picsum.photos/seed/villa1/500/400" alt="">
-
-                    <div class="related-content">
-
-                        <h3>Luxury Villa</h3>
-
-                        <p>
-                            Modern luxury villa with breathtaking mountain views.
-                        </p>
-
-                        <span>Know More ↗</span>
-
-                    </div>
-
-                </a>
-
-
-
-                <!-- CARD 2 -->
-
-                <a href="#" class="related-card"
-                   data-project="commercial">
-
-                    <img src="https://picsum.photos/seed/commercial1/500/400" alt="">
-
-                    <div class="related-content">
-
-                        <h3>Commercial</h3>
-
-                        <p>
-                            Contemporary commercial development.
-                        </p>
-
-                        <span>Know More ↗</span>
-
-                    </div>
-
-                </a>
-
-
-
-                <!-- CARD 3 -->
-
-                <a href="#" class="related-card"
-                   data-project="school">
-
-                    <img src="https://picsum.photos/seed/school1/500/400" alt="">
-
-                    <div class="related-content">
-
-                        <h3>School</h3>
-
-                        <p>
-                            Educational campus with sustainable design.
-                        </p>
-
-                        <span>Know More ↗</span>
-
-                    </div>
-
-                </a>
-
-
-
-                <!-- CARD 4 -->
-
-                <a href="#" class="related-card"
-                   data-project="university">
-
-                    <img src="https://picsum.photos/seed/university1/500/400" alt="">
-
-                    <div class="related-content">
-
-                        <h3>University</h3>
-
-                        <p>
-                            Large university master planning project.
-                        </p>
-
-                        <span>Know More ↗</span>
-
-                    </div>
-
-                </a>
-
-
-
-                <!-- CARD 5 -->
-
-                <a href="#" class="related-card"
-                   data-project="farmhouse">
-
-                    <img src="https://picsum.photos/seed/farmhouse1/500/400" alt="">
-
-                    <div class="related-content">
-
-                        <h3>Farm House</h3>
-
-                        <p>
-                            Premium farmhouse amidst nature.
-                        </p>
-
-                        <span>Know More ↗</span>
-
-                    </div>
-
-                </a>
-
-
-
-                <!-- CARD 6 -->
-
-                <a href="#" class="related-card"
-                   data-project="grouphousing">
-
-                    <img src="https://picsum.photos/seed/grouphousing1/500/400" alt="">
-
-                    <div class="related-content">
-
-                        <h3>Group Housing</h3>
-
-                        <p>
-                            High-density residential development.
-                        </p>
-
-                        <span>Know More ↗</span>
-
-                    </div>
-
-                </a>
-
-
-
-                <!-- CARD 7 -->
-
-                <a href="#" class="related-card"
-                   data-project="interior">
-
-
-                    <img src="https://picsum.photos/seed/grouphousing1/500/400" alt="">
-
-                    <div class="related-content">
-
-                        <h3>Interior</h3>
-
-                        <p>
-                            Elegant interior architecture project.
-                        </p>
-
-                        <span>Know More ↗</span>
-
-                    </div>
-
-                </a>
-
-
-
-            </div>
-
-        </div>
+    </div>
 
 
 
@@ -325,7 +300,7 @@
         <path d="M5 12l7-7 7 7"/>
     </svg>
 </button>
-
-<script src="assets/js/project.js"></script>
+<script src="assets/js/project.js?v=3"></script>
+<!-- <script src="assets/js/project.js"></script> -->
 </body>
 </html>

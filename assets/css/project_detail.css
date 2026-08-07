@@ -419,32 +419,42 @@ section {
     color:#ee5149;
 
 }
-#relatedDots{
-    display:flex;
-    align-items:center;
-    gap:8px;
+
+#relatedDots {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 7px !important;
 }
 
-.related-dot{
-    width:9px;
-    height:9px;
-    border-radius:50%;
-    background:#807f7f;
-    cursor:pointer;
-    transition:.3s;
+#relatedDots .related-dot {
+    display: block !important;
+    width: 10px !important;
+    height: 10px !important;
+    min-width: 10px !important;
+    min-height: 10px !important;
 
-    /* reset default button styling */
-    border:none;
-    outline:none;
-    padding:0;
-    appearance:none;
-    -webkit-appearance:none;
-    -moz-appearance:none;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    border: 0 !important;
+    border-radius: 50% !important;
+
+    background-color: #d4d4d4 !important;
+
+    outline: none !important;
+    box-shadow: none !important;
+
+    appearance: none !important;
+    -webkit-appearance: none !important;
+
+    transform: none !important;
 }
 
-.related-dot.active{
-    background:#ee5149;
-    transform:scale(1.15);
+#relatedDots .related-dot.active {
+    background-color: #ee5149 !important;
+    border: 0 !important;
+    transform: none !important;
 }
 
 /*==========================================

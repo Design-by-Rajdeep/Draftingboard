@@ -34,11 +34,11 @@
     <!-- Navigation BELOW the slider -->
     <div class="ms-slider-nav">
 
-        <button id="msPrevBtn">Previous</button>
+        <button id="msPrevBtn"></button>
 
         <div id="msDots"></div>
 
-        <button id="msNextBtn">Next</button>
+        <button id="msNextBtn"></button>
 
     </div>
 

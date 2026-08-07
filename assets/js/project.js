@@ -56,7 +56,7 @@ images: [
 
 
 
-    grouphousing: {
+    group_housing: {
 
         title: "GROUP HOUSING",
 
@@ -66,12 +66,13 @@ images: [
 "Located just a short walk from every home, these spaces encourage children to play close to their families while providing comfortable areas for conversations, relaxation, and informal gatherings. By bringing people together within the residential floors, the design creates a safer, more connected, and socially active living environment that reimagines the warmth of traditional street culture in a modern vertical community."
 
             ,
+
 conceptImage: [
     "assets/images/featured_project/group_housing/group_housing_concept.jpg"
 ],
 
 images: [
-    "assets/images/featured_project/group_housing/00_group_housing.jpg",
+    "assets/images/featured_project/group_housing/00_group_housing_cover.jpg",
     "assets/images/featured_project/group_housing/01_group_housing.jpg",
     "assets/images/featured_project/group_housing/02_group_housing.jpg",
     "assets/images/featured_project/group_housing/03_group_housing.jpg",
@@ -116,15 +117,15 @@ conceptImage: [
 
 images: [
     "assets/images/featured_project/commercial/00_commercial_cover.jpg",
-    "assets/images/featured_project/commercial/01_commercial.jpg",
-    "assets/images/featured_project/commercial/02_commercial.jpg",
-    "assets/images/featured_project/commercial/03_commercial.jpg",
-    "assets/images/featured_project/commercial/04_commercial.jpg",
-    "assets/images/featured_project/commercial/05_commercial.jpg",
-    "assets/images/featured_project/commercial/06_commercial.jpg",
-    "assets/images/featured_project/commercial/07_commercial.jpg",
-    "assets/images/featured_project/commercial/08_commercial.jpg",
-    "assets/images/featured_project/commercial/09_commercial.jpg"
+    "assets/images/featured_project/commercial/1_commercial.jpg",
+    "assets/images/featured_project/commercial/2_commercial.jpg",
+    "assets/images/featured_project/commercial/3_commercial.jpg",
+    "assets/images/featured_project/commercial/4_commercial.jpg",
+    "assets/images/featured_project/commercial/5_commercial.jpg",
+    "assets/images/featured_project/commercial/6_commercial.jpg",
+    "assets/images/featured_project/commercial/7_commercial.jpg",
+    "assets/images/featured_project/commercial/8_commercial.jpg",
+    "assets/images/featured_project/commercial/9_commercial.jpg"
 ]
 
     },
@@ -196,7 +197,7 @@ images: [
 
 
 
-    bhowaliresort: {
+    bhowali: {
 
         title: "BHOWALI RESORT",
 
@@ -229,7 +230,7 @@ images: [
 
 
 
-    urbandesign: {
+    urban_design: {
 
         title: "URBAN DESIGN",
 
